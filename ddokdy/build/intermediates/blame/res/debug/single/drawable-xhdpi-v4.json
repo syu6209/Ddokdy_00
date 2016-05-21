@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progressbar_indeterminate_holo3.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo3.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progressbar_indeterminate_holo6.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo6.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progressbar_indeterminate_holo7.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo7.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progressbar_indeterminate_holo1.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo1.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progressbar_indeterminate_holo4.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo4.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progressbar_indeterminate_holo8.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo8.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progress_secondary_holo_light.9.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progress_secondary_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progressbar_indeterminate_holo5.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo5.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progress_bg_holo_light.9.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progress_bg_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progress_primary_holo_light.9.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progress_primary_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progressbar_indeterminate_holo2.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo2.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xhdpi\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_full_open_on_phone.png",
+        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
+    }
+]

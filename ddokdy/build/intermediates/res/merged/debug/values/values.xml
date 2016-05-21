@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="blackgray">#605B55</color>
+    <color name="color_mint">#9EDACE</color>
+    <color name="color_orange">#FFBC91</color>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="gray1">#E9E6DF</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="google" value="0x5"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr format="string" name="ptrAnimationStyle"/><attr format="string" name="ptrIndicatorStyle"/><attr format="string" name="ptrGoogleViewStyle"/><attr format="string" name="ptrGoogleProgressStyle"/><attr format="string" name="ptrPullLabel"/><attr format="string" name="ptrRefreshLabel"/><attr format="string" name="ptrReleaseLabel"/><attr format="float" name="ptrFriction" value="2.0"/><attr format="integer" name="ptrSmoothScrollDuration" value="200"/><attr format="integer" name="ptrSmoothScrollLongDuration" value="325"/><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|boolean" name="ptrSetGoogleViewLayoutSizeToActionbarHeight"/><attr format="reference|boolean" name="ptrShowGoogleStyleViewAnimationEnabled"/><attr format="reference|boolean" name="ptrHideRefeshableViewWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrViewRefeshableViewProgressBarOnCenterWhileRefreshingEnabled"/><attr format="integer" name="ptrShowGoogleStyleViewAnimationDuration" value="100"/><attr format="integer" name="ptrHideRefeshableViewWhileRefreshingDuration" value="500"/><attr format="integer" name="ptrViewRefeshableViewProgressBarOnCenterWhileRefreshingDuration" value="200"/><attr format="integer" name="ptrRefeshableViewProgressBarOnCenterWidth" value="200"/><attr format="integer" name="ptrRefeshableViewProgressBarOnCenterHeight" value="200"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="ScalableLayout"><attr format="float" name="scale_base_width"/><attr format="float" name="scale_base_height"/><attr format="float" name="scale_textsize"/><attr format="float" name="scale_top"/><attr format="float" name="scale_left"/><attr format="float" name="scale_width"/><attr format="float" name="scale_height"/><attr format="string" name="textview_wrapcontent_direction"/><attr format="boolean" name="textview_wrapcontent_resizesurrounded"/></declare-styleable>
+    <dimen name="default_margin">7.5dp</dimen>
+    <dimen name="default_round">1.25dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="header_pull_to_refresh_image_padding">10px</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="textsize_subtitle">10.7dp</dimen>
+    <dimen name="textsize_title">14.2dp</dimen>
+    <item name="gridview" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="webview" type="id"/>
+    <integer name="google_play_services_version">8115000</integer>
+    <string name="app_name">똑디</string>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="text_search_study">스터디 검색</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

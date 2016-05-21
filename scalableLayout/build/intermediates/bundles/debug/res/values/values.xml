@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScalableLayout"><attr format="float" name="scale_base_width"/><attr format="float" name="scale_base_height"/><attr format="float" name="scale_textsize"/><attr format="float" name="scale_top"/><attr format="float" name="scale_left"/><attr format="float" name="scale_width"/><attr format="float" name="scale_height"/><attr format="string" name="textview_wrapcontent_direction"/><attr format="boolean" name="textview_wrapcontent_resizesurrounded"/></declare-styleable>
+</resources>

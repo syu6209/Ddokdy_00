@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\D:\\ddong\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\D:\\ddong\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\D:\\ddong\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_top.xml",
+        "source": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\D:\\ddong\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "D:\\ddong\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\D:\\ddong\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_top.xml",
+        "source": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\D:\\ddong\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "D:\\ddong\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_top.xml",
+        "source": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\D:\\ddong\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\D:\\ddong\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_top.xml",
+        "source": "D:\\ddong\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "D:\\ddong\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_top.xml",
+        "source": "D:\\ddong\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_top.xml",
+        "source": "D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_top.xml"
+    }
+]

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="xxxhdpi"
+    format="7"
+    timestamp="81138199952102" >
+
+    <task
+        name="javac"
+        duration="202" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build timestamp="80952714477181" >
+        <artifact
+            location="D:\ddong\Ddokdy\ddokdy\build\outputs\apk\ddokdy-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="81080215691934" >
+        <artifact
+            location="D:\ddong\Ddokdy\ddokdy\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="81138199952102" />
+
+</instant-run>

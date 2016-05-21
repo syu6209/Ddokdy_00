@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize_title">14.2dp</dimen>
+    <dimen name="textsize_subtitle">10.7dp</dimen>
+    <dimen name="default_margin">7.5dp</dimen>
+    <dimen name="default_round">1.25dp</dimen>
+</resources>
