@@ -1,18 +1,18 @@
 [
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\anim\\slide_out_to_bottom.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\anim\\slide_in_from_bottom.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\anim\\slide_in_from_bottom.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\anim\\slide_in_from_top.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\anim\\slide_out_to_top.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\anim\\slide_out_to_bottom.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\anim\\slide_in_from_top.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\anim\\slide_out_to_top.xml"
     }
 ]

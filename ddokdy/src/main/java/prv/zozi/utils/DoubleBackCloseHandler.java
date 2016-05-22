@@ -16,7 +16,7 @@ public class DoubleBackCloseHandler {
 	public void onBackPressed() throws Exception{
 		if (System.currentTimeMillis() > backKeyPressedTime + 2000) {
 			backKeyPressedTime = System.currentTimeMillis();
-			ZMethod.toast(activity, "\'µÚ·Î\'¹öÆ°À» ÇÑ¹ø ´õ ´©¸£½Ã¸é Á¾·áµË´Ï´Ù.");
+			ZMethod.toast(activity, "\'ë’¤ë¡œ\'ë²„íŠ¼ì„ í•œë²ˆ ë” ëˆ„ë¥´ì‹œë©´ ì¢…ë£Œë©ë‹ˆë‹¤.");
 			return;
 		}
 		if (System.currentTimeMillis() <= backKeyPressedTime + 2000) {

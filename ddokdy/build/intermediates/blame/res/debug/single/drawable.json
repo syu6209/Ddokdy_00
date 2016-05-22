@@ -1,22 +1,22 @@
 [
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_holo_light_right.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\drawable\\progress_horizontal_holo_light_right.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\drawable\\indicator_bg_top.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_holo_light.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\drawable\\progress_horizontal_holo_light.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_holo_light.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\drawable\\progress_horizontal_holo_light.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_indeterminate_horizontal_holo.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\drawable\\progress_indeterminate_horizontal_holo.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_holo_light_right.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\drawable\\progress_horizontal_holo_light_right.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_indeterminate_horizontal_holo.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\drawable\\progress_indeterminate_horizontal_holo.xml"
     }
 ]

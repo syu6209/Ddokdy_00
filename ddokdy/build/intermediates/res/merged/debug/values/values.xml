@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
     <color name="blackgray">#605B55</color>
-    <color name="color_mint">#9EDACE</color>
     <color name="color_orange">#FFBC91</color>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -14,11 +13,16 @@
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
     <color name="gray1">#E9E6DF</color>
+    <color name="mint">#9EDACE</color>
+    <color name="mint_dark">#107273</color>
     <color name="white">#FFFFFF</color>
     <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="google" value="0x5"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr format="string" name="ptrAnimationStyle"/><attr format="string" name="ptrIndicatorStyle"/><attr format="string" name="ptrGoogleViewStyle"/><attr format="string" name="ptrGoogleProgressStyle"/><attr format="string" name="ptrPullLabel"/><attr format="string" name="ptrRefreshLabel"/><attr format="string" name="ptrReleaseLabel"/><attr format="float" name="ptrFriction" value="2.0"/><attr format="integer" name="ptrSmoothScrollDuration" value="200"/><attr format="integer" name="ptrSmoothScrollLongDuration" value="325"/><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|boolean" name="ptrSetGoogleViewLayoutSizeToActionbarHeight"/><attr format="reference|boolean" name="ptrShowGoogleStyleViewAnimationEnabled"/><attr format="reference|boolean" name="ptrHideRefeshableViewWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrViewRefeshableViewProgressBarOnCenterWhileRefreshingEnabled"/><attr format="integer" name="ptrShowGoogleStyleViewAnimationDuration" value="100"/><attr format="integer" name="ptrHideRefeshableViewWhileRefreshingDuration" value="500"/><attr format="integer" name="ptrViewRefeshableViewProgressBarOnCenterWhileRefreshingDuration" value="200"/><attr format="integer" name="ptrRefeshableViewProgressBarOnCenterWidth" value="200"/><attr format="integer" name="ptrRefeshableViewProgressBarOnCenterHeight" value="200"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
     <declare-styleable name="ScalableLayout"><attr format="float" name="scale_base_width"/><attr format="float" name="scale_base_height"/><attr format="float" name="scale_textsize"/><attr format="float" name="scale_top"/><attr format="float" name="scale_left"/><attr format="float" name="scale_width"/><attr format="float" name="scale_height"/><attr format="string" name="textview_wrapcontent_direction"/><attr format="boolean" name="textview_wrapcontent_resizesurrounded"/></declare-styleable>
-    <dimen name="default_margin">7.5dp</dimen>
+    <declare-styleable name="ZBadgeView"><attr format="reference|color" name="backgroundColor"/><attr format="reference|string" name="text"/><attr format="reference|color" name="textColor"/><attr format="reference|color" name="badgeTextColor"/><attr format="reference|dimension" name="textSize"/><attr format="reference|dimension" name="badgeTextSize"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_margin">10dp</dimen>
     <dimen name="default_round">1.25dp</dimen>
     <dimen name="header_footer_left_right_padding">24dp</dimen>
     <dimen name="header_footer_top_bottom_padding">12dp</dimen>
@@ -26,6 +30,11 @@
     <dimen name="indicator_corner_radius">12dp</dimen>
     <dimen name="indicator_internal_padding">4dp</dimen>
     <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="margin_samll">7.5dp</dimen>
+    <dimen name="px_160">40dp</dimen>
+    <dimen name="px_165">41.25dp</dimen>
+    <dimen name="px_50">12.5dp</dimen>
+    <dimen name="px_90">22.5dp</dimen>
     <dimen name="textsize_subtitle">10.7dp</dimen>
     <dimen name="textsize_title">14.2dp</dimen>
     <item name="gridview" type="id"/>
@@ -71,7 +80,13 @@
     <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
     <string name="pull_to_refresh_refreshing_label">Loading…</string>
     <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="text_chatting">채팅</string>
+    <string name="text_homework">과제</string>
+    <string name="text_member">멤버</string>
+    <string name="text_schedule">일정</string>
     <string name="text_search_study">스터디 검색</string>
+    <string name="text_setting">설정</string>
+    <string name="text_write">글쓰기</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
@@ -84,5 +99,17 @@
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomSubTitleText" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_subtitle</item>
+        <item name="android:textColor">@color/blackgray</item>
+    </style>
+    <style name="CustomTitleText" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_title</item>
+        <item name="android:textColor">@color/blackgray</item>
     </style>
 </resources>

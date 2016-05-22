@@ -15,6 +15,25 @@ public final class R {
         public static final int slide_out_to_top=0x7f040003;
     }
     public static final class attr {
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int backgroundColor=0x7f010031;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int badgeTextColor=0x7f010034;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int badgeTextSize=0x7f010036;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -339,6 +358,24 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int scale_width=0x7f01002d;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int text=0x7f010032;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int textColor=0x7f010033;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int textSize=0x7f010035;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -357,117 +394,144 @@ containing a value of this type.
         public static final int textview_wrapcontent_resizesurrounded=0x7f010030;
     }
     public static final class color {
-        public static final int blackgray=0x7f080000;
-        public static final int color_mint=0x7f080001;
-        public static final int color_orange=0x7f080002;
-        public static final int common_action_bar_splitter=0x7f080003;
-        public static final int common_signin_btn_dark_text_default=0x7f080004;
-        public static final int common_signin_btn_dark_text_disabled=0x7f080005;
-        public static final int common_signin_btn_dark_text_focused=0x7f080006;
-        public static final int common_signin_btn_dark_text_pressed=0x7f080007;
-        public static final int common_signin_btn_default_background=0x7f080008;
-        public static final int common_signin_btn_light_text_default=0x7f080009;
-        public static final int common_signin_btn_light_text_disabled=0x7f08000a;
-        public static final int common_signin_btn_light_text_focused=0x7f08000b;
-        public static final int common_signin_btn_light_text_pressed=0x7f08000c;
-        public static final int common_signin_btn_text_dark=0x7f08000f;
-        public static final int common_signin_btn_text_light=0x7f080010;
-        public static final int gray1=0x7f08000d;
-        public static final int white=0x7f08000e;
+        public static final int blackgray=0x7f090000;
+        public static final int color_orange=0x7f090001;
+        public static final int common_action_bar_splitter=0x7f090002;
+        public static final int common_signin_btn_dark_text_default=0x7f090003;
+        public static final int common_signin_btn_dark_text_disabled=0x7f090004;
+        public static final int common_signin_btn_dark_text_focused=0x7f090005;
+        public static final int common_signin_btn_dark_text_pressed=0x7f090006;
+        public static final int common_signin_btn_default_background=0x7f090007;
+        public static final int common_signin_btn_light_text_default=0x7f090008;
+        public static final int common_signin_btn_light_text_disabled=0x7f090009;
+        public static final int common_signin_btn_light_text_focused=0x7f09000a;
+        public static final int common_signin_btn_light_text_pressed=0x7f09000b;
+        public static final int common_signin_btn_text_dark=0x7f090010;
+        public static final int common_signin_btn_text_light=0x7f090011;
+        public static final int gray1=0x7f09000c;
+        public static final int mint=0x7f09000d;
+        public static final int mint_dark=0x7f09000e;
+        public static final int white=0x7f09000f;
     }
     public static final class dimen {
-        public static final int default_margin=0x7f090000;
-        public static final int default_round=0x7f090001;
-        public static final int header_footer_left_right_padding=0x7f090002;
-        public static final int header_footer_top_bottom_padding=0x7f090003;
-        public static final int header_pull_to_refresh_image_padding=0x7f090004;
-        public static final int indicator_corner_radius=0x7f090005;
-        public static final int indicator_internal_padding=0x7f090006;
-        public static final int indicator_right_padding=0x7f090007;
-        public static final int textsize_subtitle=0x7f090008;
-        public static final int textsize_title=0x7f090009;
+        public static final int activity_horizontal_margin=0x7f080000;
+        public static final int activity_vertical_margin=0x7f080001;
+        public static final int default_margin=0x7f080002;
+        public static final int default_round=0x7f080003;
+        public static final int header_footer_left_right_padding=0x7f080004;
+        public static final int header_footer_top_bottom_padding=0x7f080005;
+        public static final int header_pull_to_refresh_image_padding=0x7f080006;
+        public static final int indicator_corner_radius=0x7f080007;
+        public static final int indicator_internal_padding=0x7f080008;
+        public static final int indicator_right_padding=0x7f080009;
+        public static final int margin_samll=0x7f08000a;
+        public static final int px_160=0x7f08000b;
+        public static final int px_165=0x7f08000c;
+        public static final int px_50=0x7f08000d;
+        public static final int px_90=0x7f08000e;
+        public static final int textsize_subtitle=0x7f08000f;
+        public static final int textsize_title=0x7f080010;
     }
     public static final class drawable {
-        public static final int btn_detail_dot3=0x7f020000;
-        public static final int btn_mypage=0x7f020001;
-        public static final int btn_plus_circle=0x7f020002;
-        public static final int btn_search=0x7f020003;
-        public static final int check_box_false=0x7f020004;
-        public static final int check_box_true=0x7f020005;
-        public static final int checkbox_selector=0x7f020006;
-        public static final int clause_btn=0x7f020007;
-        public static final int common_full_open_on_phone=0x7f020008;
-        public static final int common_ic_googleplayservices=0x7f020009;
-        public static final int default_ptr_flip=0x7f02000a;
-        public static final int default_ptr_rotate=0x7f02000b;
-        public static final int edittext=0x7f02000c;
-        public static final int ic_launcher=0x7f02000d;
-        public static final int icon_mystudy=0x7f02000e;
-        public static final int indicator_arrow=0x7f02000f;
-        public static final int indicator_bg_bottom=0x7f020010;
-        public static final int indicator_bg_top=0x7f020011;
-        public static final int no_image=0x7f020012;
-        public static final int progress_bg_holo_light=0x7f020013;
-        public static final int progress_horizontal_holo_light=0x7f020014;
-        public static final int progress_horizontal_holo_light_right=0x7f020015;
-        public static final int progress_indeterminate_horizontal_holo=0x7f020016;
-        public static final int progress_primary_holo_light=0x7f020017;
-        public static final int progress_secondary_holo_light=0x7f020018;
-        public static final int progressbar_indeterminate_holo1=0x7f020019;
-        public static final int progressbar_indeterminate_holo2=0x7f02001a;
-        public static final int progressbar_indeterminate_holo3=0x7f02001b;
-        public static final int progressbar_indeterminate_holo4=0x7f02001c;
-        public static final int progressbar_indeterminate_holo5=0x7f02001d;
-        public static final int progressbar_indeterminate_holo6=0x7f02001e;
-        public static final int progressbar_indeterminate_holo7=0x7f02001f;
-        public static final int progressbar_indeterminate_holo8=0x7f020020;
-        public static final int shape_round=0x7f020021;
-        public static final int topbar_background=0x7f020022;
-        public static final int topbar_diagonal_line=0x7f020023;
+        public static final int btn_back=0x7f020000;
+        public static final int btn_close=0x7f020001;
+        public static final int btn_detail_dot3=0x7f020002;
+        public static final int btn_mypage=0x7f020003;
+        public static final int btn_plus_circle=0x7f020004;
+        public static final int btn_search=0x7f020005;
+        public static final int check_box_false=0x7f020006;
+        public static final int check_box_true=0x7f020007;
+        public static final int checkbox_selector=0x7f020008;
+        public static final int clause_btn=0x7f020009;
+        public static final int common_full_open_on_phone=0x7f02000a;
+        public static final int common_ic_googleplayservices=0x7f02000b;
+        public static final int default_ptr_flip=0x7f02000c;
+        public static final int default_ptr_rotate=0x7f02000d;
+        public static final int edittext=0x7f02000e;
+        public static final int ic_launcher=0x7f02000f;
+        public static final int icon_mystudy=0x7f020010;
+        public static final int indicator_arrow=0x7f020011;
+        public static final int indicator_bg_bottom=0x7f020012;
+        public static final int indicator_bg_top=0x7f020013;
+        public static final int no_image=0x7f020014;
+        public static final int progress_bg_holo_light=0x7f020015;
+        public static final int progress_horizontal_holo_light=0x7f020016;
+        public static final int progress_horizontal_holo_light_right=0x7f020017;
+        public static final int progress_indeterminate_horizontal_holo=0x7f020018;
+        public static final int progress_primary_holo_light=0x7f020019;
+        public static final int progress_secondary_holo_light=0x7f02001a;
+        public static final int progressbar_indeterminate_holo1=0x7f02001b;
+        public static final int progressbar_indeterminate_holo2=0x7f02001c;
+        public static final int progressbar_indeterminate_holo3=0x7f02001d;
+        public static final int progressbar_indeterminate_holo4=0x7f02001e;
+        public static final int progressbar_indeterminate_holo5=0x7f02001f;
+        public static final int progressbar_indeterminate_holo6=0x7f020020;
+        public static final int progressbar_indeterminate_holo7=0x7f020021;
+        public static final int progressbar_indeterminate_holo8=0x7f020022;
+        public static final int shape_round=0x7f020023;
+        public static final int shape_round_orange=0x7f020024;
+        public static final int topbar_background=0x7f020025;
+        public static final int topbar_diagonal_line=0x7f020026;
     }
     public static final class id {
         public static final int Email_Spinner=0x7f0a0012;
         public static final int adjust_height=0x7f0a0003;
         public static final int adjust_width=0x7f0a0004;
+        public static final int badge_background=0x7f0a0022;
+        public static final int badge_tv_count=0x7f0a0024;
+        public static final int badge_tv_title=0x7f0a0023;
         public static final int both=0x7f0a0006;
+        public static final int btn_submit=0x7f0a0017;
         public static final int btnll_login_kakao=0x7f0a000e;
         public static final int btnll_login_naver=0x7f0a000f;
         public static final int dd=0x7f0a0011;
         public static final int disabled=0x7f0a0007;
-        public static final int fl_inner=0x7f0a0021;
-        public static final int fl_inner_for_google_style=0x7f0a001e;
+        public static final int fl_inner=0x7f0a002e;
+        public static final int fl_inner_for_google_style=0x7f0a002b;
         public static final int google=0x7f0a0008;
         public static final int gridview=0x7f0a0000;
-        public static final int listbox_btn_detail=0x7f0a001b;
-        public static final int listbox_icon_mystudy=0x7f0a0018;
-        public static final int listbox_study_bossname=0x7f0a001c;
-        public static final int listbox_study_status=0x7f0a001d;
-        public static final int listbox_study_subtitle=0x7f0a001a;
-        public static final int listbox_study_title=0x7f0a0019;
+        public static final int listbox_btn_detail=0x7f0a0028;
+        public static final int listbox_icon_mystudy=0x7f0a0025;
+        public static final int listbox_study_bossname=0x7f0a0029;
+        public static final int listbox_study_status=0x7f0a002a;
+        public static final int listbox_study_subtitle=0x7f0a0027;
+        public static final int listbox_study_title=0x7f0a0026;
         public static final int manualOnly=0x7f0a0009;
         public static final int none=0x7f0a0005;
-        public static final int ptr_listview=0x7f0a0016;
+        public static final int ptr_listview=0x7f0a0018;
         public static final int pullDownFromTop=0x7f0a000a;
         public static final int pullFromEnd=0x7f0a000b;
         public static final int pullFromStart=0x7f0a000c;
         public static final int pullUpFromBottom=0x7f0a000d;
-        public static final int pull_to_refresh_image=0x7f0a0022;
-        public static final int pull_to_refresh_progress=0x7f0a0023;
-        public static final int pull_to_refresh_sub_text=0x7f0a0020;
-        public static final int pull_to_refresh_text=0x7f0a001f;
-        public static final int pulling_left_progressbar=0x7f0a0026;
-        public static final int pulling_progress=0x7f0a0024;
-        public static final int pulling_right_progressbar=0x7f0a0027;
-        public static final int refreshing_progress=0x7f0a0025;
+        public static final int pull_to_refresh_image=0x7f0a002f;
+        public static final int pull_to_refresh_progress=0x7f0a0030;
+        public static final int pull_to_refresh_sub_text=0x7f0a002d;
+        public static final int pull_to_refresh_text=0x7f0a002c;
+        public static final int pulling_left_progressbar=0x7f0a0033;
+        public static final int pulling_progress=0x7f0a0031;
+        public static final int pulling_right_progressbar=0x7f0a0034;
+        public static final int refreshing_progress=0x7f0a0032;
         public static final int scrollview=0x7f0a0001;
-        public static final int search_et_input=0x7f0a0017;
-        public static final int title_btn_left=0x7f0a0028;
-        public static final int title_btn_right=0x7f0a0029;
-        public static final int title_centerText=0x7f0a002a;
-        public static final int topbar_btn_close=0x7f0a002b;
-        public static final int topbar_btn_mypage=0x7f0a0014;
-        public static final int topbar_btn_search=0x7f0a0013;
-        public static final int topbar_centerText=0x7f0a0015;
+        public static final int search_et_input=0x7f0a0021;
+        public static final int studyMain_btn_chat=0x7f0a0019;
+        public static final int studyMain_btn_homework=0x7f0a001a;
+        public static final int studyMain_btn_member=0x7f0a001c;
+        public static final int studyMain_btn_schedule=0x7f0a001b;
+        public static final int studyMain_btn_setting=0x7f0a001d;
+        public static final int studyMain_rl_noticepan=0x7f0a0013;
+        public static final int studyMain_tv_noticeContent=0x7f0a0016;
+        public static final int studyMain_tv_noticeDate=0x7f0a0015;
+        public static final int studyMain_tv_pivot=0x7f0a0014;
+        public static final int title_btn_left=0x7f0a0038;
+        public static final int title_btn_right=0x7f0a0039;
+        public static final int title_centerText=0x7f0a003a;
+        public static final int topbar_btn_close=0x7f0a003b;
+        public static final int topbar_btn_mypage=0x7f0a001f;
+        public static final int topbar_btn_search=0x7f0a001e;
+        public static final int topbar_centerText=0x7f0a0020;
+        public static final int topbar_tv_bossname=0x7f0a0037;
+        public static final int topbar_tv_subtitle=0x7f0a0036;
+        public static final int topbar_tv_title=0x7f0a0035;
         public static final int viewpager=0x7f0a0010;
         public static final int webview=0x7f0a0002;
     }
@@ -479,18 +543,21 @@ containing a value of this type.
         public static final int activity_main=0x7f030001;
         public static final int activity_register=0x7f030002;
         public static final int activity_splash=0x7f030003;
-        public static final int fragment_main_mystudylist=0x7f030004;
-        public static final int fragment_main_search=0x7f030005;
-        public static final int listbox_mainplus=0x7f030006;
-        public static final int listbox_mainstudy=0x7f030007;
-        public static final int pull_to_refresh_header_google_style=0x7f030008;
-        public static final int pull_to_refresh_header_horizontal=0x7f030009;
-        public static final int pull_to_refresh_header_vertical=0x7f03000a;
-        public static final int pull_to_refresh_progress_google_style=0x7f03000b;
-        public static final int pulling_progress_layout=0x7f03000c;
-        public static final int spiner_item=0x7f03000d;
-        public static final int topbar_main=0x7f03000e;
-        public static final int topbar_normal=0x7f03000f;
+        public static final int activity_study_main=0x7f030004;
+        public static final int fragment_main_mystudylist=0x7f030005;
+        public static final int fragment_main_search=0x7f030006;
+        public static final int layout_zbadgeview=0x7f030007;
+        public static final int listbox_mainplus=0x7f030008;
+        public static final int listbox_mainstudy=0x7f030009;
+        public static final int pull_to_refresh_header_google_style=0x7f03000a;
+        public static final int pull_to_refresh_header_horizontal=0x7f03000b;
+        public static final int pull_to_refresh_header_vertical=0x7f03000c;
+        public static final int pull_to_refresh_progress_google_style=0x7f03000d;
+        public static final int pulling_progress_layout=0x7f03000e;
+        public static final int spiner_item=0x7f03000f;
+        public static final int topbar_big=0x7f030010;
+        public static final int topbar_main=0x7f030011;
+        public static final int topbar_normal=0x7f030012;
     }
     public static final class string {
         public static final int app_name=0x7f060024;
@@ -532,10 +599,16 @@ containing a value of this type.
         public static final int pull_to_refresh_pull_label=0x7f06001e;
         public static final int pull_to_refresh_refreshing_label=0x7f06001f;
         public static final int pull_to_refresh_release_label=0x7f060020;
-        public static final int text_search_study=0x7f060027;
-        public static final int title_activity_login=0x7f060028;
-        public static final int title_activity_main=0x7f060029;
-        public static final int title_activity_register=0x7f06002a;
+        public static final int text_chatting=0x7f060027;
+        public static final int text_homework=0x7f060028;
+        public static final int text_member=0x7f060029;
+        public static final int text_schedule=0x7f06002a;
+        public static final int text_search_study=0x7f06002b;
+        public static final int text_setting=0x7f06002c;
+        public static final int text_write=0x7f06002d;
+        public static final int title_activity_login=0x7f06002e;
+        public static final int title_activity_main=0x7f06002f;
+        public static final int title_activity_register=0x7f060030;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
@@ -550,6 +623,8 @@ containing a value of this type.
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f070001;
+        public static final int CustomSubTitleText=0x7f070002;
+        public static final int CustomTitleText=0x7f070003;
     }
     public static final class xml {
         public static final int pulltorefresh=0x7f050000;
@@ -1331,5 +1406,102 @@ containing a value of this type.
           @attr name com.study.ddokdy:textview_wrapcontent_resizesurrounded
         */
         public static final int ScalableLayout_textview_wrapcontent_resizesurrounded = 8;
+        /** Attributes that can be used with a ZBadgeView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ZBadgeView_backgroundColor com.study.ddokdy:backgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ZBadgeView_badgeTextColor com.study.ddokdy:badgeTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ZBadgeView_badgeTextSize com.study.ddokdy:badgeTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ZBadgeView_text com.study.ddokdy:text}</code></td><td></td></tr>
+           <tr><td><code>{@link #ZBadgeView_textColor com.study.ddokdy:textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ZBadgeView_textSize com.study.ddokdy:textSize}</code></td><td></td></tr>
+           </table>
+           @see #ZBadgeView_backgroundColor
+           @see #ZBadgeView_badgeTextColor
+           @see #ZBadgeView_badgeTextSize
+           @see #ZBadgeView_text
+           @see #ZBadgeView_textColor
+           @see #ZBadgeView_textSize
+         */
+        public static final int[] ZBadgeView = {
+            0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034,
+            0x7f010035, 0x7f010036
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.study.ddokdy.R.attr#backgroundColor}
+          attribute's value can be found in the {@link #ZBadgeView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.study.ddokdy:backgroundColor
+        */
+        public static final int ZBadgeView_backgroundColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.study.ddokdy.R.attr#badgeTextColor}
+          attribute's value can be found in the {@link #ZBadgeView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.study.ddokdy:badgeTextColor
+        */
+        public static final int ZBadgeView_badgeTextColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.study.ddokdy.R.attr#badgeTextSize}
+          attribute's value can be found in the {@link #ZBadgeView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.study.ddokdy:badgeTextSize
+        */
+        public static final int ZBadgeView_badgeTextSize = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.study.ddokdy.R.attr#text}
+          attribute's value can be found in the {@link #ZBadgeView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.study.ddokdy:text
+        */
+        public static final int ZBadgeView_text = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.study.ddokdy.R.attr#textColor}
+          attribute's value can be found in the {@link #ZBadgeView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.study.ddokdy:textColor
+        */
+        public static final int ZBadgeView_textColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.study.ddokdy.R.attr#textSize}
+          attribute's value can be found in the {@link #ZBadgeView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.study.ddokdy:textSize
+        */
+        public static final int ZBadgeView_textSize = 4;
     };
 }

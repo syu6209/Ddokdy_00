@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -31,7 +32,6 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		super.onCreate(savedInstanceState);
 		
 	}
-	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		ViewGroup v = null;
@@ -114,6 +114,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 	private void click_detail(int position) {
 		StudyData mData = mListData.get(position);
 		ZMethod.toast(getContext(), mData.title+" 디테일 클릭");
+		startActivity(new Intent(getActivity(), StudyMainActivity.class));
 	}
 	
 	private class DetailClickListener implements View.OnClickListener{

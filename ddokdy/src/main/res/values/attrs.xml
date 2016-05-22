@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ZBadgeView">
+        <attr name="backgroundColor" format="reference|color"/>
+        <attr name="text" format="reference|string"/>
+        <attr name="textColor" format="reference|color"/>
+        <attr name="badgeTextColor" format="reference|color"/>
+        <attr name="textSize" format="reference|dimension"/>
+        <attr name="badgeTextSize" format="reference|dimension"/>
+    </declare-styleable>
+
+</resources>

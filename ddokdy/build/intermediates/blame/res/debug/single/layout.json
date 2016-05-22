@@ -1,66 +1,78 @@
 [
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main_search.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\fragment_main_search.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\pulling_progress_layout.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\layout\\pulling_progress_layout.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main_mystudylist.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\fragment_main_mystudylist.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main_mystudylist.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\fragment_main_mystudylist.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\spiner_item.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\spiner_item.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_study_main.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\activity_study_main.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_progress_google_style.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\layout\\pull_to_refresh_progress_google_style.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\pulling_progress_layout.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\layout\\pulling_progress_layout.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\topbar_normal.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\topbar_normal.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\listbox_mainstudy.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\listbox_mainstudy.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_progress_google_style.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\layout\\pull_to_refresh_progress_google_style.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\listbox_mainstudy.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\listbox_mainstudy.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\topbar_normal.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\topbar_normal.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main_search.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\fragment_main_search.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\spiner_item.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\spiner_item.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_google_style.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\layout\\pull_to_refresh_header_google_style.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\topbar_big.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\topbar_big.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\listbox_mainplus.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\listbox_mainplus.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "D:\\ddong\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\topbar_main.xml",
-        "source": "D:\\ddong\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\topbar_main.xml"
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_google_style.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\layout\\pull_to_refresh_header_google_style.xml"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\layout_zbadgeview.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\layout_zbadgeview.xml"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\listbox_mainplus.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\listbox_mainplus.xml"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\topbar_main.xml",
+        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\layout\\topbar_main.xml"
     }
 ]

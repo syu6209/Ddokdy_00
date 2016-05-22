@@ -3,18 +3,22 @@
 
     <string name="app_name">똑디</string>
     <string name="text_search_study">스터디 검색</string>
+    <string name="text_write">글쓰기</string>
+    <string name="text_chatting">채팅</string>
+    <string name="text_homework">과제</string>
+    <string name="text_schedule">일정</string>
+    <string name="text_member">멤버</string>
+    <string name="text_setting">설정</string>
 
-    
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
 
 
-
-
     <color name="color_orange">#FFBC91</color>
-	<color name="color_mint">#9EDACE</color>
-	<color name="gray1">#E9E6DF</color>
-	<color name="blackgray">#605B55</color>
-	<color name="white">#FFFFFF</color>
+    <color name="mint">#9EDACE</color>
+    <color name="gray1">#E9E6DF</color>
+    <color name="blackgray">#605B55</color>
+    <color name="white">#FFFFFF</color>
+    <color name="mint_dark">#107273</color>
 </resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/badge_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/CustomSubTitleText"
+        android:id="@+id/badge_tv_title"
+        android:textColor="@color/white"
+        android:text="@string/app_name"
+        android:layout_centerInParent="true"/>
+    <TextView
+        style="@style/CustomSubTitleText"
+        android:id="@+id/badge_tv_count"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_round_orange"
+        android:text="@string/app_name"
+        android:layout_above="@id/badge_tv_title"
+        android:layout_toRightOf="@id/badge_tv_title"
+        />
+</RelativeLayout>
