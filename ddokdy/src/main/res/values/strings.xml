@@ -10,6 +10,25 @@
     <string name="text_member">멤버</string>
     <string name="text_setting">설정</string>
 
+
+    <string name="text_personal_data">개인정보</string>
+    <string name="text_account">계정</string>
+    <string name="text_positional_information">위치 정보 이용 동의</string>
+    <string name="text_Notice_Message">알림/메세지</string>
+    <string name="text_Notice_setting">알림 설정</string>
+    <string name="text_Notice_sound_setting">알림음 설정</string>
+    <string name="text_Notice_Blocked_Time_Setting">방해금지 시간대 서정</string>
+    <string name="text_customer_center">고객센터</string>
+    <string name="text_customenr_support">고객지</string>
+    <string name="text_member_leave">회원탈</string>
+    <string name="text_version_info">버전 정보</string>
+    <string name="text_version">버전</string>
+
+
+
+
+
+
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_register">RegisterActivity</string>

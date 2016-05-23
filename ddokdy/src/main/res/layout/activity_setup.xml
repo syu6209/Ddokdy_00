@@ -6,67 +6,42 @@
     android:background="@color/gray1"
     android:orientation="vertical">
 
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="54dp"
+        android:background="@color/blackgray"
 
-        <com.jnm.android.widget.ScalableLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            sl:scale_base_height="160"
-            sl:scale_base_width="1080">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@null"
-                android:scaleType="fitXY"
-                android:background="@color/blackgray"
-                sl:scale_height="160"
-                sl:scale_left="0"
-                sl:scale_top="0"
-                sl:scale_width="1080"
-
-                />
-            <ImageButton
-                android:id="@+id/topbar_btn_mypage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@null"
-                android:contentDescription="@null"
-                android:src="@drawable/cross_mark"
-                sl:scale_left="920"
-                sl:scale_top="0"
-                sl:scale_width="54"
-                sl:scale_height="160"
-
-
-
-
-                />
-
-        </com.jnm.android.widget.ScalableLayout>
+        >
+        <ImageButton
+            android:id="@+id/topbar_btn_mypage"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/cross_mark"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="27.33dp"
+            />
         <TextView
             android:id="@+id/topbar_leftText"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            android:gravity="center_vertical"
-            android:layout_marginLeft="28.33dp"
+            android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="@dimen/textsize_title"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28.33dp"
             android:text="환경설정"
             />
 
 
-    </FrameLayout>
+    </RelativeLayout>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#11ee11"
+        android:background="@color/gray1"
         android:orientation="vertical"
         >
         <Space
@@ -82,33 +57,262 @@
             >
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="43.33dp">
+                android:layout_height="41.52dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="1dp"
-                    android:text="asasdfasdf"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:textColor="@color/blackgray"
+                    android:text="@string/text_personal_data"
                     />
-
-
             </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="@color/blackgray"
                 >
-
             </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.52dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:text="@string/text_account"
+                    android:textColor="@color/blackgray"
+                    />
+            </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="43.33dp">
-
-
+                android:layout_height="1dp"
+                android:background="@color/gray1"
+                >
             </LinearLayout>
-
-
-
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.52dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:text="@string/text_positional_information"
+                    android:textColor="@color/blackgray"
+                    />
+                <CheckBox
+                    android:layout_width="16.67dp"
+                    android:layout_height="16.67dp"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/checkbox_selector_setting_page"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="22dp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_margin" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:background="@drawable/shape_round"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.52dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:textColor="@color/blackgray"
+                    android:text="@string/text_Notice_Message"
+                    />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blackgray"
+                >
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.52dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:text="@string/text_Notice_setting"
+                    android:textColor="@color/blackgray"
+                    />
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/checkbox_selector_setting_page"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="22dp"
+                    />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray1"
+                >
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.52dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:text="@string/text_Notice_sound_setting"
+                    android:textColor="@color/blackgray"
+                    />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray1"
+                >
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.52dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:text="@string/text_Notice_Blocked_Time_Setting"
+                    android:textColor="@color/blackgray"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_margin" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:background="@drawable/shape_round"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.52dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:textColor="@color/blackgray"
+                    android:text="@string/text_customenr_support"
+                    />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blackgray"
+                >
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.52dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:text="@string/text_customer_center"
+                    android:textColor="@color/blackgray"
+                    />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray1"
+                >
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.52dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:text="@string/text_member_leave"
+                    android:textColor="@color/blackgray"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_margin" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:background="@drawable/shape_round"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.52dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:textColor="@color/blackgray"
+                    android:text="@string/text_version_info"
+                    />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blackgray"
+                >
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.52dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24.67dp"
+                    android:textSize="@dimen/textsize_subtitle"
+                    android:text="@string/text_version"
+                    android:textColor="@color/blackgray"
+                    />
+            </RelativeLayout>
 
         </LinearLayout>
 
