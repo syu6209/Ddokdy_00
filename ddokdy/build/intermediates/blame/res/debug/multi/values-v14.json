@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "outputFile": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -20,6 +20,32 @@
                         "endLine": 9,
                         "endColumn": 12,
                         "endOffset": 375
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/values-v14/values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values-v14/styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 220,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 366
                     }
                 }
             }

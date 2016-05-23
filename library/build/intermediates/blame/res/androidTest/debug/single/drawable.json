@@ -1,22 +1,42 @@
 [
     {
-        "merged": "D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\progress_horizontal_holo_light.xml",
-        "source": "D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_horizontal_holo_light.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\progress_horizontal_holo_light.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_horizontal_holo_light.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\progress_horizontal_holo_light_right.xml",
-        "source": "D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_horizontal_holo_light_right.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\progress_horizontal_holo_light_right.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_horizontal_holo_light_right.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
-        "source": "D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\progress_indeterminate_horizontal_holo.xml",
-        "source": "D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_indeterminate_horizontal_holo.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\progress_indeterminate_horizontal_holo.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_indeterminate_horizontal_holo.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
-        "source": "D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/res/merged/androidTest/debug/drawable/progress_horizontal_holo_light_right.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/bundles/debug/res/drawable/progress_horizontal_holo_light_right.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_bottom.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/res/merged/androidTest/debug/drawable/progress_indeterminate_horizontal_holo.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/bundles/debug/res/drawable/progress_indeterminate_horizontal_holo.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_top.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_top.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/res/merged/androidTest/debug/drawable/progress_horizontal_holo_light.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/bundles/debug/res/drawable/progress_horizontal_holo_light.xml"
     }
 ]
