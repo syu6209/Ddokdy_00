@@ -24,6 +24,8 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 		holdViews();
 		setViews();
 		Log.d("asdfasdf", "asdfasdf");
+		Log.d("asdasd","Asdasd");
+
 	}
 
 
