@@ -13,6 +13,8 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_setup">SetupActivity</string>
+
 
 
     <color name="color_orange">#FFBC91</color>

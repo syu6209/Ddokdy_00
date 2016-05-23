@@ -23,8 +23,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 		init();
 		holdViews();
 		setViews();
-		Log.d("asdfasdf", "asdfasdf");
-		Log.d("asdasd","Asdasd");
+
 
 	}
 
@@ -64,7 +63,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 				current = new Fragment_MainStudyList(viewpager);
 				break;
 			case 2:
-				current = new Fragment_MainStudyList(viewpager);
+				current = new Fragment_Myhome(viewpager);
 				break;
 			default:
 				return null;

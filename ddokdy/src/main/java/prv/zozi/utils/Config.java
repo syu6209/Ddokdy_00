@@ -7,6 +7,8 @@ public class Config {
 
 
 	public static String Color_orange = "#FFBC91";
+	public static String Color_blackgray = "#605B55";
+
 
 	/////////////// 네이버 info
 	public static String NAVER_CLIENT_ID = "YrmSUYmdbnPnuTogsfSG";

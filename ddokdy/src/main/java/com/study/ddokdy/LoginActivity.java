@@ -76,14 +76,8 @@ public class LoginActivity extends Activity {
 	}
 
 	private void login_with_naver() {
-
-		Log.d(TAG,"login_with_naver");
-
 		initNaverData();
-		Log.d(TAG, "login_with_naver");
-
 		mOAuthLoginInstance.startOauthLoginActivity(LoginActivity.this, mOAuthLoginHandler);
-		Log.d(TAG, "login_with_naver");
 
 
 	}

@@ -35,7 +35,12 @@
             android:label="@string/title_activity_main" />
         <activity
             android:name="com.study.ddokdy.Register_Activity"
-            android:label="@string/title_activity_main" />
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.study.ddokdy.Setup_Activity"
+            android:label="@string/title_activity_setup" >
+        </activity>
         <activity
             android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
