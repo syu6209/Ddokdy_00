@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -22,13 +23,14 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 		init();
 		holdViews();
 		setViews();
+		Log.d("Asdasd", "Asdasd");
 	}
 
 
 
 	private void init() {
 		ZMethod.setStatusColor(this, Color.parseColor(Config.Color_orange));
-		
+
 	}
 	private void holdViews() {
 		

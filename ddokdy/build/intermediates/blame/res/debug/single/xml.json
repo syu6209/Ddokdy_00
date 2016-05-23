@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\xml\\pulltorefresh.xml",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\xml\\pulltorefresh.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/xml/pulltorefresh.xml",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/exploded-aar/zozi_first/library/unspecified/res/xml/pulltorefresh.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\xml\\pulltorefresh.xml",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\xml\\pulltorefresh.xml"
     }
 ]

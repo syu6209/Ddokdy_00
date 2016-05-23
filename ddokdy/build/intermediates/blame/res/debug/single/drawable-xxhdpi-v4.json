@@ -1,78 +1,154 @@
 [
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_search.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_search.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/shape_round.xml",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/shape_round.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\shape_round.xml",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\shape_round.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/check_box_false.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/check_box_false.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_plus_circle.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_plus_circle.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_back.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/btn_back.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\topbar_diagonal_line.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\topbar_diagonal_line.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\shape_round.xml",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\shape_round.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\no_image.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\no_image.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\shape_round_orange.xml",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\shape_round_orange.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_full_open_on_phone.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/drawable-xxhdpi/common_full_open_on_phone.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_back.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_back.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/edittext.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/edittext.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_mypage.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_mypage.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_plus_circle.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/btn_plus_circle.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\checkbox_selector.xml",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\checkbox_selector.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/checkbox_selector.xml",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/checkbox_selector.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\edittext.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\edittext.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\no_image.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\no_image.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_mystudy.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\icon_mystudy.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\shape_round_orange.xml",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\shape_round_orange.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_close.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_close.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/icon_mystudy.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/icon_mystudy.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\topbar_background.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\topbar_background.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_back.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_back.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\check_box_true.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\check_box_true.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_mypage.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_mypage.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\clause_btn.xml",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\clause_btn.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/topbar_background.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/topbar_background.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_detail_dot3.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_detail_dot3.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/no_image.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/no_image.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\check_box_false.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\check_box_false.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/clause_btn.xml",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/clause_btn.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_full_open_on_phone.png",
-        "source": "D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-xxhdpi\\common_full_open_on_phone.png"
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\edittext.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\edittext.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_mystudy.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\icon_mystudy.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\check_box_true.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\check_box_true.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\clause_btn.xml",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\clause_btn.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_detail_dot3.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_detail_dot3.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_search.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_search.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_plus_circle.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_plus_circle.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_detail_dot3.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/btn_detail_dot3.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\topbar_diagonal_line.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\topbar_diagonal_line.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/shape_round_orange.xml",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/shape_round_orange.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/check_box_true.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/check_box_true.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\checkbox_selector.xml",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\checkbox_selector.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/topbar_diagonal_line.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/topbar_diagonal_line.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_close.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/btn_close.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_mypage.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/btn_mypage.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_close.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_close.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\topbar_background.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\topbar_background.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_search.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/ddokdy/src/main/res/drawable-xxhdpi/btn_search.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\check_box_false.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\check_box_false.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_full_open_on_phone.png",
+        "source": "/Users/ibyeongmu/Documents/android/zozi_first/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-xxhdpi\\common_full_open_on_phone.png"
     }
 ]

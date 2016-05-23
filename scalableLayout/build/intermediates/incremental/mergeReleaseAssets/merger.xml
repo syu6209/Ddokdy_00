@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\git_project\Ddokdy\scalableLayout\src\main\assets"/><source path="D:\git_project\Ddokdy\scalableLayout\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\git_project\Ddokdy\scalableLayout\src\release\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/ibyeongmu/Documents/android/zozi_first/scalableLayout/src/main/assets"/><source path="/Users/ibyeongmu/Documents/android/zozi_first/scalableLayout/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/ibyeongmu/Documents/android/zozi_first/scalableLayout/src/release/assets"/></dataSet></merger>
