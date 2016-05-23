@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/values-zh/values-zh.xml",
+        "outputFile": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\values-zh\\values-zh.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 111
                 },
                 "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values-zh/values-zh.xml",
+                    "file": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\values-zh\\values-zh.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 178
                 },
                 "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values-zh/values-zh.xml",
+                    "file": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\values-zh\\values-zh.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,69 +49,7 @@
                     "endOffset": 243
                 },
                 "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values-zh/values-zh.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 183,
-                        "endColumn": 64,
-                        "endOffset": 243
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\res\\merged\\debug\\values-zh\\values-zh.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 60,
-                    "endOffset": 111
-                },
-                "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\values-zh\\values-zh.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 60,
-                        "endOffset": 111
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 116,
-                    "endColumn": 66,
-                    "endOffset": 178
-                },
-                "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\values-zh\\values-zh.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 116,
-                        "endColumn": 66,
-                        "endOffset": 178
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 183,
-                    "endColumn": 64,
-                    "endOffset": 243
-                },
-                "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy\\library\\unspecified\\res\\values-zh\\values-zh.xml",
+                    "file": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\values-zh\\values-zh.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
