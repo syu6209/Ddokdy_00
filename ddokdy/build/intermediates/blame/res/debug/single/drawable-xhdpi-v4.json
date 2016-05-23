@@ -4,10 +4,6 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo1.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_close.png",
-        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xhdpi\\btn_close.png"
-    },
-    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progressbar_indeterminate_holo7.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo7.png"
     },
@@ -22,10 +18,6 @@
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progressbar_indeterminate_holo8.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo8.png"
-    },
-    {
-        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_back.png",
-        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xhdpi\\btn_back.png"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\check_symbol_false.png",
@@ -58,6 +50,10 @@
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progressbar_indeterminate_holo6.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xhdpi\\progressbar_indeterminate_holo6.png"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\selector_background_mint_to_darkmint.xml",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xhdpi\\selector_background_mint_to_darkmint.xml"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",

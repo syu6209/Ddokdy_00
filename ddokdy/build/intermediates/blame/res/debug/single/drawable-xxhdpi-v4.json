@@ -20,6 +20,10 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\checkbox_selector.xml"
     },
     {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_detail_dot3_gray.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_detail_dot3_gray.png"
+    },
+    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_back.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_back.png"
     },

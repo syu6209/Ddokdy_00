@@ -12,10 +12,6 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable-mdpi-v4\\progressbar_indeterminate_holo5.png"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_back.png",
-        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-mdpi\\btn_back.png"
-    },
-    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\progressbar_indeterminate_holo2.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable-mdpi-v4\\progressbar_indeterminate_holo2.png"
     },
@@ -62,10 +58,6 @@
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\progress_primary_holo_light.9.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable-mdpi-v4\\progress_primary_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_close.png",
-        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-mdpi\\btn_close.png"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\indicator_arrow.png",

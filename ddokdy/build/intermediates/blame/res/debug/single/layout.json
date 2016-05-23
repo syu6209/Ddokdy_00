@@ -60,6 +60,10 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\listbox_mainplus.xml"
     },
     {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\listbox_studypost.xml",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\listbox_studypost.xml"
+    },
+    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\spiner_item.xml",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\spiner_item.xml"
     },

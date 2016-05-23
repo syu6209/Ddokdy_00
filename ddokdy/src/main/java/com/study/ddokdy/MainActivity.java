@@ -26,7 +26,6 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 
 		Log.d("Asdsad","Asdasd");
 
-
 	}
 
 

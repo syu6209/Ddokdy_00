@@ -44,7 +44,6 @@ public class ZBadgeView extends LinearLayout {
         title = (TextView)findViewById(R.id.badge_tv_title);
         count = (TextView)findViewById(R.id.badge_tv_count);
 
-
     }
     private void getAttrs(AttributeSet attrs) {
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.ZBadgeView);
@@ -59,6 +58,9 @@ public class ZBadgeView extends LinearLayout {
 
     private void setTypeArray(TypedArray typedArray) {
 
+        rl = (RelativeLayout)findViewById(R.id.badge_background);
+        title = (TextView)findViewById(R.id.badge_tv_title);
+        count = (TextView)findViewById(R.id.badge_tv_count);
 
         int bg_color = typedArray.getColor(R.styleable.ZBadgeView_backgroundColor, Color.parseColor("#605B55"));
         rl.setBackgroundColor(bg_color);
@@ -105,7 +107,7 @@ public class ZBadgeView extends LinearLayout {
      */
     public void setCountNum(String num){
         if("0".equals(num)){
-            count.setVisibility(View.GONE);
+            count.setVisibility(View.INVISIBLE);
         }else{
             count.setVisibility(View.VISIBLE);
             count.setText(num);
@@ -118,7 +120,7 @@ public class ZBadgeView extends LinearLayout {
      */
     public void setCountNum(int num){
         if(num==0){
-            count.setVisibility(View.GONE);
+            count.setVisibility(View.INVISIBLE);
         }else{
             count.setVisibility(View.VISIBLE);
             count.setText(""+num);
