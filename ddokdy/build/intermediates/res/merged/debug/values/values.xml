@@ -86,11 +86,11 @@
     <string name="text_Notice_sound_setting">알림음 설정</string>
     <string name="text_account">계정</string>
     <string name="text_chatting">채팅</string>
-    <string name="text_customenr_support">고객지</string>
+    <string name="text_customenr_support">고객지원</string>
     <string name="text_customer_center">고객센터</string>
     <string name="text_homework">과제</string>
     <string name="text_member">멤버</string>
-    <string name="text_member_leave">회원탈</string>
+    <string name="text_member_leave">회원탈퇴</string>
     <string name="text_personal_data">개인정보</string>
     <string name="text_positional_information">위치 정보 이용 동의</string>
     <string name="text_schedule">일정</string>

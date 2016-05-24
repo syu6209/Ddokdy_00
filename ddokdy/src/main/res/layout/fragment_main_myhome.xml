@@ -29,10 +29,6 @@
                 sl:scale_width="1080" />
 
 
-
-
-
-
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -44,6 +40,7 @@
                 sl:scale_top="160"
                 sl:scale_width="1080" />
         </com.jnm.android.widget.ScalableLayout>
+
         <TextView
             android:id="@+id/topbar_leftText"
             android:layout_width="wrap_content"
@@ -51,19 +48,19 @@
             android:layout_gravity="start"
             android:gravity="center_vertical"
             android:padding="20dp"
-            android:textColor="@color/white"
-            android:textSize="@dimen/textsize_title"
             android:text="@string/app_name"
-            />
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_title" />
+
         <ImageButton
             android:id="@+id/topbar_btn_mypage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:background="@null"
             android:contentDescription="@null"
-            android:src="@drawable/btn_mypage"
             android:gravity="center_vertical"
-            android:layout_gravity="center"
+            android:src="@drawable/btn_mypage"
 
 
             />
@@ -71,27 +68,110 @@
 
     </FrameLayout>
 
-    <com.jnm.android.widget.ScalableLayout
+
+
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#11e1e1"
+            sl:scale_base_height="414"
+            sl:scale_base_width="1080">
+
+
+        </com.jnm.android.widget.ScalableLayout>
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#11e1e1"
-        sl:scale_base_height="414"
-        sl:scale_base_width="1080">
+        android:layout_height="match_parent">
+        <Space
+            android:id="@+id/upper_Space"
+            android:layout_alignParentTop="true"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_margin"
+
+            />
+
+        <com.jnm.android.widget.ScalableLayout
+            android:id="@+id/Bottom_Three_btn_view"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#aa1111"
+            sl:scale_base_height="162"
+            sl:scale_base_width="1080"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/blackgray"
+                android:orientation="horizontal"
+                sl:scale_height="162"
+                sl:scale_left="0"
+                sl:scale_top="0"
+                sl:scale_width="1080">
+
+                <RelativeLayout
+                    android:id="@+id/emblem_text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="엠블럼"
+
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_subtitle" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/notice_text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="알림"
+
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_subtitle" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/setup_text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="환경설정"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_subtitle" />
+                </RelativeLayout>
 
 
-    </com.jnm.android.widget.ScalableLayout>
+            </LinearLayout>
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/default_margin" />
 
-    <com.jnm.android.widget.ScalableLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        sl:scale_base_height="1070"
-        sl:scale_base_width="1080"
+        </com.jnm.android.widget.ScalableLayout>
 
-        >
 
         <com.handmark.pulltorefresh.library.PullToRefreshListView
             android:id="@+id/ptr_listview"
@@ -100,91 +180,12 @@
             android:background="@color/gray1"
             android:divider="#00000000"
             android:dividerHeight="0dp"
+            android:layout_below="@+id/upper_Space"
+            android:layout_above="@+id/Bottom_Three_btn_view"
 
-            sl:scale_height="1070"
-            sl:scale_left="0"
-            sl:scale_top="0"
-            sl:scale_width="1080"
 
             />
-    </com.jnm.android.widget.ScalableLayout>
-
-    <com.jnm.android.widget.ScalableLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#aa1111"
-        sl:scale_base_height="162"
-        sl:scale_base_width="1080"
-
-        >
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/blackgray"
-            android:orientation="horizontal"
-            sl:scale_height="162"
-            sl:scale_left="0"
-            sl:scale_top="0"
-            sl:scale_width="1080">
-
-            <RelativeLayout
-                android:id="@+id/emblem_text"
-
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:textColor="@color/white"
-
-                    android:text="엠블럼"
-                    android:textSize="@dimen/textsize_subtitle" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/notice_text"
-
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:textColor="@color/white"
-
-                    android:text="알림"
-                    android:textSize="@dimen/textsize_subtitle" />
-            </RelativeLayout>
-            <RelativeLayout
-                android:id="@+id/setup_text"
-
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                >
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:textColor="@color/white"
-                    android:text="환경설정"
-                    android:textSize="@dimen/textsize_subtitle" />
-            </RelativeLayout>
+    </RelativeLayout>
 
 
-
-        </LinearLayout>
-
-
-    </com.jnm.android.widget.ScalableLayout>
 </LinearLayout>
