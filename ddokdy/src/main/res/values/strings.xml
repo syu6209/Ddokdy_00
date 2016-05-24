@@ -14,6 +14,15 @@
     <string name="text_write_reply">댓글쓰기</string>
     <string name="text_noti">공지</string>
     <string name="text_notice">공지사항</string>
+    <string name="text_makestudy">스터디 만들기</string>
+    <string name="text_studytype">스터디 타입</string>
+    <string name="text_closed">비공개</string>
+    <string name="text_open">공개</string>
+
+    <string name="explain_closedtype">초대 링크를 통해서만\n가입신청이 가능합니다.</string>
+    <string name="explain_opentype">검색/추천을 통해 누구나\n가입신청이 가능합니다.</string>
+
+    <string name="hint_inputstudy">스터디 이름을 입력하세요.</string>
 
     <string name="text_personal_data">개인정보</string>
     <string name="text_account">계정</string>
@@ -29,15 +38,10 @@
     <string name="text_version">버전</string>
 
 
-
-
-
-
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_setup">SetupActivity</string>
-
 
 
     <color name="color_orange">#FFBC91</color>
