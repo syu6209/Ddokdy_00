@@ -24,17 +24,22 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="default_margin">10dp</dimen>
     <dimen name="default_round">1.25dp</dimen>
+    <dimen name="half_margin">5dp</dimen>
     <dimen name="header_footer_left_right_padding">24dp</dimen>
     <dimen name="header_footer_top_bottom_padding">12dp</dimen>
     <dimen name="header_pull_to_refresh_image_padding">10px</dimen>
     <dimen name="indicator_corner_radius">12dp</dimen>
     <dimen name="indicator_internal_padding">4dp</dimen>
     <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="lineHeight">0.6dp</dimen>
+    <dimen name="line_spacing">10dp</dimen>
     <dimen name="margin_samll">7.5dp</dimen>
-    <dimen name="px_160">40dp</dimen>
-    <dimen name="px_165">41.25dp</dimen>
+    <dimen name="px_160">53dp</dimen>
+    <dimen name="px_165">55dp</dimen>
+    <dimen name="px_225">75dp</dimen>
     <dimen name="px_50">12.5dp</dimen>
     <dimen name="px_90">22.5dp</dimen>
+    <dimen name="textsize_small">10dp</dimen>
     <dimen name="textsize_subtitle">10.7dp</dimen>
     <dimen name="textsize_title">14.2dp</dimen>
     <item name="gridview" type="id"/>
@@ -74,31 +79,63 @@
     <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
     <string name="common_google_play_services_updating_title">Google Play services are updating</string>
     <string name="common_open_on_phone">Open on phone</string>
+    <string name="explain_closedtype">초대 링크를 통해서만\n가입신청이 가능합니다.</string>
+    <string name="explain_make_study_complete">이 스터디에서 함께 할 멤버들을 초대해보세요!</string>
+    <string name="explain_opentype">검색/추천을 통해 누구나\n가입신청이 가능합니다.</string>
+    <string name="hint_input_condition">가입조건을 입력하세요.</string>
+    <string name="hint_input_location">장소입력</string>
+    <string name="hint_input_member">인원을 입력하세요.</string>
+    <string name="hint_input_period">기간을 입력하세요.</string>
+    <string name="hint_input_sex">성별조건을 입력하세요.</string>
+    <string name="hint_input_stduyintro">소개말을 입력하세요.</string>
+    <string name="hint_input_studyname">스터디 이름을 입력하세요.</string>
+    <string name="hint_input_time">시간선택</string>
     <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
     <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
     <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
     <string name="pull_to_refresh_refreshing_label">Loading…</string>
     <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="test_doubleline">텍스트\n텍스트</string>
     <string name="text_Notice_Blocked_Time_Setting">방해금지 시간대 서정</string>
     <string name="text_Notice_Message">알림/메세지</string>
     <string name="text_Notice_setting">알림 설정</string>
     <string name="text_Notice_sound_setting">알림음 설정</string>
     <string name="text_account">계정</string>
     <string name="text_chatting">채팅</string>
-    <string name="text_customenr_support">고객지</string>
+    <string name="text_closed">비공개</string>
+    <string name="text_critical_items">필수입력사항</string>
+    <string name="text_customenr_support">고객지원</string>
     <string name="text_customer_center">고객센터</string>
+    <string name="text_final_make_study">스터디 개설</string>
     <string name="text_homework">과제</string>
+    <string name="text_joining_condition">가입조건</string>
+    <string name="text_like">좋아요</string>
+    <string name="text_location">장소</string>
+    <string name="text_make_study_complete">스터디 개설 완료</string>
+    <string name="text_makestudy">스터디 만들기</string>
     <string name="text_member">멤버</string>
-    <string name="text_member_leave">회원탈</string>
+    <string name="text_member_leave">회원탈퇴</string>
+    <string name="text_noti">공지</string>
+    <string name="text_notice">공지사항</string>
+    <string name="text_numofpeople">인원</string>
+    <string name="text_open">공개</string>
+    <string name="text_optional_items">선택입력사항</string>
+    <string name="text_period">기간</string>
     <string name="text_personal_data">개인정보</string>
     <string name="text_positional_information">위치 정보 이용 동의</string>
     <string name="text_schedule">일정</string>
     <string name="text_search_study">스터디 검색</string>
+    <string name="text_selectsector">분야 선택</string>
     <string name="text_setting">설정</string>
+    <string name="text_sex">성별</string>
+    <string name="text_study_intromsg">스터디 소개말</string>
+    <string name="text_studytype">스터디 타입</string>
+    <string name="text_time">시간</string>
     <string name="text_version">버전</string>
     <string name="text_version_info">버전 정보</string>
     <string name="text_write">글쓰기</string>
+    <string name="text_write_reply">댓글쓰기</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
@@ -113,6 +150,12 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    <style name="CustomSmallText" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_small</item>
+        <item name="android:textColor">@color/blackgray</item>
+    </style>
     <style name="CustomSubTitleText" parent="@android:style/Widget.TextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -124,5 +167,14 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/textsize_title</item>
         <item name="android:textColor">@color/blackgray</item>
+    </style>
+    <style name="line_black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/lineHeight</item>
+        <item name="android:background">@color/blackgray</item>
+
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:layout_marginBottom">@dimen/default_margin</item>
+
     </style>
 </resources>

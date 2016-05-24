@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarDefaultDelayBeforeFade="10"
+    tools:context="com.study.ddokdy.MakeNewStudyActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/gray1">
+        <TextView
+            style="@style/CustomTitleText"
+            android:layout_width="match_parent"
+            android:text="@string/text_makestudy"
+            android:gravity="center"
+            android:layout_margin="@dimen/px_90"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/default_margin"
+            android:background="@drawable/shape_round">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stduy_make_roofimg"
+                android:scaleType="fitXY"/>
+            <EditText
+                android:id="@+id/makestudy_et_studyname"
+                style="@style/CustomSubTitleText"
+                android:layout_width="match_parent"
+                android:padding="@dimen/px_90"
+                android:background="@null"
+                android:inputType="textPersonName"
+                android:gravity="center"
+                android:hint="@string/hint_input_studyname"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+            <TextView
+                style="@style/CustomTitleText"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_gravity="center"
+                android:text="@string/text_studytype"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="@dimen/default_margin"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/makestudy_checkll_closed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/default_margin">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            style="@style/CustomSubTitleText"
+                            android:text="@string/text_closed"
+                            android:padding="@dimen/px_90"
+                            android:background="@drawable/circle_gray"
+                            android:gravity="center"/>
+                        <ImageView
+                            android:id="@+id/makestudy_iv_closed"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/circle_check_mint"
+                            android:scaleType="fitXY"
+                            android:contentDescription="@null"/>
+                    </FrameLayout>
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/default_margin" />
+                    <TextView
+                        style="@style/CustomSubTitleText"
+                        android:text="@string/explain_closedtype"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/makestudy_checkll_opend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/default_margin">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            style="@style/CustomSubTitleText"
+                            android:text="@string/text_open"
+                            android:padding="@dimen/px_90"
+                            android:background="@drawable/circle_gray"
+                            android:gravity="center"/>
+                        <ImageView
+                            android:id="@+id/makestudy_iv_opend"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/circle_check_mint"
+                            android:scaleType="fitXY"
+                            android:contentDescription="@null"/>
+                    </FrameLayout>
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/default_margin" />
+                    <TextView
+                        style="@style/CustomSubTitleText"
+                        android:text="@string/explain_opentype"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bottom_shadow"
+            android:scaleType="fitXY"
+            android:contentDescription="@null"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="@dimen/half_margin"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+            <TextView
+                style="@style/CustomTitleText"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_gravity="center"
+                android:text="@string/text_selectsector"/>
+            <LinearLayout
+                style="@style/line_black"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        style="@style/CustomSmallText"
+                        android:textColor="@color/white"
+                        android:text="@string/app_name"
+                        android:background="@drawable/shape_round_mint"
+                        android:layout_marginStart="@dimen/px_50"
+                        android:layout_marginEnd="@dimen/px_50"
+                        android:paddingStart="@dimen/px_90"
+                        android:paddingEnd="@dimen/px_90"
+                        android:paddingTop="@dimen/px_50"
+                        android:paddingBottom="@dimen/px_50"/>
+                    <TextView
+                        style="@style/CustomSmallText"
+                        android:textColor="@color/white"
+                        android:text="@string/app_name"
+                        android:background="@drawable/shape_round_mint"
+                        android:layout_marginStart="@dimen/px_50"
+                        android:layout_marginEnd="@dimen/px_50"
+                        android:paddingStart="@dimen/px_90"
+                        android:paddingEnd="@dimen/px_90"
+                        android:paddingTop="@dimen/px_50"
+                        android:paddingBottom="@dimen/px_50"/>
+                </LinearLayout>
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/default_margin" />
+                <TextView
+                    style="@style/CustomSmallText"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:background="@color/color_orange"
+                    android:gravity="center"
+                    android:text="@string/text_selectsector"
+                    android:padding="@dimen/px_50"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bottom_shadow"
+            android:scaleType="fitXY"
+            android:contentDescription="@null"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="@dimen/half_margin"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+            <TextView
+                style="@style/CustomTitleText"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_gravity="center"
+                android:text="@string/text_study_intromsg"/>
+            <LinearLayout
+                style="@style/line_black"></LinearLayout>
+
+            <EditText
+                android:id="@+id/makestudy_et_intro"
+                style="@style/CustomSmallText"
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:textColor="@color/gray1"
+                android:inputType="textAutoComplete"
+                android:hint="@string/hint_input_stduyintro"
+                android:padding="@dimen/px_90"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bottom_shadow"
+            android:scaleType="fitXY"
+            android:contentDescription="@null"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="@dimen/half_margin"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+            <TextView
+                style="@style/CustomTitleText"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_gravity="center"
+                android:text="@string/text_critical_items"/>
+            <LinearLayout
+                style="@style/line_black"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_pivot1"
+                    android:minWidth="@dimen/px_225"
+                    style="@style/CustomSmallText"
+                    android:text="@string/text_location"
+                    android:padding="@dimen/px_90"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageButton
+                        android:id="@+id/makestudy_ibtn_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_arrow_right"
+                        android:scaleType="fitXY"
+                        android:contentDescription="@null"
+                        android:background="@null"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"/>
+                <EditText
+                    android:id="@+id/makestudy_et_c1_loction"
+                    style="@style/CustomSmallText"
+                    android:layout_width="match_parent"
+                    android:hint="@string/hint_input_location"
+                    android:padding="@dimen/px_90"
+                    android:background="@color/white"
+                    android:layout_toStartOf="@id/makestudy_ibtn_location"/>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_pivot2"
+                    style="@style/CustomSmallText"
+                    android:minWidth="@dimen/px_225"
+                    android:text="@string/text_period"
+                    android:padding="@dimen/px_90"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"/>
+                <EditText
+                    android:id="@+id/makestudy_et_c2_period"
+                    style="@style/CustomSmallText"
+                    android:layout_width="match_parent"
+                    android:hint="@string/hint_input_period"
+                    android:padding="@dimen/px_90"
+                    android:background="@color/white"
+                    android:layout_toEndOf="@id/tv_pivot2"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_pivot3"
+                    style="@style/CustomSmallText"
+                    android:minWidth="@dimen/px_225"
+                    android:text="@string/text_member"
+                    android:padding="@dimen/px_90"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"/>
+                <EditText
+                    android:id="@+id/makestudy_et_c3_member"
+                    style="@style/CustomSmallText"
+                    android:layout_width="match_parent"
+                    android:hint="@string/hint_input_member"
+                    android:padding="@dimen/px_90"
+                    android:background="@color/white"
+                    android:layout_toEndOf="@id/tv_pivot3"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bottom_shadow"
+            android:scaleType="fitXY"
+            android:contentDescription="@null"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="@dimen/half_margin"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+            <TextView
+                style="@style/CustomTitleText"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_gravity="center"
+                android:text="@string/text_optional_items"/>
+            <LinearLayout
+                style="@style/line_black"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_pivot4"
+                    android:minWidth="@dimen/px_225"
+                    style="@style/CustomSmallText"
+                    android:text="@string/text_time"
+                    android:padding="@dimen/px_90"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageButton
+                        android:id="@+id/makestudy_ibtn_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_arrow_right"
+                        android:scaleType="fitXY"
+                        android:contentDescription="@null"
+                        android:background="@null"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"/>
+
+                    <EditText
+                        android:id="@+id/makestudy_et_o1_time"
+                        style="@style/CustomSmallText"
+                        android:layout_width="match_parent"
+                        android:hint="@string/hint_input_time"
+                        android:padding="@dimen/px_90"
+                        android:background="@color/white"
+                        android:layout_toStartOf="@id/makestudy_ibtn_time"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_pivot5"
+                    style="@style/CustomSmallText"
+                    android:minWidth="@dimen/px_225"
+                    android:gravity="center"
+                    android:text="@string/text_joining_condition"
+                    android:paddingTop="@dimen/px_90"
+                    android:paddingBottom="@dimen/px_90"
+                    android:paddingStart="@dimen/px_50"
+                    android:paddingEnd="0dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"/>
+                <EditText
+                    android:id="@+id/makestudy_et_o2_period"
+                    style="@style/CustomSmallText"
+                    android:layout_width="match_parent"
+                    android:hint="@string/hint_input_period"
+                    android:padding="@dimen/px_90"
+                    android:background="@color/white"
+                    android:layout_toEndOf="@id/tv_pivot5"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_pivot6"
+                    android:minWidth="@dimen/px_225"
+                    style="@style/CustomSmallText"
+                    android:text="@string/text_member"
+                    android:padding="@dimen/px_90"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"/>
+                <EditText
+                    android:id="@+id/makestudy_et_o3_member"
+                    style="@style/CustomSmallText"
+                    android:layout_width="match_parent"
+                    android:hint="@string/hint_input_member"
+                    android:padding="@dimen/px_90"
+                    android:background="@color/white"
+                    android:layout_toEndOf="@id/tv_pivot6"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bottom_shadow"
+            android:scaleType="fitXY"
+            android:contentDescription="@null"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="@dimen/half_margin"/>
+
+
+
+
+        <Button
+            style="@style/CustomSubTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/px_90"
+            android:background="@color/color_orange"
+            android:text="@string/text_final_make_study"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

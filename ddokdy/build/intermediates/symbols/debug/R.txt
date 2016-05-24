@@ -131,11 +131,10 @@ int drawable progressbar_indeterminate_holo5 0x7f020023
 int drawable progressbar_indeterminate_holo6 0x7f020024
 int drawable progressbar_indeterminate_holo7 0x7f020025
 int drawable progressbar_indeterminate_holo8 0x7f020026
-int drawable right_arrow_btn 0x7f020027
-int drawable shape_round 0x7f020028
-int drawable shape_round_orange 0x7f020029
-int drawable topbar_background 0x7f02002a
-int drawable topbar_diagonal_line 0x7f02002b
+int drawable shape_round 0x7f020027
+int drawable shape_round_orange 0x7f020028
+int drawable topbar_background 0x7f020029
+int drawable topbar_diagonal_line 0x7f02002a
 int id Email_Spinner 0x7f0a0012
 int id adjust_height 0x7f0a0003
 int id adjust_width 0x7f0a0004

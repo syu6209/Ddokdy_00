@@ -60,6 +60,8 @@
 			            android:src="@drawable/btn_detail_dot3"
 			            android:contentDescription="@null"
 			            android:layout_alignParentEnd="true"
+						android:focusable="false"
+						android:focusableInTouchMode="false"
 			            />
 		        </RelativeLayout>
 		        <LinearLayout 

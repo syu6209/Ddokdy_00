@@ -18,7 +18,8 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:src="@drawable/icon_mystudy"
-	        android:contentDescription="@null"/>
+	        android:contentDescription="@null"
+			android:visibility="gone"/>
 	    <LinearLayout 
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
@@ -28,27 +29,39 @@
 		        android:layout_height="wrap_content"
 		        android:orientation="vertical">
 			        <LinearLayout 
-			            android:layout_width="wrap_content"
+			            android:layout_width="match_parent"
 			            android:layout_height="wrap_content"
 			            android:orientation="vertical"
 			        	android:padding="16dp">
-			            <TextView 
-				            android:id="@+id/listbox_study_title"
-				            android:layout_width="wrap_content"
-				            android:layout_height="wrap_content"
-				            android:textSize="@dimen/textsize_title"
-				            android:textColor="@color/blackgray"
-				            android:text="@string/app_name"
-				            />
-				        <TextView 
-				            android:id="@+id/listbox_study_subtitle"
-				            android:layout_width="wrap_content"
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal">
+							<TextView
+								style="@style/CustomTitleText"
+								android:id="@+id/listbox_studypost_name"
+								android:text="@string/app_name"
+								/>
+							<Space
+								android:layout_width="@dimen/margin_samll"
+								android:layout_height="wrap_content" />
+							<TextView
+								style="@style/CustomSubTitleText"
+								android:id="@+id/listbox_studypost_time"
+								android:text="@string/app_name"
+								/>
+						</LinearLayout>
+				        <TextView
+				            android:id="@+id/listbox_studypost_content"
+				            android:layout_width="match_parent"
 				            android:layout_height="wrap_content"
 				            android:textSize="@dimen/textsize_subtitle"
 				            android:textColor="@color/blackgray"
-				            android:text="@string/app_name"
+				            android:text="@string/test_doubleline"
 				            android:layout_marginTop="@dimen/default_margin"
 				            android:layout_marginBottom="0dp"
+							android:maxLines="2"
+							android:lineSpacingExtra="@dimen/line_spacing"
 				            />
 			        </LinearLayout>
 			        
@@ -57,7 +70,7 @@
 			            android:layout_width="wrap_content"
 			            android:layout_height="wrap_content"
 			            android:background="@null"
-			            android:src="@drawable/btn_detail_dot3"
+			            android:src="@drawable/btn_detail_dot3_gray"
 			            android:contentDescription="@null"
 			            android:layout_alignParentEnd="true"
 						android:focusable="false"
@@ -66,31 +79,28 @@
 		        </RelativeLayout>
 		        <LinearLayout 
 		            android:layout_width="match_parent"
-		            android:layout_height="0.3dp"
-		            android:background="@color/blackgray"></LinearLayout>
-		        <LinearLayout 
-		            android:layout_width="match_parent"
 		            android:layout_height="wrap_content"
-		            android:orientation="horizontal"
-		            android:padding="16dp">
-		            <TextView 
-			            android:id="@+id/listbox_study_bossname"
-			            android:layout_width="wrap_content"
-			            android:layout_height="wrap_content"
-			            android:textSize="@dimen/textsize_subtitle"
-			            android:textColor="@color/blackgray"
-			            android:text="@string/app_name"
-			            />
-		            <TextView 
-			            android:id="@+id/listbox_study_status"
-			            android:layout_width="match_parent"
-			            android:layout_height="wrap_content"
-			            android:textSize="@dimen/textsize_subtitle"
-			            android:textColor="@color/blackgray"
-			            android:text="@string/app_name"
-			            android:layout_gravity="end"
-			            android:gravity="end"
-			            />
+		            android:orientation="horizontal">
+		            <Button
+						style="@style/CustomSubTitleText"
+						android:id="@+id/listbox_studypost_btn_like"
+						android:layout_width="0dp"
+						android:layout_height="match_parent"
+						android:layout_weight="1"
+						android:text="@string/text_like"
+						android:padding="@dimen/margin_samll"
+						android:background="@drawable/selector_background_mint_to_darkmint"
+						android:textColor="@color/white"/>
+					<Button
+						style="@style/CustomSubTitleText"
+						android:id="@+id/listbox_studypost_btn_reply"
+						android:layout_width="0dp"
+						android:layout_height="match_parent"
+						android:layout_weight="1"
+						android:text="@string/text_write_reply"
+						android:padding="@dimen/margin_samll"
+						android:background="@drawable/selector_background_mint_to_darkmint"
+						android:textColor="@color/white"/>
 		        </LinearLayout>
 	    </LinearLayout>
 	</FrameLayout>

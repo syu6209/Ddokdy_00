@@ -11,6 +11,7 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -30,7 +31,6 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
 	}
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -92,6 +92,12 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		ListViewAdapter adapter = new ListViewAdapter(ll.getContext());
 		mListview.setAdapter(adapter);
 		mListview.setScrollBarDefaultDelayBeforeFade(10);
+		mListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+				click_study(position-1);
+			}
+		});
 		btn_topbar_search.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -111,12 +117,22 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 			}
 		});
 	}
+	private void click_study(int position) {
+		Intent intent = null;
+		if(position<mListData.size()) {
+			StudyData mData = mListData.get(position);
+			intent = new Intent(getActivity(), StudyMainActivity.class);
+			intent.putExtra("idx", mData.idx);
+			startActivity(intent);
+		}else{
+			intent = new Intent(getActivity(), MakeNewStudyActivity.class);
+			startActivity(intent);
+		}
+	}
 	private void click_detail(int position) {
 		StudyData mData = mListData.get(position);
 		ZMethod.toast(getContext(), mData.title+" 디테일 클릭");
-		startActivity(new Intent(getActivity(), StudyMainActivity.class));
 	}
-	
 	private class DetailClickListener implements View.OnClickListener{
 		int position;
 		public DetailClickListener(int position) {
@@ -128,6 +144,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		}
 	}
 	private class StudyData{
+		String idx;
 		String title,subtitle,bossname,status;
 		boolean isMine;
 	}
@@ -159,7 +176,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-			
+
 			if(position < mListData.size()){
 				ViewHolder holder = null;
 				StudyData mData;
@@ -171,7 +188,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 				}
 				ViewGroup v = null;
 				convertView = inflater.inflate(R.layout.listbox_mainstudy, v);
-				
+
 				if(convertView.getTag()==null){
 					holder = new ViewHolder();
 					holder.tv_list_title = (TextView)convertView.findViewById(R.id.listbox_study_title);
@@ -181,7 +198,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 					holder.iv_list_icon = (ImageView)convertView.findViewById(R.id.listbox_icon_mystudy);
 					holder.btn_list_detail = (ImageButton)convertView.findViewById(R.id.listbox_btn_detail);
 					convertView.setTag(holder);
-					
+
 				}else{
 					holder = (ViewHolder)convertView.getTag();
 				}
@@ -196,6 +213,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 						holder.iv_list_icon.setVisibility(View.GONE);
 					}
 					holder.btn_list_detail.setOnClickListener(new DetailClickListener(position));
+					holder.btn_list_detail.setFocusable(false);
 				}
 			}else{
 				convertView = inflater.inflate(R.layout.listbox_mainplus, null);
@@ -204,6 +222,6 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 			}
 			return convertView;
 		}
-		
-	}
+
+	}//end of ListViewAdapter Class
 }

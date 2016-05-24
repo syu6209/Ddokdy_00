@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">똑디</string>
+    <string name="test_doubleline">텍스트\n텍스트</string>
     <string name="text_search_study">스터디 검색</string>
     <string name="text_write">글쓰기</string>
     <string name="text_chatting">채팅</string>
@@ -9,7 +10,41 @@
     <string name="text_schedule">일정</string>
     <string name="text_member">멤버</string>
     <string name="text_setting">설정</string>
+    <string name="text_like">좋아요</string>
+    <string name="text_write_reply">댓글쓰기</string>
+    <string name="text_noti">공지</string>
+    <string name="text_notice">공지사항</string>
+    <string name="text_makestudy">스터디 만들기</string>
+    <string name="text_studytype">스터디 타입</string>
+    <string name="text_closed">비공개</string>
+    <string name="text_open">공개</string>
+    <string name="text_selectsector">분야 선택</string>
+    <string name="text_study_intromsg">스터디 소개말</string>
+    <string name="text_critical_items">필수입력사항</string>
+    <string name="text_location">장소</string>
+    <string name="text_period">기간</string>
+    <string name="text_numofpeople">인원</string>
+    <string name="text_optional_items">선택입력사항</string>
+    <string name="text_time">시간</string>
+    <string name="text_joining_condition">가입조건</string>
+    <string name="text_sex">성별</string>
+    <string name="text_final_make_study">스터디 개설</string>
+    <string name="text_make_study_complete">스터디 개설 완료</string>
 
+
+
+    <string name="explain_closedtype">초대 링크를 통해서만\n가입신청이 가능합니다.</string>
+    <string name="explain_opentype">검색/추천을 통해 누구나\n가입신청이 가능합니다.</string>
+    <string name="explain_make_study_complete">이 스터디에서 함께 할 멤버들을 초대해보세요!</string>
+
+    <string name="hint_input_studyname">스터디 이름을 입력하세요.</string>
+    <string name="hint_input_stduyintro">소개말을 입력하세요.</string>
+    <string name="hint_input_location">장소입력</string>
+    <string name="hint_input_period">기간을 입력하세요.</string>
+    <string name="hint_input_member">인원을 입력하세요.</string>
+    <string name="hint_input_time">시간선택</string>
+    <string name="hint_input_condition">가입조건을 입력하세요.</string>
+    <string name="hint_input_sex">성별조건을 입력하세요.</string>
 
     <string name="text_personal_data">개인정보</string>
     <string name="text_account">계정</string>
@@ -19,21 +54,16 @@
     <string name="text_Notice_sound_setting">알림음 설정</string>
     <string name="text_Notice_Blocked_Time_Setting">방해금지 시간대 서정</string>
     <string name="text_customer_center">고객센터</string>
-    <string name="text_customenr_support">고객지</string>
-    <string name="text_member_leave">회원탈</string>
+    <string name="text_customenr_support">고객지원</string>
+    <string name="text_member_leave">회원탈퇴</string>
     <string name="text_version_info">버전 정보</string>
     <string name="text_version">버전</string>
-
-
-
-
 
 
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_setup">SetupActivity</string>
-
 
 
     <color name="color_orange">#FFBC91</color>
