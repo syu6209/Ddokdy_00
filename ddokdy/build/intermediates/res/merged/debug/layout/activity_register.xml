@@ -38,7 +38,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="424">
+            android:layout_weight="99">
 
 
         </LinearLayout>
@@ -46,7 +46,7 @@
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="3418"
+            android:layout_weight="784"
 
             >
 
@@ -64,17 +64,20 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/Whole_Check_Box_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="660">
+            android:layout_weight="199"
+            >
             <!-- 16.67-->
 
-            <CheckBox
+            <ImageView
+                android:id="@+id/Whole_Check_Box_Image"
+                android:layout_marginLeft="10dp"
                 android:layout_width="16.67dp"
                 android:layout_height="16.67dp"
                 android:layout_centerVertical="true"
-                android:button="@drawable/checkbox_selector"
-                android:checked="false"
+                android:background="@drawable/check_box_false"
 
                 />
 
@@ -101,7 +104,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="424"
+            android:layout_weight="99"
             android:background="#ffffff"
 
             >
@@ -112,7 +115,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="3418"
+            android:layout_weight="784"
             android:orientation="horizontal"
 
             >
@@ -156,20 +159,25 @@
         </LinearLayout>
 
         <RelativeLayout
+            android:id="@+id/DDock_Check_Box_Btn"
+
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="660"
+            android:layout_weight="199"
             android:background="@color/white"
 
 
             >
 
-            <CheckBox
+            <ImageView
+                android:id="@+id/DDock_Check_Box_Image"
+                android:layout_marginLeft="10dp"
+
+
                 android:layout_width="16.67dp"
                 android:layout_height="16.67dp"
                 android:layout_centerVertical="true"
-                android:button="@drawable/checkbox_selector"
-                android:checked="false"
+                android:background="@drawable/check_box_false"
 
                 />
 
@@ -194,7 +202,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="424"
+            android:layout_weight="99"
             android:background="#ffffff"
 
             >
@@ -205,7 +213,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="3418"
+            android:layout_weight="784"
             android:orientation="horizontal"
 
             >
@@ -248,21 +256,23 @@
         </LinearLayout>
 
         <RelativeLayout
+            android:id="@+id/Personal_Info_Check_Box_btn"
+
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="660"
-            android:background="#ffffff"
+            android:layout_weight="199"
 
 
             >
 
-            <CheckBox
+            <ImageView
+                android:id="@+id/Personal_Info_Check_Box_Image"
+                android:layout_marginLeft="10dp"
+
                 android:layout_width="16.67dp"
                 android:layout_height="16.67dp"
                 android:layout_centerVertical="true"
-
-                android:button="@drawable/checkbox_selector"
-                android:checked="false"
+                android:background="@drawable/check_box_false"
 
                 />
 
