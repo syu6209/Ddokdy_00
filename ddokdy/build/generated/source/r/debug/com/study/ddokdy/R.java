@@ -472,10 +472,11 @@ containing a value of this type.
         public static final int progressbar_indeterminate_holo6=0x7f020024;
         public static final int progressbar_indeterminate_holo7=0x7f020025;
         public static final int progressbar_indeterminate_holo8=0x7f020026;
-        public static final int shape_round=0x7f020027;
-        public static final int shape_round_orange=0x7f020028;
-        public static final int topbar_background=0x7f020029;
-        public static final int topbar_diagonal_line=0x7f02002a;
+        public static final int right_arrow_btn=0x7f020027;
+        public static final int shape_round=0x7f020028;
+        public static final int shape_round_orange=0x7f020029;
+        public static final int topbar_background=0x7f02002a;
+        public static final int topbar_diagonal_line=0x7f02002b;
     }
     public static final class id {
         public static final int Email_Spinner=0x7f0a0012;
