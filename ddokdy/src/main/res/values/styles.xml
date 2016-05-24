@@ -29,4 +29,20 @@
         <item name="android:textSize">@dimen/textsize_subtitle</item>
         <item name="android:textColor">@color/blackgray</item>
     </style>
+    <style name="CustomSmallText" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_small</item>
+        <item name="android:textColor">@color/blackgray</item>
+    </style>
+
+    <style name="line_black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/lineHeight</item>
+        <item name="android:background">@color/blackgray</item>
+
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:layout_marginBottom">@dimen/default_margin</item>
+
+    </style>
 </resources>

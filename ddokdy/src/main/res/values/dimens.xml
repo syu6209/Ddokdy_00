@@ -2,14 +2,18 @@
 <resources>
     <dimen name="textsize_title">14.2dp</dimen>
     <dimen name="textsize_subtitle">10.7dp</dimen>
+    <dimen name="textsize_small">10dp</dimen>
     <dimen name="margin_samll">7.5dp</dimen>
     <dimen name="default_margin">10dp</dimen>
+    <dimen name="half_margin">5dp</dimen>
     <dimen name="default_round">1.25dp</dimen>
     <dimen name="line_spacing">10dp</dimen>
     <dimen name="px_90">22.5dp</dimen>
     <dimen name="px_50">12.5dp</dimen>
     <dimen name="px_165">55dp</dimen>
     <dimen name="px_160">53dp</dimen>
+    <dimen name="px_225">75dp</dimen>
+    <dimen name="lineHeight">0.6dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>

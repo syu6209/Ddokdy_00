@@ -4,6 +4,10 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_make_new_study.xml",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\activity_make_new_study.xml"
+    },
+    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_study_main.xml",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\activity_study_main.xml"
     },

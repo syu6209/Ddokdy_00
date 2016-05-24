@@ -118,10 +118,16 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		});
 	}
 	private void click_study(int position) {
-		StudyData mData = mListData.get(position);
-		Intent intent = new Intent(getActivity(), StudyMainActivity.class);
-		intent.putExtra("idx", mData.idx);
-		startActivity(intent);
+		Intent intent = null;
+		if(position<mListData.size()) {
+			StudyData mData = mListData.get(position);
+			intent = new Intent(getActivity(), StudyMainActivity.class);
+			intent.putExtra("idx", mData.idx);
+			startActivity(intent);
+		}else{
+			intent = new Intent(getActivity(), MakeNewStudyActivity.class);
+			startActivity(intent);
+		}
 	}
 	private void click_detail(int position) {
 		StudyData mData = mListData.get(position);

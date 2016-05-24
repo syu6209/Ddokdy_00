@@ -35,12 +35,10 @@
             android:label="@string/title_activity_main" />
         <activity
             android:name="com.study.ddokdy.Register_Activity"
-            android:label="@string/title_activity_register" >
-        </activity>
+            android:label="@string/title_activity_register" />
         <activity
             android:name="com.study.ddokdy.Setup_Activity"
-            android:label="@string/title_activity_setup" >
-        </activity>
+            android:label="@string/title_activity_setup" />
         <activity
             android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
@@ -58,6 +56,7 @@
         <activity
             android:name="com.study.ddokdy.StudyMainActivity"
             android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="com.study.ddokdy.MakeNewStudyActivity" />
     </application>
 
 </manifest>
