@@ -32,6 +32,7 @@ gen/
 local.properties
 
  
+/ddokdy/build.gradle
 
 # Windows thumbnail db
 

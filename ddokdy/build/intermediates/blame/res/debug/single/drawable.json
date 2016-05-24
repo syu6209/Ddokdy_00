@@ -1,7 +1,7 @@
 [
     {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_holo_light_right.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable\\progress_horizontal_holo_light_right.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable/progress_horizontal_holo_light_right.xml",
@@ -12,12 +12,16 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/drawable/progress_horizontal_holo_light.xml"
     },
     {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_holo_light.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable\\progress_horizontal_holo_light.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable/indicator_bg_bottom.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_holo_light.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable\\progress_horizontal_holo_light.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable/indicator_bg_top.xml",
@@ -28,12 +32,8 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable\\progress_indeterminate_horizontal_holo.xml"
     },
     {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_holo_light_right.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable\\progress_horizontal_holo_light_right.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\drawable\\indicator_bg_top.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable/progress_indeterminate_horizontal_holo.xml",
