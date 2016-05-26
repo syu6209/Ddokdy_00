@@ -23,7 +23,7 @@
             android:id="@+id/topbar_btn_close"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/btn_search"
+            android:src="@drawable/btn_back"
             android:contentDescription="@null"
             android:background="@null"
             sl:scale_left="0"
@@ -40,6 +40,17 @@
             sl:scale_top="160"
             sl:scale_width="1080"
             sl:scale_height="16"/>
+        <ImageButton
+            android:id="@+id/StudyRoom_Circle_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_circle"
+            android:contentDescription="@null"
+            android:background="@null"
+            sl:scale_left="920"
+            sl:scale_top="0"
+            sl:scale_width="160"
+            sl:scale_height="160"/>
     </com.jnm.android.widget.ScalableLayout>
     <TextView
         android:id="@+id/title_centerText"

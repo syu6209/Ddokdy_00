@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shape_round_gray"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="119.33dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="105.67dp"
+                android:layout_marginLeft="8.33dp"
+                android:layout_marginTop="8.33dp"
+
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:id="@+id/StudyRoom_Memeber_listbox_Profile_Image"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#b62020" />
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/profile_shape"></RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/StudyRoom_Memeber_listbox_Master_Flag"
+                    android:layout_width="40.33dp"
+                    android:layout_height="40.33dp"
+                    android:background="@drawable/study_master_flag">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="똑"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_subtitle" />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="231">
+
+                <TextView
+                    android:id="@+id/StudyRoom_Memeber_listbox_Name_Text"
+                    style="@style/CustomTitleText"
+                    android:layout_marginLeft="12.33dp"
+                    android:layout_marginTop="18.67dp"
+                    android:text="이름" />
+
+                <TextView
+                    android:id="@+id/StudyRoom_Memeber_listbox_Content_Text"
+
+                    style="@style/CustomSubTitleText"
+                    android:layout_marginLeft="12.33dp"
+                    android:layout_marginTop="44dp"
+                    android:text="한줄 프로필" />
+
+                <RelativeLayout
+                    android:id="@+id/StudyRoom_Memeber_listbox_Btn"
+
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/btn_detail_dot3_blackgray" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="150">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8.33dp"
+
+                    android:background="@drawable/shape_round">
+
+                    <RelativeLayout
+                        android:id="@+id/StudyRoom_Memeber_listbox_attendance_graph"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shape_round_mint"
+                        >
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/StudyRoom_Memeber_listbox_attendance_text"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.33dp"
+
+                    android:text="aaaa"
+
+                    android:textColor="#a40326"
+
+                    />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

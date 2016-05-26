@@ -59,11 +59,30 @@
     <string name="text_version_info">버전 정보</string>
     <string name="text_version">버전</string>
 
+    <string name="text_StudyRoom_activity_title_member">멤버</string>
+    <string name="text_StudyRoom_activity_title_member_management">멤버관리</string>
+
+    <string name="text_attend">출석</string>
+    <string name="text_do_not_attend">미출석</string>
+    <string name="text_mon">MON</string>
+    <string name="text_tue">TUE</string>
+    <string name="text_wed">WED</string>
+    <string name="text_thr">THR</string>
+    <string name="text_fri">FRI</string>
+    <string name="text_sat">SAT</string>
+
+    <string name="text_sun">SUN</string>
+
+
+
+
 
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_setup">SetupActivity</string>
+    <string name="title_activity_studyroom">StudyRoomActivity</string>
+
 
 
     <color name="color_orange">#FFBC91</color>

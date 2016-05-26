@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="53.67dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+
+        >
+        <TextView
+            android:id="@+id/listbox_studyroom_member_management_name_text"
+
+            style="@style/CustomSubTitleText"
+            android:text="이름"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="68.33dp"
+
+
+            />
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            sl:scale_base_width="1080"
+            sl:scale_base_height="161">
+
+            >
+
+            <ImageView
+                android:id="@+id/listbox_studyroom_member_management_profile_Image"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/defalut_profile_image"
+                sl:scale_left="59"
+                sl:scale_top="30"
+                sl:scale_width="102"
+                sl:scale_height="102"
+
+                />
+
+
+        </com.jnm.android.widget.ScalableLayout>
+
+        <RelativeLayout
+            android:id="@+id/listbox_studyroom_member_management_attend_Btn"
+
+            android:layout_width="84.67dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            >
+
+            <RelativeLayout
+                android:id="@+id/listbox_studyroom_member_management_attend_Image"
+                android:layout_width="51.67dp"
+                android:layout_height="22.33dp"
+                android:background="@drawable/shape_round_mint"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:id="@+id/listbox_studyroom_member_management_attend_text"
+
+                style="@style/CustomSubTitleText"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</LinearLayout>
+

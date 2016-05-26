@@ -40,6 +40,9 @@
             android:name="com.study.ddokdy.Setup_Activity"
             android:label="@string/title_activity_setup" />
         <activity
+            android:name="com.study.ddokdy.StudyRoomActivity"
+            android:label="@string/title_activity_studyroom" />
+        <activity
             android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity

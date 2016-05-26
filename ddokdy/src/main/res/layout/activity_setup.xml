@@ -21,14 +21,13 @@
 
             >
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/topbar_btn_mypage"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
                 android:layout_width="18dp"
                 android:layout_height="18dp"
-                android:background="@null"
-                android:src="@drawable/cross_mark"
+                android:background="@drawable/cross_mark"
 
                 />
         </RelativeLayout>

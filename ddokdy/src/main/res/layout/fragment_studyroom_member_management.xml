@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/StudyRoom_Member_Management_Date_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="133"
+        android:background="@color/white">
+
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_base_height="133"
+            sl:scale_base_width="1080"
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/btn_arrow_right"
+                sl:scale_height="160"
+                sl:scale_left="920"
+                sl:scale_top="0"
+                sl:scale_width="160" />
+
+
+        </com.jnm.android.widget.ScalableLayout>
+
+        <TextView
+            android:id="@+id/management_select_date"
+            style="@style/CustomTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="2011/11/11 오늘날짜???" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="161"
+        android:background="@color/gray1">
+
+
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_base_height="133"
+            sl:scale_base_width="1080">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/mint"
+                sl:scale_height="64"
+                sl:scale_left="61"
+                sl:scale_top="47"
+                sl:scale_width="641"></RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                sl:scale_height="64"
+                sl:scale_left="61"
+                sl:scale_top="47"
+                sl:scale_width="641"></RelativeLayout>
+
+
+        </com.jnm.android.widget.ScalableLayout>
+        <TextView
+            style="@style/CustomSubTitleText"
+            android:text="출석륢ㄴㅇㅁㄴㅇ"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="33.33dp"
+            android:textColor="@color/blackgray"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="766" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="314"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="177"
+
+                        >
+
+                        <TextView
+                            style="@style/CustomSubTitleText"
+                            android:layout_alignParentRight="true"
+                            android:text="출석" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="138"
+
+                        >
+
+                        <TextView
+                            style="@style/CustomSubTitleText"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="25.33dp"
+                            android:text="4" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="177"
+
+                        >
+
+                        <TextView
+                            style="@style/CustomSubTitleText"
+                            android:layout_alignParentRight="true"
+                            android:text="미출석" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="138"
+
+                        >
+
+                        <TextView
+                            style="@style/CustomSubTitleText"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="25.33dp"
+                            android:text="4" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="91"
+        android:background="@color/mint_dark"
+        >
+        <TextView
+            style="@style/CustomSubTitleText"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="전체 출석"
+            android:textColor="@color/white"
+
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1290">
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/StudyRoom_Member_Management_PullToRefreshListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#00000000"
+            android:dividerHeight="0dp"
+
+
+
+            />
+
+
+    </RelativeLayout>
+</LinearLayout>

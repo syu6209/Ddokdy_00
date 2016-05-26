@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,6 +24,8 @@ import prv.zozi.utils.Config;
 import prv.zozi.utils.ZMethod;
 
 public class StudyMainActivity extends Activity {
+
+
     ZBadgeView zbv[] = new ZBadgeView[5];
     PullToRefreshListView mListview;
     ArrayList<StudyPostData> mListData;
@@ -127,14 +130,18 @@ public class StudyMainActivity extends Activity {
     private class ZbadgeViewClickListener implements View.OnClickListener{
         int num;
         public ZbadgeViewClickListener(int num){
+
             this.num = num;
+
         }
         @Override
         public void onClick(View v) {
-//        Intent intent = new Intent(getApplication(), StudyRoom.class);
-//        intent.putExtra("type", num);
-//        startActivity(intent);
+        Intent intent = new Intent(getApplication(), StudyRoomActivity.class);
+            intent.putExtra("type", num);
+            startActivity(intent);
 //        StudyRoom 클래스는 액티비티고 그안에서 프레그먼트로 각각 채팅, 과제, 일정 들을 그리기
+
+
         }
     }
 
