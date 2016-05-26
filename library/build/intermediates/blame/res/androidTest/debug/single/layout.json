@@ -4,28 +4,8 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_horizontal.xml"
     },
     {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_google_style.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_google_style.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_google_style.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_google_style.xml"
-    },
-    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/res/merged/androidTest/debug/layout/pulling_progress_layout.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/bundles/debug/res/layout/pulling_progress_layout.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pulling_progress_layout.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pulling_progress_layout.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_progress_google_style.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_progress_google_style.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_google_style.xml",
@@ -34,46 +14,6 @@
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_vertical.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_vertical.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_progress_google_style.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_progress_google_style.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pulling_progress_layout.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pulling_progress_layout.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_google_style.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_google_style.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\D:\\git_project\\Ddokdy\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\D:\\git_project\\Ddokdy\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_progress_google_style.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\Users\\ibyeongmu\\Documents\\android\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_progress_google_style.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pulling_progress_layout.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pulling_progress_layout.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/library/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_progress_google_style.xml",

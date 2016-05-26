@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\anim\\slide_out_to_bottom.xml"
-    },
-    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/anim/slide_in_from_top.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/anim/slide_in_from_top.xml"
     },
@@ -16,19 +12,7 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/anim/slide_out_to_bottom.xml"
     },
     {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\anim\\slide_out_to_top.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\anim\\slide_in_from_bottom.xml"
-    },
-    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/anim/slide_in_from_bottom.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/anim/slide_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\exploded-aar\\Ddokdy_00\\library\\unspecified\\res\\anim\\slide_in_from_top.xml"
     }
 ]
