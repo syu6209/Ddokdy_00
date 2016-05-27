@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/menu_box"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/blackgray"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <TextView
+              style="@style/CustomSubTitleText"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+
+                android:text="@string/text_piture"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <TextView
+                style="@style/CustomSubTitleText"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:text="@string/text_movie"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <TextView
+                style="@style/CustomSubTitleText"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+
+                android:text="@string/text_file"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/chat_text"
+        android:layout_above="@+id/menu_box"
+        android:layout_width="match_parent"
+        android:layout_height="55.67dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="160"
+            sl:scale_base_height="160"
+            sl:scale_base_width="160"
+            >
+            <ImageView
+                android:id="@+id/chat_option_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_left="0"
+                sl:scale_top="0"
+                sl:scale_width="160"
+                sl:scale_height="160"
+                android:background="@drawable/btn_plus"
+                />
+
+
+        </com.jnm.android.widget.ScalableLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="760"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/blackgray"
+                android:hint="입력"
+                android:background="@null"
+
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="160"
+            android:background="@color/mint_dark"
+
+            >
+            <TextView
+                style="@style/CustomSubTitleText"
+                android:text="글쓰기"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_above="@+id/chat_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eddaeb"
+
+        >
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

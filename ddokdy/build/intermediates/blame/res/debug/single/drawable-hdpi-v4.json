@@ -16,10 +16,6 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/drawable-hdpi-v4/progressbar_indeterminate_holo5.png"
     },
     {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-hdpi-v4/cross_mark.png",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-hdpi/cross_mark.png"
-    },
-    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_ic_googleplayservices.png",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/drawable-hdpi/common_ic_googleplayservices.png"
     },

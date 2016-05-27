@@ -117,7 +117,7 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
         btn_topbar_mypage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                viewpager.setCurrentItem(2);
+                viewpager.setCurrentItem(0);
             }
         });
     }

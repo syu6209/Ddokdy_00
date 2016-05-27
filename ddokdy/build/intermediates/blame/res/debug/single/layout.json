@@ -92,6 +92,10 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/activity_register.xml"
     },
     {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/fragment_studyroom_chat.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/fragment_studyroom_chat.xml"
+    },
+    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/layout_zbadgeview.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/layout_zbadgeview.xml"
     },

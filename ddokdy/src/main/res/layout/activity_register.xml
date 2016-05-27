@@ -1,574 +1,551 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_orange"
-    android:orientation="vertical">
+    android:background="#11ee11"
+    android:orientation="vertical"
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1020"
-        android:background="#efefef">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:text="회원가입"
-            android:textColor="@color/blackgray"
-            android:textSize="14.97sp" />
-
-
-    </RelativeLayout>
-
+    >
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="767"
-        android:background="@color/white"
-        android:orientation="horizontal"
-
-        >
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="99">
-
-
-        </LinearLayout>
-
-        <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="784"
-
-            >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:text="전체약관에 동의합니다"
-                android:textColor="@color/blackgray"
-                android:textSize="11.13sp"
-
-                />
-
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/Whole_Check_Box_btn"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="199"
-            >
-            <!-- 16.67-->
-
-            <ImageView
-                android:id="@+id/Whole_Check_Box_Image"
-                android:layout_marginLeft="10dp"
-                android:layout_width="16.67dp"
-                android:layout_height="16.67dp"
-                android:layout_centerVertical="true"
-                android:background="@drawable/check_box_false"
-
-                />
-
-
-        </RelativeLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#b5b6b6"
-
-        >
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="767"
-        android:background="#ffffff">
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="99"
-            android:background="#ffffff"
-
-            >
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="784"
-            android:orientation="horizontal"
-
-            >
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-
-                >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="11.27dp"
-                    android:text="똑디 이용약관 동의(필수)"
-                    android:textColor="@color/blackgray"
-                    android:textSize="11.13sp"
-
-                    />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-
-                >
-
-                <Button
-                    android:layout_width="51.27dp"
-                    android:layout_height="22dp"
-                    android:layout_centerVertical="true"
-                    android:background="@drawable/clause_btn"
-                    android:text="약관보기"
-
-                    android:textColor="@color/blackgray"
-                    android:textSize="11.13sp" />
-            </RelativeLayout>
-
-
-        </LinearLayout>
-
-        <RelativeLayout
-            android:id="@+id/DDock_Check_Box_Btn"
-
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="199"
-            android:background="@color/white"
-
-
-            >
-
-            <ImageView
-                android:id="@+id/DDock_Check_Box_Image"
-                android:layout_marginLeft="10dp"
-
-
-                android:layout_width="16.67dp"
-                android:layout_height="16.67dp"
-                android:layout_centerVertical="true"
-                android:background="@drawable/check_box_false"
-
-                />
-
-        </RelativeLayout>
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#b5b6b6"
-
-        ></LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="767"
-        android:background="#ffffff">
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="99"
-            android:background="#ffffff"
-
-            >
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="784"
-            android:orientation="horizontal"
-
-            >
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-
-                >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="11.27dp"
-                    android:text="개인정 수집 / 이용약관 동의(필수)"
-                    android:textColor="@color/blackgray"
-                    android:textSize="11.13sp"
-
-                    />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-
-                >
-
-                <Button
-                    android:layout_width="51.27dp"
-                    android:layout_height="22dp"
-                    android:layout_centerVertical="true"
-                    android:background="@drawable/clause_btn"
-                    android:text="약관보기"
-                    android:textColor="@color/blackgray"
-                    android:textSize="11.13sp" />
-            </RelativeLayout>
-
-
-        </LinearLayout>
-
-        <RelativeLayout
-            android:id="@+id/Personal_Info_Check_Box_btn"
-
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="199"
-
-
-            >
-
-            <ImageView
-                android:id="@+id/Personal_Info_Check_Box_Image"
-                android:layout_marginLeft="10dp"
-
-                android:layout_width="16.67dp"
-                android:layout_height="16.67dp"
-                android:layout_centerVertical="true"
-                android:background="@drawable/check_box_false"
-
-                />
-
-        </RelativeLayout>
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:background="#efefef"
-
-        ></LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3561"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray1"
+            sl:scale_base_height="240"
+            sl:scale_base_width="1080">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray1"
+                sl:scale_height="240"
+                sl:scale_left="0"
+                sl:scale_top="0"
+                sl:scale_width="1080">
+
+                <TextView
+                    style="@style/CustomTitleText"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/text_register"
+                    android:textColor="@color/blackgray" />
+            </RelativeLayout>
+        </com.jnm.android.widget.ScalableLayout>
+
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            sl:scale_base_height="183"
+            sl:scale_base_width="1080">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="183"
+                sl:scale_left="102"
+                sl:scale_top="0"
+                sl:scale_width="979">
+
+                <TextView
+                    style="@style/CustomSubTitleText"
+                    android:layout_centerVertical="true"
+                    android:text="@string/text_whole_clause_agree" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/Whole_Check_Box_btn"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="183"
+                sl:scale_left="875"
+                sl:scale_top="0"
+                sl:scale_width="165">
+
+                <ImageView
+                    android:id="@+id/Whole_Check_Box_Image"
+
+                    android:layout_width="17.67dp"
+                    android:layout_height="17.67dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/check_box_false" />
+            </RelativeLayout>
+        </com.jnm.android.widget.ScalableLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2316"
-            android:background="#ffffff"
-            android:orientation="vertical">
+            android:layout_height="1dp"
+            android:background="@color/gray1"></LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            sl:scale_base_height="183"
+            sl:scale_base_width="1080">
 
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="424"
-                    >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="183"
+                sl:scale_left="102"
+                sl:scale_top="0"
+                sl:scale_width="979">
 
-
-                </LinearLayout>
+                <TextView
+                    android:id="@+id/a_text"
+                    style="@style/CustomSubTitleText"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:text="@string/text_ddok_clause_agree" />
 
                 <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="924"
-
-                    >
+                    android:layout_width="51.67dp"
+                    android:layout_height="22.67dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/a_text"
+                    android:background="@drawable/shape_round_mint">
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentBottom="true"
-                        android:layout_marginBottom="6.23dp"
-                        android:text="이메일"
-                        android:textColor="@color/blackgray"
-                        android:textSize="11.13sp" />
+                        style="@style/CustomSubTitleText"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="약관보기"
+                        android:textColor="@color/white" />
                 </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:id="@+id/DDock_Check_Box_Btn"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="183"
+                sl:scale_left="875"
+                sl:scale_top="0"
+                sl:scale_width="165">
+
+                <ImageView
+                    android:id="@+id/DDock_Check_Box_Image"
+
+                    android:layout_width="17.67dp"
+                    android:layout_height="17.67dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/check_box_false" />
+            </RelativeLayout>
+        </com.jnm.android.widget.ScalableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray1"></LinearLayout>
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            sl:scale_base_height="183"
+            sl:scale_base_width="1080">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="183"
+                sl:scale_left="102"
+                sl:scale_top="0"
+                sl:scale_width="979">
+
+                <TextView
+                    android:id="@+id/b_text"
+                    style="@style/CustomSubTitleText"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:text="@string/text_personal_info_agree" />
 
                 <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="3160">
-
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginRight="54dp">
-
-                        <EditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentBottom="true"
-                            android:layout_marginBottom="6dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="40dp"
-                            android:background="@null"
-                            android:lines="1"
-                            android:maxLength="20"
-                            android:textColor="@color/blackgray"
-                            android:textCursorDrawable="@null"
-                            android:textSize="11.13sp"
-
-                            />
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="5dp"
-                            android:layout_alignParentBottom="true"
-                            android:src="@drawable/edittext" />
-
-
-                    </RelativeLayout>
-
-                </RelativeLayout>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="424"
-                    >
-
-
-                </LinearLayout>
-
-                <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="924"
-
-                    >
+                    android:layout_width="51.67dp"
+                    android:layout_height="22.67dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/b_text"
+                    android:background="@drawable/shape_round_mint">
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentBottom="true"
-                        android:layout_marginBottom="6.23dp"
-                        android:text="이메일"
-                        android:textColor="@color/blackgray"
-                        android:textSize="11.13sp" />
+                        style="@style/CustomSubTitleText"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="약관보기"
+                        android:textColor="@color/white" />
                 </RelativeLayout>
+            </RelativeLayout>
 
-                <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="3160">
+            <RelativeLayout
+                android:id="@+id/Personal_Info_Check_Box_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="183"
+                sl:scale_left="875"
+                sl:scale_top="0"
+                sl:scale_width="165">
+
+                <ImageView
+                    android:id="@+id/Personal_Info_Check_Box_Image"
+
+                    android:layout_width="17.67dp"
+                    android:layout_height="17.67dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/check_box_false" />
+            </RelativeLayout>
+        </com.jnm.android.widget.ScalableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_margin"
+            android:background="@color/gray1"></LinearLayout>
+
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_base_height="179"
+            sl:scale_base_width="1080"
+            android:background="@color/white"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="179"
+                sl:scale_left="102"
+                sl:scale_top="0"
+                sl:scale_width="226"
+                >
+                <TextView
+                    style="@style/CustomSubTitleText"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/text_name"
+                    android:textColor="@color/blackgray"
+                    android:layout_marginBottom="8dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="179"
+                sl:scale_left="327"
+                sl:scale_top="0"
+                sl:scale_width="597"
+                >
+                <EditText
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="8dp"
+                    android:maxLines="1"
+                    android:maxLength="30"
+                    android:textSize="10.67dp"
+                    android:background="@null"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="@drawable/edittext"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+        </com.jnm.android.widget.ScalableLayout>
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_base_height="179"
+            sl:scale_base_width="1080"
+            android:background="@color/white"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="179"
+                sl:scale_left="102"
+                sl:scale_top="0"
+                sl:scale_width="226"
+                >
+                <TextView
+                    style="@style/CustomSubTitleText"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/text_email"
+                    android:textColor="@color/blackgray"
+                    android:layout_marginBottom="8dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="179"
+                sl:scale_left="327"
+                sl:scale_top="0"
+                sl:scale_width="597"
+                >
+                <TextView
+                    android:id="@+id/aa_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\@"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dp"
+
+                    android:paddingLeft="30dp"
+                    android:textSize="10.67dp"
+
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/blackgray"
+                    />
+
+                <Spinner
+                    android:id="@+id/Email_Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@+id/aa_text"
+                    android:spinnerMode="dialog"
+                    android:textColorHint="@color/blackgray"
+                    android:background="@null"
+
+                    />
 
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginRight="54dp">
-
-                        <EditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentBottom="true"
-                            android:layout_marginBottom="6dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="40dp"
-                            android:background="@null"
-                            android:lines="1"
-                            android:maxLength="10"
-                            android:textColor="@color/blackgray"
-                            android:textCursorDrawable="@null"
-                            android:textSize="11.13sp"
-
-                            />
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="5dp"
-                            android:layout_alignParentBottom="true"
-                            android:src="@drawable/edittext" />
-
-                        <TextView
-                            android:id="@+id/dd"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentBottom="true"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginBottom="6.23dp"
-                            android:text="\@"
-                            android:textColor="@color/blackgray"
-                            android:textSize="11.13sp" />
-
-                        <Spinner
-                            android:id="@+id/Email_Spinner"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentBottom="true"
-                            android:layout_marginLeft="2dp"
-                            android:layout_toRightOf="@+id/dd"
-                            android:spinnerMode="dialog"
-                            android:textColorHint="@color/blackgray"
-                            android:background="@null"
-
-                            />
-
-                    </RelativeLayout>
-
-                </RelativeLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="424"
-                    >
-
-
-                </LinearLayout>
-
-                <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="924"
-
-                    >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentBottom="true"
-                        android:layout_marginBottom="6.23dp"
-                        android:text="이메일"
-                        android:textColor="@color/blackgray"
-                        android:textSize="11.13sp" />
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="3160">
-
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginRight="54dp">
-
-                        <EditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentBottom="true"
-                            android:layout_marginBottom="6dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="40dp"
-                            android:background="@null"
-                            android:lines="1"
-                            android:maxLength="20"
-                            android:textColor="@color/blackgray"
-                            android:textCursorDrawable="@null"
-                            android:textSize="11.13sp"
-
-                            />
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="5dp"
-                            android:layout_alignParentBottom="true"
-                            android:src="@drawable/edittext" />
-
-
-
-                    </RelativeLayout>
-
-                </RelativeLayout>
-
-            </LinearLayout>
-
-
+                <EditText
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="65.67dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:maxLines="1"
+                    android:maxLength="15"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="10.67dp"
+                    android:background="@null"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="@drawable/edittext"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+        </com.jnm.android.widget.ScalableLayout>
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_base_height="179"
+            sl:scale_base_width="1080"
+            android:background="@color/white"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="179"
+                sl:scale_left="102"
+                sl:scale_top="0"
+                sl:scale_width="226"
+                >
+                <TextView
+                    style="@style/CustomSubTitleText"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/text_pwd"
+                    android:textColor="@color/blackgray"
+                    android:layout_marginBottom="8dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="179"
+                sl:scale_left="327"
+                sl:scale_top="0"
+                sl:scale_width="597"
+                >
+                <EditText
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="8dp"
+                    android:maxLines="1"
+                    android:maxLength="30"
+                    android:textSize="10.67dp"
+                    android:background="@null"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="@drawable/edittext"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+        </com.jnm.android.widget.ScalableLayout>
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_base_height="179"
+            sl:scale_base_width="1080"
+            android:background="@color/white"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="179"
+                sl:scale_left="102"
+                sl:scale_top="0"
+                sl:scale_width="226"
+                >
+                <TextView
+                    style="@style/CustomSubTitleText"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/text_pwd2"
+                    android:textColor="@color/blackgray"
+                    android:layout_marginBottom="8dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="179"
+                sl:scale_left="327"
+                sl:scale_top="0"
+                sl:scale_width="597"
+                >
+                <EditText
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="10.67dp"
+                    android:maxLines="1"
+                    android:maxLength="30"
+                    android:background="@null"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="@drawable/edittext"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+        </com.jnm.android.widget.ScalableLayout>
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_base_height="179"
+            sl:scale_base_width="1080"
+            android:background="@color/white"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="179"
+                sl:scale_left="102"
+                sl:scale_top="0"
+                sl:scale_width="226"
+                >
+                <TextView
+                    style="@style/CustomSubTitleText"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/text_tel"
+                    android:textColor="@color/blackgray"
+                    android:layout_marginBottom="8dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_height="179"
+                sl:scale_left="327"
+                sl:scale_top="0"
+                sl:scale_width="597"
+                >
+                <EditText
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="8dp"
+                    android:maxLines="1"
+                    android:maxLength="30"
+                    android:textSize="10.67dp"
+                    android:background="@null"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="@drawable/edittext"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+        </com.jnm.android.widget.ScalableLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_margin"
+            android:background="@color/white"
+            >
         </LinearLayout>
-
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1245"
-            android:background="#ffffff" />
+            android:layout_height="@dimen/default_margin"
+            android:background="@color/gray1"
+            >
+        </LinearLayout>
+        <com.jnm.android.widget.ScalableLayout
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_base_height="161"
+            sl:scale_base_width="1080"
+
+            >
+            <RelativeLayout
+                android:id="@+id/register_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/mint"
+
+                sl:scale_height="161"
+                sl:scale_left="0"
+                sl:scale_top="0"
+                sl:scale_width="1080"
+
+
+
+                >
+                <TextView
+                    style="@style/CustomSubTitleText"
+                    android:text="@string/text_register"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+
+
+
+        </com.jnm.android.widget.ScalableLayout>
+
+
+
 
 
     </LinearLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="666"
-        android:background="#e9e6df">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"
-            android:text="회원가입"
-            android:textColor="#edebe5"
-            android:textSize="10.8sp"
-
-            />
-
-
-    </RelativeLayout>
-</LinearLayout>
+</ScrollView>

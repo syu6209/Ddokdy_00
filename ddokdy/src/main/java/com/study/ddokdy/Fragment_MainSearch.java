@@ -94,7 +94,7 @@ public class Fragment_MainSearch extends android.support.v4.app.Fragment{
 		btn_topbar_search.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				viewpager.setCurrentItem(0);
+				viewpager.setCurrentItem(2);
 			}
 		});
 		tv_topbar_title.setOnClickListener(new View.OnClickListener() {

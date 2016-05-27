@@ -24,11 +24,12 @@
 			       sl:scale_top="0"
 			       sl:scale_width="1080"
 			       sl:scale_height="160"/>
-				<ImageButton 
-			      android:id="@+id/topbar_btn_search"
-			      android:layout_width="wrap_content"
+				<ImageButton
+					android:id="@+id/topbar_btn_mypage"
+					android:src="@drawable/btn_mypage"
+
+					android:layout_width="wrap_content"
 			      android:layout_height="wrap_content"
-			      android:src="@drawable/btn_search"
 			      android:contentDescription="@null"
 			      android:background="@null"
 			      sl:scale_left="0"
@@ -36,11 +37,13 @@
 			      sl:scale_width="160"
 			      sl:scale_height="160"/>
 			    
-			    <ImageButton android:id="@+id/topbar_btn_mypage"
-			      android:layout_width="wrap_content"
+			    <ImageButton
+					android:id="@+id/topbar_btn_search"
+					android:src="@drawable/btn_search"
+
+					android:layout_width="wrap_content"
 			      android:layout_height="wrap_content"
 			      android:background="@null"
-			      android:src="@drawable/btn_mypage"
 			      android:contentDescription="@null"
 			      sl:scale_left="920"
 			      sl:scale_top="0"

@@ -4,7 +4,7 @@
         <size android:width="16.63dp" android:height="16.63dp" />
 
     </item>
-    <item android:state_checked="true" android:drawable="@drawable/check_box_true" >
+    <item android:state_checked="true" android:drawable="@drawable/check_box_true_orange" >
         <size android:width="16.63dp" android:height="16.63dp" />
 
     </item>

@@ -1,41 +1,241 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_orange"
-    tools:context="${relativePackage}.${activityClass}" >
-
-    <ImageView 
+    android:orientation="vertical"
+    android:background="#1111ee"
+    tools:context="${relativePackage}.${activityClass}">
+    <com.jnm.android.widget.ScalableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher"
-        android:contentDescription="@null"
-        android:layout_centerInParent="true"/>
-    <LinearLayout 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="20dp"
-        android:layout_alignParentBottom="true">
-        <LinearLayout 
-            android:id="@+id/btnll_login_kakao"
-            android:layout_width="match_parent"
+        sl:scale_base_width="1080"
+        sl:scale_base_height="1920"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="20dp"
-            android:layout_margin="10dp"
-            android:background="#F8B62D"
-            android:orientation="vertical">
-            
-        </LinearLayout>
-        <LinearLayout 
-            android:id="@+id/btnll_login_naver"
-            android:layout_width="match_parent"
+            sl:scale_left="0"
+            sl:scale_top="0"
+            sl:scale_height="512"
+            sl:scale_width="1080"
+            android:background="@color/color_orange"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="21.67sp"
+
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="20dp"
-            android:layout_margin="10dp"
-            android:background="#22AC38"
-            android:orientation="vertical">
-            
-        </LinearLayout>
-    </LinearLayout>
-</RelativeLayout>
+            sl:scale_left="0"
+            sl:scale_top="512"
+            sl:scale_height="1408"
+            sl:scale_width="1080"
+            android:background="@color/white"
+            >
+            <com.jnm.android.widget.ScalableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sl:scale_base_height="1335"
+                sl:scale_base_width="1080"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    sl:scale_left="159"
+                    sl:scale_top="133"
+                    sl:scale_height="258"
+                    sl:scale_width="766"
+                    android:background="@color/gray1"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="511"
+                        android:orientation="vertical"
+                        >
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            >
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="18.67dp"
+                                android:textSize="10.33dp"
+
+                                android:hint="@string/text_hint_email"
+                                android:maxLines="1"
+
+                                android:background="@null"
+                                />
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            >
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="18.67dp"
+                                android:textSize="10.33dp"
+                                android:maxLines="1"
+
+                                android:hint="@string/text_hint_pwd"
+
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:background="@null"
+
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="259">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/text_login"
+                            android:textColor="@color/blackgray"
+                            />
+
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/Auto_Login_Btn"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    sl:scale_left="155"
+                    sl:scale_top="412"
+                    sl:scale_height="86"
+                    sl:scale_width="234"
+                    >
+                    <TextView
+                        style="@style/CustomSmallText"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/text_auto_login"
+                        />
+                    <com.jnm.android.widget.ScalableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_base_width="234"
+                        sl:scale_base_height="86"
+                        >
+                        <ImageView
+                            android:id="@+id/Auto_Login_Image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            sl:scale_left="0"
+                            sl:scale_top="19"
+                            sl:scale_height="54"
+                            sl:scale_width="54"
+                            android:background="@drawable/check_box_false"
+
+                            />
+
+
+                    </com.jnm.android.widget.ScalableLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/find_Id_Pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    sl:scale_left="635"
+                    sl:scale_top="412"
+                    sl:scale_height="86"
+                    sl:scale_width="292"
+                    >
+                    <TextView
+                        style="@style/CustomSmallText"
+                        android:layout_centerVertical="true"
+                        android:text="@string/text_id_pwd_find"
+                        />
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:id="@+id/btnll_login_naver"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    sl:scale_left="155"
+                    sl:scale_top="561"
+                    sl:scale_height="100"
+                    sl:scale_width="768"
+                    android:background="@drawable/naver_login_btn"
+
+                    ></LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    sl:scale_left="155"
+                    sl:scale_top="683"
+                    sl:scale_height="100"
+                    sl:scale_width="768"
+                    android:background="@drawable/facebook_login_btn"
+
+                    ></LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnll_login_kakao"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    sl:scale_left="155"
+                    sl:scale_top="799"
+                    sl:scale_height="100"
+                    sl:scale_width="768"
+                    android:background="@drawable/kakao_login_btn"
+
+                    android:orientation="horizontal"></LinearLayout>
+
+
+
+
+            </com.jnm.android.widget.ScalableLayout>
+
+
+            </RelativeLayout>
+
+
+
+    </com.jnm.android.widget.ScalableLayout>
+
+
+
+</ScrollView>

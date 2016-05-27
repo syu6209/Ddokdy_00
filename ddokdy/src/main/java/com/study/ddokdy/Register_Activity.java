@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -19,8 +21,9 @@ import prv.zozi.utils.ZMethod;
  * Created by ibyeongmu on 16. 5. 21..
  */
 public class Register_Activity extends Activity implements AdapterView.OnItemSelectedListener{
+    private static final String TAG = Register_Activity.class.getSimpleName();
     Spinner Email_Spinner;
-    RelativeLayout Whole_Check_Box_btn ,DDock_Check_Box_Btn    ,Personal_Info_Check_Box_btn;
+    RelativeLayout Whole_Check_Box_btn ,DDock_Check_Box_Btn    ,Personal_Info_Check_Box_btn,register_btn;
     ImageView     Whole_Check_Box_Image,DDock_Check_Box_Iamge,Personal_Info_Check_Box_Image;
     Boolean Whole_Check_State, DDock_Check_State,Personal_Info_Check_State;
     String[] ITEMS = {"email.com", "naver.com", "asdfasdfasdfasdfasdfasdfasdf 3", "Item 4", "Item 5", "Item 6","naver.com", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6","email", "naver.com", "Item 3", "Item 4", "Item 5", "Item 6","naver.com", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6","email", "naver.com", "Item 3", "Item 4", "Item 5", "Item 6","naver.com", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6"
@@ -44,13 +47,15 @@ public class Register_Activity extends Activity implements AdapterView.OnItemSel
          Whole_Check_State=false;
         DDock_Check_State=false;
         Personal_Info_Check_State=false;
-         check_true = getResources().getDrawable(R.drawable.check_box_true);
+         check_true = getResources().getDrawable(R.drawable.check_box_true_orange);
          check_false = getResources().getDrawable(R.drawable.check_box_false);
 
     }
     private void holdViews() {
 
         Email_Spinner = (Spinner)findViewById(R.id.Email_Spinner);
+        register_btn = (RelativeLayout)findViewById(R.id.register_btn);
+
 
         Whole_Check_Box_btn = (RelativeLayout)findViewById(R.id.Whole_Check_Box_btn);
         DDock_Check_Box_Btn= (RelativeLayout)findViewById(R.id.DDock_Check_Box_Btn);
@@ -61,8 +66,25 @@ public class Register_Activity extends Activity implements AdapterView.OnItemSel
 
     }
 
-
     private void setViews() {
+        register_btn.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+
+                if(event.getAction() == MotionEvent.ACTION_DOWN)
+                {
+
+                    register_btn.setBackground(getResources().getDrawable(R.color.mint_dark));
+
+                }
+                else if (event.getAction() == MotionEvent.ACTION_UP)
+                {
+                    register_btn.setBackground(getResources().getDrawable(R.color.mint));
+
+                }
+                return true;
+            }
+        });
         Email_Spinner.setAdapter(arrayAdapter);
         Email_Spinner.setOnItemSelectedListener(this);
         Whole_Check_Box_btn.setOnClickListener(new View.OnClickListener() {

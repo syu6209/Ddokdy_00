@@ -117,6 +117,8 @@ public class StudyRoomActivity extends Activity implements  Fragment_StudyRoom_M
         {
             case 0:
                 //채팅
+                frag = new Fragment_StudyRoom_Chat();
+
                 break;
             case 1:
                 // 과제

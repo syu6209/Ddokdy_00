@@ -8,7 +8,9 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.google.android.gms.appindexing.AppIndex;
@@ -29,6 +31,11 @@ public class LoginActivity extends Activity {
 	private final static String TAG = LoginActivity.class.getSimpleName();
 
 	LinearLayout btn_login_kakao, btn_login_naver;
+	RelativeLayout Auto_Login_Btn;
+	ImageView Auto_Login_Image;
+
+	boolean Auto_Login_Flag = false;
+
 	private static OAuthLogin mOAuthLoginInstance;
 	/**
 	 * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -58,9 +65,28 @@ public class LoginActivity extends Activity {
 	private void holdViews() {
 		btn_login_kakao = (LinearLayout) findViewById(R.id.btnll_login_kakao);
 		btn_login_naver = (LinearLayout) findViewById(R.id.btnll_login_naver);
+		Auto_Login_Btn = (RelativeLayout) findViewById(R.id.Auto_Login_Btn);
+		Auto_Login_Image = (ImageView) findViewById(R.id.Auto_Login_Image);
+
 	}
 
 	private void setListeners() {
+		Auto_Login_Btn.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				if(Auto_Login_Flag)
+				{
+					Auto_Login_Image.setBackground(getResources().getDrawable(R.drawable.check_box_false));
+				}
+				else
+				{
+					Auto_Login_Image.setBackground(getResources().getDrawable(R.drawable.check_box_true_gray));
+
+				}
+				Auto_Login_Flag=!Auto_Login_Flag;
+
+			}
+		});
 		btn_login_naver.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {

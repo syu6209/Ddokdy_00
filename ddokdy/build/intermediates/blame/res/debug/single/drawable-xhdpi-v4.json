@@ -16,10 +16,6 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xhdpi/progress_bg_holo_light.9.png"
     },
     {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xhdpi-v4/check_box_true.png",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xhdpi/check_box_true.png"
-    },
-    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xhdpi-v4/progressbar_indeterminate_holo5.png",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xhdpi/progressbar_indeterminate_holo5.png"
     },
@@ -74,6 +70,10 @@
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xhdpi-v4/progress_primary_holo_light.9.png",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xhdpi/progress_primary_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xhdpi-v4/check_box_true_orange.png",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xhdpi/check_box_true_orange.png"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",

@@ -57,13 +57,15 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 			}
 			switch(position){
 			case 0:
-				current = new Fragment_MainSearch(viewpager);
+				current = new Fragment_Myhome(viewpager);
+
 				break;
 			case 1:
 				current = new Fragment_MainStudyList(viewpager);
 				break;
 			case 2:
-				current = new Fragment_Myhome(viewpager);
+				current = new Fragment_MainSearch(viewpager);
+
 				break;
 			default:
 				return null;
