@@ -4,13 +4,23 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
+import android.util.Log;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.text.ParseException;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Locale;
 
 public class ZMethod {
+
 	public static void toast(Context ctx, String msg) {
 		try {
 			Toast toast = Toast.makeText(ctx, msg, Toast.LENGTH_SHORT);
@@ -73,5 +83,65 @@ public class ZMethod {
 			e.printStackTrace();
 		}
 		return msg;
+	}
+	public static String  Map_to_String (HashMap<String,String>  data_set)
+	{
+		String result_data = "";
+		Iterator<String> keys = data_set.keySet().iterator();
+
+		while( keys.hasNext() ){
+			String key = keys.next();
+			result_data =result_data+key+"="+data_set.get(key);
+			if(keys.hasNext())
+			{
+				result_data=result_data+"&";
+			}
+		}
+		return result_data;
+
+
+
+	}
+
+	public static String getStringHttpPost(String url, String postData) {
+		StringBuilder jsonHtml = new StringBuilder();
+
+		try {
+
+			URL target_url = new URL(url);
+			HttpURLConnection conn = (HttpURLConnection) target_url.openConnection();
+			if (conn != null) {
+
+				conn.setRequestMethod("POST");
+				conn.setDoInput(true);
+				conn.setDoOutput(true);
+				conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+				conn.setConnectTimeout(10000);
+				conn.setUseCaches(false);
+
+				OutputStream os = conn.getOutputStream();
+				os.write(postData.getBytes("UTF-8"));
+				os.flush();
+				if (conn.getResponseCode() == HttpURLConnection.HTTP_OK) {
+					BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
+					for (;;) {
+						String line = br.readLine();
+
+						if (line == null)
+							break;
+						jsonHtml.append(line + "\n");
+					}
+					br.close();
+				}
+				os.close();
+				conn.disconnect();
+			}
+		} catch (Exception e) {
+
+			e.printStackTrace();
+			return null;
+		}
+
+		return jsonHtml.toString();
 	}
 }

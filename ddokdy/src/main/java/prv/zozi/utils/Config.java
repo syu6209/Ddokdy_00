@@ -4,6 +4,9 @@ public class Config {
 	public static int loadingState = 0;
 	public static int downloadQue = 0,downloadQueLimit=2;//2 max : 3
 
+	public static String url_home = "http://syu6209.cafe24.com/study/";
+
+
 
 
 	public static String Color_orange = "#FFBC91";

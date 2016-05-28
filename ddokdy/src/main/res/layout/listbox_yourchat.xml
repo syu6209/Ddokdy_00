@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="left"
+    android:padding="@dimen/default_margin"
+
+
+    >
+
+
+
+    <RelativeLayout
+        android:id="@+id/mychat_speech_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/chat_speech_bubble_mint">
+
+        <TextView
+            android:id="@+id/listbox_chat_text"
+
+            style="@style/CustomSubTitleText"
+            android:layout_margin="@dimen/default_margin"
+            android:text="dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+            android:textColor="@color/blackgray"
+
+
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="-45dp"
+        android:layout_gravity="bottom"
+        android:layout_width="28.33dp"
+
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/CustomSmallText"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="4읽음"
+                android:textColor="@color/mint_dark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/CustomSmallText"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="11:32"
+                android:textColor="@color/gray1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

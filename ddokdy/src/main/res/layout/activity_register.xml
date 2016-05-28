@@ -84,7 +84,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/gray1"></LinearLayout>
+            android:background="@color/gray1">
+
+        </LinearLayout>
+
 
         <com.jnm.android.widget.ScalableLayout
             android:layout_width="match_parent"
@@ -109,6 +112,7 @@
                     android:text="@string/text_ddok_clause_agree" />
 
                 <RelativeLayout
+                    android:id="@+id/DDock_clause_btn"
                     android:layout_width="51.67dp"
                     android:layout_height="22.67dp"
                     android:layout_centerVertical="true"
@@ -150,6 +154,21 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/gray1"></LinearLayout>
+        <LinearLayout
+            android:id="@+id/DDock_clause_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#11ee11"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/CustomSubTitleText"
+                android:text="asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd"
+                android:textColor="@color/blackgray"
+                android:padding="@dimen/default_margin"
+                />
+
+        </LinearLayout>
         <com.jnm.android.widget.ScalableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -173,6 +192,7 @@
                     android:text="@string/text_personal_info_agree" />
 
                 <RelativeLayout
+                    android:id="@+id/personal_clause_btn"
                     android:layout_width="51.67dp"
                     android:layout_height="22.67dp"
                     android:layout_centerVertical="true"
@@ -212,6 +232,22 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/default_margin"
             android:background="@color/gray1"></LinearLayout>
+        <LinearLayout
+            android:id="@+id/personal_clause_content_view"
+
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#11ee11"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/CustomSubTitleText"
+                android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                android:textColor="@color/blackgray"
+                android:padding="@dimen/default_margin"
+                />
+
+        </LinearLayout>
 
         <com.jnm.android.widget.ScalableLayout
             android:layout_width="wrap_content"

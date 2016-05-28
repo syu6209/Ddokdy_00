@@ -29,13 +29,15 @@
         </activity>
         <activity
             android:name="com.study.ddokdy.LoginActivity"
-            android:label="@string/title_activity_login" />
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
             android:name="com.study.ddokdy.MainActivity"
             android:label="@string/title_activity_main" />
         <activity
             android:name="com.study.ddokdy.Register_Activity"
-            android:label="@string/title_activity_register" />
+            android:label="@string/title_activity_register"
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
             android:name="com.study.ddokdy.Setup_Activity"
             android:label="@string/title_activity_setup" />

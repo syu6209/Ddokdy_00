@@ -127,12 +127,23 @@
 
     </LinearLayout>
     <LinearLayout
+
         android:layout_above="@+id/chat_text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#eddaeb"
 
         >
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/StudyRoom_Chat_PullToRefreshListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#00000000"
+            android:dividerHeight="0dp"
+
+
+
+            />
 
 
     </LinearLayout>

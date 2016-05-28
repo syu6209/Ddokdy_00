@@ -8,6 +8,8 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.Transformation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -18,11 +20,14 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.nhn.android.naverlogin.OAuthLogin;
 import com.nhn.android.naverlogin.OAuthLoginHandler;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
+import java.util.HashMap;
 
 import prv.zozi.utils.Config;
 import prv.zozi.utils.ZMethod;
@@ -165,35 +170,95 @@ public class LoginActivity extends Activity {
 	};
 
 	public class RequestApiTask extends AsyncTask<Void, Void, Void> {
-
 		String state;
 		String enc_id;
 		@Override
 		protected void onPreExecute() {
 		}
-
 		@Override
 		protected Void doInBackground(Void... params) {
-			String url = "https://apis.naver.com/nidlogin/nid/getHashId_v2.xml";
+//			String url = "https://apis.naver.com/nidlogin/nid/getHashId_v2.xml";
+//			String at = mOAuthLoginInstance.getAccessToken(mContext);
+//			Pasingversiondata(mOAuthLoginInstance.requestApi(mContext, at, url));
+
+			String url = "https://openapi.naver.com/v1/nid/getUserProfile.xml";
 			String at = mOAuthLoginInstance.getAccessToken(mContext);
 			Pasingversiondata(mOAuthLoginInstance.requestApi(mContext, at, url));
+
 			return null;
 		}
-
 		protected void onPostExecute(Void content) {
 			if(state.equals("success")) {
 				gotoMain();
+
+				new Thread(new Runnable() {
+					@Override
+					public void run() {
+						HashMap<String, String> data_set = new HashMap<String, String>();
+						data_set.put("mode","social");
+						data_set.put("loginKey","asa");
+						data_set.put("user_name","ddddd");
+						data_set.put("user_age","10");
+						data_set.put("user_nick","ㅇㅁㅁ");
+						data_set.put("user_gender","1");
+						int a=0;
+
+						data_set.put("user_mobile","010-1111-1111");
+//						data_set.put("mode","normal");
+//						data_set.put("loginKey","asa");
+//						data_set.put("user_name","ddddd");
+//						data_set.put("user_age","10");
+//						data_set.put("user_nick","ㅇㅁㅁ");
+//						data_set.put("user_gender","1");
+//						data_set.put("user_mobile", "aaa");
+//						data_set.put("email_id", "email_id");
+//						data_set.put("email_host", "email_host");
+//						data_set.put("user_pw", "asdaqq");
+
+						String postData = ZMethod.Map_to_String(data_set);
+						String aa = Config.url_home +"join.php/"+postData;
+						Log.d(TAG,"aa== "+aa);
+
+						String data = ZMethod.getStringHttpPost(Config.url_home +"join.php", postData);
+						Log.d(TAG,"data == "+ data);
+						if(data != null)
+						{
+							Log.d(TAG,"data == "+ data);
+							try {
+								Log.d(TAG,"data == "+ data);
+
+								JSONObject json = new JSONObject(data);
+
+								Log.d(TAG,"json =="+ json);
+
+								String resultCode = json.getString("resultCode");
+
+								Log.d(TAG,"resultCode=="+ resultCode );
+
+								String msg = json.getString("msg");
+
+								Log.d(TAG,"msg ==" +msg);
+
+
+							} catch (JSONException e) {
+								e.printStackTrace();
+							}
+
+
+						}
+
+					}
+				}).start();
+
 			}
 			else
 			{
 				Log.d(TAG,"asdasd");
-
 			}
-
 		}
-
 		private void Pasingversiondata(String data) { // xml 파싱
-			String f_array[] = new String[2];
+			Log.d(TAG,"data == "+data);
+			String f_array[] = new String[10];
 			try {
 				XmlPullParserFactory parserCreator = XmlPullParserFactory.newInstance();
 				XmlPullParser parser = parserCreator.newPullParser();
@@ -246,10 +311,48 @@ public class LoginActivity extends Activity {
 			state =f_array[0];
 			enc_id = f_array[1];
 			Log.d(TAG, "state == " + f_array[0]);
-			Log.d(TAG, "enc_id == " + f_array[1]);
-
+			Log.d(TAG, "email == " + f_array[1]);
+			Log.d(TAG, "nickname == " + f_array[2]);
+			Log.d(TAG, "enc_id == " + f_array[3]);
+			Log.d(TAG, "profile_image == " + f_array[4]);
+			Log.d(TAG, "age == " + f_array[5]);
+			Log.d(TAG, "gender == " + f_array[6]);
+			Log.d(TAG, "id == " + f_array[7]);
+			Log.d(TAG, "name == " + f_array[8]);
 
 		}
 
 	}
+
+	public class ResizeWidthAnimation extends Animation
+	{
+		private int mHeight;
+		private int mStartHeight;
+		private View mView;
+		public ResizeWidthAnimation(View view, int width)
+		{
+			mView = view;
+			mHeight = width;
+			mStartHeight = view.getHeight();
+		}
+		@Override
+		protected void applyTransformation(float interpolatedTime, Transformation t)
+		{
+			int newWidth = mStartHeight + (int) ((mHeight - mStartHeight) * interpolatedTime);
+			mView.getLayoutParams().height = newWidth;
+			mView.requestLayout();
+		}
+		@Override
+		public void initialize(int width, int height, int parentWidth, int parentHeight)
+		{
+			super.initialize(width, height, parentWidth, parentHeight);
+		}
+		@Override
+		public boolean willChangeBounds()
+		{
+			return true;
+		}
+	}
+
+
 }
