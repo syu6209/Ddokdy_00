@@ -15,19 +15,18 @@
 
         <RelativeLayout
             android:id="@+id/Cross_Mark_Btn"
-            android:layout_width="72.67dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
 
             >
 
             <ImageView
+                android:layout_width="@dimen/px_160"
+                android:layout_height="match_parent"
                 android:id="@+id/topbar_btn_mypage"
-                android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:background="@drawable/cross_mark"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/btn_close"
 
                 />
         </RelativeLayout>
