@@ -11,11 +11,14 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import prv.zozi.utils.Config;
+import prv.zozi.utils.DoubleBackCloseHandler;
+import prv.zozi.utils.ZLoginInfo;
 import prv.zozi.utils.ZMethod;
 
 public class MainActivity extends android.support.v4.app.FragmentActivity {
-	
-	ViewPager viewpager;
+	private Info_Login logininfo;
+	private ViewPager viewpager;
+	private DoubleBackCloseHandler dbc;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -27,18 +30,30 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 
 	}
 
+	@Override
+	public void onBackPressed() {
+		if(viewpager.getCurrentItem()!=1){
+			viewpager.setCurrentItem(1);
+		}else {
+			try {
+				dbc.onBackPressed();
+			} catch (Exception e) {
 
+			}
+		}
+	}
 
 	private void init() {
 		ZMethod.setStatusColor(this, Color.parseColor(Config.Color_orange));
-		
+		dbc = new DoubleBackCloseHandler(this);
+		logininfo = new ZLoginInfo(getApplicationContext()).getLoginInfo();
 	}
 	private void holdViews() {
-		
+
 		viewpager = (ViewPager)findViewById(R.id.viewpager);
 	}
 
-	
+
 	private void setViews() {
 		viewpager.setAdapter(new VPAdapter(getSupportFragmentManager()));
 		viewpager.setCurrentItem(1);
@@ -77,8 +92,8 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 		public int getCount() {
 			return MAX_PAGE;
 		}
-		
+
 	}
-	
-	
+
+
 }

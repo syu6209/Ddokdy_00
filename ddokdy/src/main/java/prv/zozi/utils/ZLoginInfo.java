@@ -3,6 +3,8 @@ package prv.zozi.utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import com.study.ddokdy.Info_Login;
+
 /**
  * Created by syu62 on 2016-05-24.
  */
@@ -124,5 +126,21 @@ public class ZLoginInfo {
     public void delereAll(){
         editor.clear();
         editor.commit();
+    }
+
+    public Info_Login getLoginInfo(){
+        Info_Login data = new Info_Login();
+
+        data.user_age = getString("user_age");
+        data.user_agree = getString("user_agree");
+        data.user_email = getString("user_email");
+        data.user_gender = getString("user_gender");
+        data.user_id = getString("user_id");
+        data.user_name = getString("user_name");
+        data.user_nick = getString("user_nick");
+        data.user_profile = getString("user_profile");
+
+
+        return data;
     }
 }

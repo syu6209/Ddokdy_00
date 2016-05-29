@@ -2,10 +2,12 @@ package com.study.ddokdy;
 
 import java.util.ArrayList;
 
+import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -16,15 +18,30 @@ import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.TextView;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import prv.zozi.utils.Config;
+import prv.zozi.utils.ZLoginInfo;
 import prv.zozi.utils.ZMethod;
 
 public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
-	TextView tv_topbar_title;
-	ImageButton btn_topbar_search,btn_topbar_mypage;
-	PullToRefreshListView mListview;
-	ArrayList<StudyData> mListData;
-	ViewPager viewpager;
+	private Info_Login logininfo;
+	private TextView tv_topbar_title;
+	private ImageButton btn_topbar_search,btn_topbar_mypage;
+	private PullToRefreshListView mListview;
+	private ArrayList<StudyData> mListData;
+	private ListViewAdapter adapter;
+	private ViewPager viewpager;
+
+	private String url_getStudyList = "study_getlist.php";
+
+	private String jsondata;
+
 	public Fragment_MainStudyList(ViewPager viewpager) {
 		this.viewpager = viewpager;
 	}
@@ -39,16 +56,67 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		init();
 		holdViews(ll);
 		setViews(ll);
+		loadData();
+
 		return ll;
 	}
-	
-	
-	
+
+	private void loadData() {
+		AsyncTask<String, String, String> task = new AsyncTask<String, String, String>() {
+			@Override
+			protected void onPreExecute() {
+				mListData.clear();
+			}
+
+			@Override
+			protected String doInBackground(String... params) {
+				String postData = "uid="+logininfo.user_id;
+				String result =  ZMethod.getStringHttpPost(Config.url_home+url_getStudyList, postData);
+
+				try {
+					JSONObject json = new JSONObject(result);
+					int rn = json.getInt("rn");
+					JSONArray jsarr = json.getJSONArray("data");
+					StudyData object = null;
+					for(int i=0;i<rn;i++){
+						json = jsarr.getJSONObject(i);
+						object = new StudyData();
+						object.title = json.getString("title");
+						object.subtitle = json.getString("subtitle");
+						object.bossname = json.getString("nick");
+						object.status = json.getString("status");
+						object.background = json.getInt("background");
+						if(json.getInt("ismine")==1) {
+							object.isMine = true;
+						}else{
+							object.isMine = false;
+						}
+						mListData.add(object);
+					}
+				} catch (JSONException e) {
+					e.printStackTrace();
+					return "fail";
+				}
+
+				return "ok";
+			}
+
+			@Override
+			protected void onPostExecute(String s) {
+				adapter.notifyDataSetChanged();
+				mListview.onRefreshComplete();
+			}
+		};
+		task.execute(null,null,null);
+	}
+
+
 	private void init() {
+		logininfo = new ZLoginInfo(getContext()).getLoginInfo();
 		mListData = new ArrayList<StudyData>();
 		
 		StudyData object = new StudyData();
-
+		/*
 		object.title = "졸작 파티";
 		object.subtitle = "5월 2일 경대 스터디룸 씨스페이스";
 		object.bossname = "옥수진";
@@ -79,6 +147,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		object.status = "가입대기";
 		object.isMine = false;
 		mListData.add(object);
+		*/
 	}
 	private void holdViews(LinearLayout ll) {
 		tv_topbar_title = (TextView)ll.findViewById(R.id.topbar_centerText);
@@ -89,9 +158,16 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 
 	
 	private void setViews(LinearLayout ll) {
-		ListViewAdapter adapter = new ListViewAdapter(ll.getContext());
+		adapter = new ListViewAdapter(ll.getContext());
 		mListview.setAdapter(adapter);
+		mListview.setScrollingWhileRefreshingEnabled(false);
 		mListview.setScrollBarDefaultDelayBeforeFade(10);
+		mListview.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener<ListView>() {
+			@Override
+			public void onRefresh(PullToRefreshBase<ListView> refreshView) {
+				loadData();
+			}
+		});
 		mListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -146,6 +222,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 	private class StudyData{
 		String idx;
 		String title,subtitle,bossname,status;
+		int background;
 		boolean isMine;
 	}
 	private class ViewHolder{

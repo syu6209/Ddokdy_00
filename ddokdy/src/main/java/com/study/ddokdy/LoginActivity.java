@@ -1,6 +1,7 @@
 package com.study.ddokdy;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -30,11 +31,12 @@ import java.io.InputStream;
 import java.util.HashMap;
 
 import prv.zozi.utils.Config;
+import prv.zozi.utils.ZLoginInfo;
 import prv.zozi.utils.ZMethod;
 
 public class LoginActivity extends Activity {
     private final static String TAG = LoginActivity.class.getSimpleName();
-
+    private ProgressDialog pdialog;
 
     LinearLayout btn_login_kakao, btn_login_naver, btnll_login_facebook;
     RelativeLayout Auto_Login_Btn;
@@ -120,7 +122,14 @@ public class LoginActivity extends Activity {
         private void login_with_naver() {
             initNaverData();
             mOAuthLoginInstance.startOauthLoginActivity(LoginActivity.this, mOAuthLoginHandler);
-
+            /*
+            pdialog = new ProgressDialog(LoginActivity.this, android.R.style.Theme_DeviceDefault);
+            pdialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+            pdialog.setTitle("로그인 중입니다.");
+            pdialog.setMessage("잠시만 기다려주세요.");
+            pdialog.setCancelable(false);
+            pdialog.show();
+            */
         }
 
         private void login_with_kakao() {
@@ -181,6 +190,7 @@ public class LoginActivity extends Activity {
 
             @Override
             protected void onPreExecute() {
+
             }
 
             @Override
@@ -196,6 +206,7 @@ public class LoginActivity extends Activity {
 
             protected void onPostExecute(Void content) {
                 if (state.equals("success")) {
+
                     new Thread(new Runnable() {
                         @Override
                         public void run() {
@@ -204,7 +215,7 @@ public class LoginActivity extends Activity {
                             data_set.put("mode", "social");
                             data_set.put("user_login", enc_id);
                             String postData = ZMethod.Map_to_String(data_set);
-                            String url_str = Config.url_home + "login.php/" + postData;
+                            String url_str = Config.url_home + "login.php?" + postData;
                             Log.d(TAG, "url_str== " + url_str);
                             String data = ZMethod.getStringHttpPost(Config.url_home + "login.php", postData);
 
@@ -214,10 +225,18 @@ public class LoginActivity extends Activity {
                                     JSONObject json = new JSONObject(data);
                                     String resultCode = json.getString("resultCode");
                                     String msg = json.getString("msg");
+                                    Log.d(TAG, " data ==" + json);
                                     Log.d(TAG, " resultCode ==" + resultCode);
                                     Log.d(TAG, " msg ==" + msg);
                                     if (resultCode.equals("4")) {
                                         // 회원 가입 으로 이동
+                                        runOnUiThread(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                ZMethod.toast(getApplicationContext(),"회원가입이 필요합니다.");
+                                                //pdialog.dismiss();
+                                            }
+                                        });
                                         Intent intent = new Intent(getApplication(), Register_Activity.class);
                                         intent.putExtra("mode", "social");
                                         intent.putExtra("enc_id", enc_id);
@@ -236,7 +255,7 @@ public class LoginActivity extends Activity {
 
                                         String user_nick = json.getString("user_mobile");
                                         String user_profile = json.getString("user_profile");
-
+                                        String user_email = json.getString("user_email");
                                         String user_registered = json.getString("user_registered");
                                         Log.d(TAG, "user_id ==      " + user_id);
                                         Log.d(TAG, "user_age ==      " + user_age);
@@ -247,7 +266,25 @@ public class LoginActivity extends Activity {
                                         Log.d(TAG, "user_registered ==      " + user_registered);
                                         Log.d(TAG, "user_profile ==      " + user_profile);
 
-
+                                        //로그인 정보 저장
+                                        ZLoginInfo zli = new ZLoginInfo(getApplicationContext());
+                                        zli.saveData("user_id", user_id);
+                                        zli.saveData("user_age", user_age);
+                                        zli.saveData("user_gender", user_gender);
+                                        zli.saveData("user_agree", user_agree);
+                                        zli.saveData("user_name", user_name);
+                                        zli.saveData("user_nick", user_nick);
+                                        zli.saveData("user_registered", user_registered);
+                                        zli.saveData("user_profile", user_profile);
+                                        zli.saveData("user_email", user_email);
+                                        runOnUiThread(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                ZMethod.toast(LoginActivity.this, "로그인 성공");
+                                                //pdialog.dismiss();
+                                                gotoMain();
+                                            }
+                                        });
                                     } else if (resultCode.equals("1")) {
                                         Toast.makeText(getApplicationContext(), "로그인 실패", Toast.LENGTH_SHORT).show();
 
@@ -256,6 +293,13 @@ public class LoginActivity extends Activity {
 
 
                                 } catch (JSONException e) {
+                                    runOnUiThread(new Runnable() {
+                                        @Override
+                                        public void run() {
+                                            ZMethod.toast(LoginActivity.this, "로그인 실패");
+                                            //pdialog.dismiss();
+                                        }
+                                    });
                                     e.printStackTrace();
                                 }
 
@@ -343,7 +387,15 @@ public class LoginActivity extends Activity {
 
         }
 
-        public class ResizeWidthAnimation extends Animation {
+    private void gotoMain() {
+        Intent intent = new Intent(getApplication(), MainActivity.class);
+        intent.putExtra("login",true);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        this.finish();
+    }
+
+    public class ResizeWidthAnimation extends Animation {
             private int mHeight;
             private int mStartHeight;
             private View mView;
