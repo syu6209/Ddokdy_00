@@ -52,6 +52,7 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/tv_read"
                 style="@style/CustomSmallText"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
@@ -64,6 +65,7 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/tv_time"
                 style="@style/CustomSmallText"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
