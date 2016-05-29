@@ -3,7 +3,7 @@
     xmlns:sl="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#11ee11"
+    android:background="@color/white"
     android:orientation="vertical"
 
     >
@@ -154,392 +154,582 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/gray1"></LinearLayout>
+
         <LinearLayout
             android:id="@+id/DDock_clause_content_view"
             android:layout_width="match_parent"
             android:layout_height="10dp"
             android:background="#11ee11"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
+
             <TextView
                 style="@style/CustomSubTitleText"
-                android:text="asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd"
-                android:textColor="@color/blackgray"
                 android:padding="@dimen/default_margin"
-                />
+                android:text="asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd"
+                android:textColor="@color/blackgray" />
 
         </LinearLayout>
+
         <com.jnm.android.widget.ScalableLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/white"
-            sl:scale_base_height="183"
+            sl:scale_base_height="1500"
             sl:scale_base_width="1080">
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                sl:scale_height="183"
-                sl:scale_left="102"
+                android:orientation="vertical"
+                sl:scale_height="1500"
+                sl:scale_left="0"
                 sl:scale_top="0"
-                sl:scale_width="979">
+                sl:scale_width="1080">
 
-                <TextView
-                    android:id="@+id/b_text"
-                    style="@style/CustomSubTitleText"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="@dimen/default_margin"
-                    android:text="@string/text_personal_info_agree" />
 
-                <RelativeLayout
-                    android:id="@+id/personal_clause_btn"
-                    android:layout_width="51.67dp"
-                    android:layout_height="22.67dp"
-                    android:layout_centerVertical="true"
-                    android:layout_toRightOf="@+id/b_text"
-                    android:background="@drawable/shape_round_mint">
+                <com.jnm.android.widget.ScalableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    sl:scale_base_height="183"
+                    sl:scale_base_width="1080">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="183"
+                        sl:scale_left="102"
+                        sl:scale_top="0"
+                        sl:scale_width="979"
+
+                        >
+
+                        <TextView
+                            android:id="@+id/b_text"
+                            style="@style/CustomSubTitleText"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/default_margin"
+                            android:text="@string/text_personal_info_agree" />
+
+                        <RelativeLayout
+                            android:id="@+id/personal_clause_btn"
+                            android:layout_width="51.67dp"
+                            android:layout_height="22.67dp"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/b_text"
+                            android:background="@drawable/shape_round_mint">
+
+                            <TextView
+                                style="@style/CustomSubTitleText"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="약관보기"
+                                android:textColor="@color/white" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/Personal_Info_Check_Box_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="183"
+                        sl:scale_left="875"
+                        sl:scale_top="0"
+                        sl:scale_width="165">
+
+                        <ImageView
+                            android:id="@+id/Personal_Info_Check_Box_Image"
+
+                            android:layout_width="17.67dp"
+                            android:layout_height="17.67dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/check_box_false" />
+                    </RelativeLayout>
+                </com.jnm.android.widget.ScalableLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/personal_clause_content_view"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#11ee11"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/CustomSubTitleText"
-                        android:layout_centerHorizontal="true"
-                        android:layout_centerVertical="true"
-                        android:text="약관보기"
-                        android:textColor="@color/white" />
-                </RelativeLayout>
-            </RelativeLayout>
+                        android:padding="@dimen/default_margin"
+                        android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                        android:textColor="@color/blackgray" />
 
-            <RelativeLayout
-                android:id="@+id/Personal_Info_Check_Box_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                sl:scale_height="183"
-                sl:scale_left="875"
-                sl:scale_top="0"
-                sl:scale_width="165">
+                </LinearLayout>
 
-                <ImageView
-                    android:id="@+id/Personal_Info_Check_Box_Image"
-
-                    android:layout_width="17.67dp"
-                    android:layout_height="17.67dp"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:background="@drawable/check_box_false" />
-            </RelativeLayout>
-        </com.jnm.android.widget.ScalableLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/default_margin"
-            android:background="@color/gray1"></LinearLayout>
-        <LinearLayout
-            android:id="@+id/personal_clause_content_view"
-
-            android:layout_width="match_parent"
-            android:layout_height="10dp"
-            android:background="#11ee11"
-            android:orientation="vertical"
-            >
-            <TextView
-                style="@style/CustomSubTitleText"
-                android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-                android:textColor="@color/blackgray"
-                android:padding="@dimen/default_margin"
-                />
-
-        </LinearLayout>
-
-        <com.jnm.android.widget.ScalableLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            sl:scale_base_height="179"
-            sl:scale_base_width="1080"
-            android:background="@color/white"
-            >
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                sl:scale_height="179"
-                sl:scale_left="102"
-                sl:scale_top="0"
-                sl:scale_width="226"
-                >
-                <TextView
-                    style="@style/CustomSubTitleText"
-                    android:layout_alignParentBottom="true"
-                    android:text="@string/text_name"
-                    android:textColor="@color/blackgray"
-                    android:layout_marginBottom="8dp"
-                    />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                sl:scale_height="179"
-                sl:scale_left="327"
-                sl:scale_top="0"
-                sl:scale_width="597"
-                >
-                <EditText
-                    android:layout_marginLeft="5dp"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="8dp"
-                    android:maxLines="1"
-                    android:maxLength="30"
-                    android:textSize="10.67dp"
-                    android:background="@null"
-                    />
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="7dp"
-                    android:background="@drawable/edittext"
-                    android:layout_alignParentBottom="true"
-                    />
-            </RelativeLayout>
-        </com.jnm.android.widget.ScalableLayout>
-        <com.jnm.android.widget.ScalableLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            sl:scale_base_height="179"
-            sl:scale_base_width="1080"
-            android:background="@color/white"
-            >
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                sl:scale_height="179"
-                sl:scale_left="102"
-                sl:scale_top="0"
-                sl:scale_width="226"
-                >
-                <TextView
-                    style="@style/CustomSubTitleText"
-                    android:layout_alignParentBottom="true"
-                    android:text="@string/text_email"
-                    android:textColor="@color/blackgray"
-                    android:layout_marginBottom="8dp"
-                    />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                sl:scale_height="179"
-                sl:scale_left="327"
-                sl:scale_top="0"
-                sl:scale_width="597"
-                >
-                <TextView
-                    android:id="@+id/aa_text"
+                    android:layout_height="@dimen/default_margin"
+                    android:background="@color/gray1"></LinearLayout>
+
+                <com.jnm.android.widget.ScalableLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="\@"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="8dp"
+                    android:background="@color/white"
+                    sl:scale_base_height="179"
+                    sl:scale_base_width="1080">
 
-                    android:paddingLeft="30dp"
-                    android:textSize="10.67dp"
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="102"
+                        sl:scale_top="0"
+                        sl:scale_width="226">
 
-                    android:layout_alignParentBottom="true"
-                    android:textColor="@color/blackgray"
-                    />
+                        <TextView
+                            style="@style/CustomSubTitleText"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/text_name"
+                            android:textColor="@color/blackgray" />
+                    </RelativeLayout>
 
-                <Spinner
-                    android:id="@+id/Email_Spinner"
-                    android:layout_width="match_parent"
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="327"
+                        sl:scale_top="0"
+                        sl:scale_width="597">
+
+                        <EditText
+                            android:id="@+id/Name_Edittext"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="@dimen/default_margin"
+                            android:background="@null"
+                            android:hint="본명을 입력하세요"
+                            android:gravity="bottom"
+
+                            android:maxLength="30"
+                            android:maxLines="1"
+                            android:textColor="@color/blackgray"
+                            android:textSize="10.67dp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/edittext" />
+                    </RelativeLayout>
+                </com.jnm.android.widget.ScalableLayout>
+
+                <com.jnm.android.widget.ScalableLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginLeft="2dp"
-                    android:layout_toRightOf="@+id/aa_text"
-                    android:spinnerMode="dialog"
-                    android:textColorHint="@color/blackgray"
-                    android:background="@null"
+                    android:background="@color/white"
+                    sl:scale_base_height="179"
+                    sl:scale_base_width="1080">
 
-                    />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="102"
+                        sl:scale_top="0"
+                        sl:scale_width="226">
+
+                        <TextView
+                            style="@style/CustomSubTitleText"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/text_email"
+                            android:textColor="@color/blackgray" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="327"
+                        sl:scale_top="0"
+                        sl:scale_width="597">
+
+                        <TextView
+                            android:id="@+id/aa_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="8dp"
+
+                            android:text="\@"
+
+                            android:textColor="@color/blackgray"
+                            android:textSize="10.67dp" />
+
+                        <Spinner
+                            android:id="@+id/Email_Host_Spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="2dp"
+                            android:layout_toRightOf="@+id/aa_text"
+                            android:background="@null"
+                            android:spinnerMode="dialog"
+                            android:textColorHint="@color/blackgray"
 
 
-                <EditText
-                    android:layout_marginLeft="5dp"
-                    android:layout_width="65.67dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/Email_Host_Text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="@dimen/default_margin"
+                            android:layout_toRightOf="@+id/aa_text"
+                            android:background="@null"
+                            android:gravity="bottom"
+
+                            android:maxLength="15"
+                            android:maxLines="1"
+
+                            android:textColorHint="@color/blackgray"
+                            android:textSize="10.67dp"
+                            android:visibility="gone" />
+
+
+                        <EditText
+                            android:id="@+id/email_front_text"
+                            android:layout_width="65.67dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="@dimen/default_margin"
+                            android:background="@null"
+                            android:gravity="bottom"
+
+                            android:maxLength="15"
+                            android:maxLines="1"
+                            android:textSize="10.67dp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/edittext" />
+                    </RelativeLayout>
+                </com.jnm.android.widget.ScalableLayout>
+
+                <com.jnm.android.widget.ScalableLayout
+                    android:id="@+id/first_pwd_view"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:maxLines="1"
-                    android:maxLength="15"
-                    android:layout_marginBottom="8dp"
-                    android:textSize="10.67dp"
-                    android:background="@null"
-                    />
-                <ImageView
+                    android:background="@color/white"
+                    sl:scale_base_height="179"
+                    sl:scale_base_width="1080">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="102"
+                        sl:scale_top="0"
+                        sl:scale_width="226">
+
+                        <TextView
+                            android:id="@+id/first_pwd_text"
+                            style="@style/CustomSubTitleText"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/text_pwd"
+                            android:textColor="@color/blackgray" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="327"
+                        sl:scale_top="0"
+                        sl:scale_width="597">
+
+                        <EditText
+                            android:id="@+id/first_pwd_edittext"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="@dimen/default_margin"
+                            android:background="@null"
+                            android:gravity="bottom"
+
+                            android:maxLength="30"
+                            android:maxLines="1"
+                            android:textSize="10.67dp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/edittext" />
+                    </RelativeLayout>
+                </com.jnm.android.widget.ScalableLayout>
+
+                <com.jnm.android.widget.ScalableLayout
+                    android:id="@+id/second_pwd_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    sl:scale_base_height="179"
+                    sl:scale_base_width="1080">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="102"
+                        sl:scale_top="0"
+                        sl:scale_width="226">
+
+                        <TextView
+                            android:id="@+id/second_pwd_text"
+
+                            style="@style/CustomSubTitleText"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/text_pwd2"
+                            android:textColor="@color/blackgray" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="327"
+                        sl:scale_top="0"
+                        sl:scale_width="597">
+
+                        <EditText
+                            android:id="@+id/second_pwd_edittext"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="@dimen/default_margin"
+                            android:background="@null"
+                            android:gravity="bottom"
+
+                            android:maxLength="30"
+                            android:maxLines="1"
+                            android:textSize="10.67dp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/edittext" />
+                    </RelativeLayout>
+                </com.jnm.android.widget.ScalableLayout>
+
+                <com.jnm.android.widget.ScalableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    sl:scale_base_height="179"
+                    sl:scale_base_width="1080">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="102"
+                        sl:scale_top="0"
+                        sl:scale_width="226">
+
+                        <TextView
+                            style="@style/CustomSubTitleText"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/text_tel"
+                            android:textColor="@color/blackgray" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="327"
+                        sl:scale_top="0"
+                        sl:scale_width="597">
+
+                        <EditText
+                            android:id="@+id/tel_edittext"
+                            android:gravity="bottom"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="@dimen/default_margin"
+                            android:background="@null"
+                            android:maxLength="30"
+                            android:maxLines="1"
+                            android:textSize="10.67dp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/edittext" />
+                    </RelativeLayout>
+                </com.jnm.android.widget.ScalableLayout>
+
+
+
+
+
+
+
+
+
+
+                <com.jnm.android.widget.ScalableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    sl:scale_base_height="179"
+                    sl:scale_base_width="1080">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="102"
+                        sl:scale_top="0"
+                        sl:scale_width="226">
+
+                        <TextView
+                            style="@style/CustomSubTitleText"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/text_age"
+                            android:textColor="@color/blackgray" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="327"
+                        sl:scale_top="0"
+                        sl:scale_width="597">
+
+                        <EditText
+                            android:id="@+id/age_edittext"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="@dimen/default_margin"
+                            android:gravity="bottom"
+                            android:background="@null"
+                            android:maxLength="30"
+                            android:maxLines="1"
+                            android:textSize="10.67dp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/edittext" />
+                    </RelativeLayout>
+                </com.jnm.android.widget.ScalableLayout>
+
+
+                <com.jnm.android.widget.ScalableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    sl:scale_base_height="179"
+                    sl:scale_base_width="1080">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="102"
+                        sl:scale_top="0"
+                        sl:scale_width="226">
+
+                        <TextView
+                            style="@style/CustomSubTitleText"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/text_gender"
+                            android:textColor="@color/blackgray" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sl:scale_height="179"
+                        sl:scale_left="327"
+                        sl:scale_top="0"
+                        sl:scale_width="597">
+
+
+
+                        <Spinner
+                            android:id="@+id/gender_Spinner"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="2dp"
+                            android:background="@null"
+                            android:spinnerMode="dialog"
+                            android:textColorHint="@color/blackgray"
+
+
+                            />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="7dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/edittext" />
+                    </RelativeLayout>
+                </com.jnm.android.widget.ScalableLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="7dp"
-                    android:background="@drawable/edittext"
-                    android:layout_alignParentBottom="true"
-                    />
-            </RelativeLayout>
+                    android:layout_height="@dimen/default_margin"
+                    android:background="@color/white"></LinearLayout>
+            </LinearLayout>
+
         </com.jnm.android.widget.ScalableLayout>
-        <com.jnm.android.widget.ScalableLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            sl:scale_base_height="179"
-            sl:scale_base_width="1080"
-            android:background="@color/white"
-            >
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                sl:scale_height="179"
-                sl:scale_left="102"
-                sl:scale_top="0"
-                sl:scale_width="226"
-                >
-                <TextView
-                    style="@style/CustomSubTitleText"
-                    android:layout_alignParentBottom="true"
-                    android:text="@string/text_pwd"
-                    android:textColor="@color/blackgray"
-                    android:layout_marginBottom="8dp"
-                    />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                sl:scale_height="179"
-                sl:scale_left="327"
-                sl:scale_top="0"
-                sl:scale_width="597"
-                >
-                <EditText
-                    android:layout_marginLeft="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="8dp"
-                    android:maxLines="1"
-                    android:maxLength="30"
-                    android:textSize="10.67dp"
-                    android:background="@null"
-                    />
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="7dp"
-                    android:background="@drawable/edittext"
-                    android:layout_alignParentBottom="true"
-                    />
-            </RelativeLayout>
-        </com.jnm.android.widget.ScalableLayout>
-        <com.jnm.android.widget.ScalableLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            sl:scale_base_height="179"
-            sl:scale_base_width="1080"
-            android:background="@color/white"
-            >
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                sl:scale_height="179"
-                sl:scale_left="102"
-                sl:scale_top="0"
-                sl:scale_width="226"
-                >
-                <TextView
-                    style="@style/CustomSubTitleText"
-                    android:layout_alignParentBottom="true"
-                    android:text="@string/text_pwd2"
-                    android:textColor="@color/blackgray"
-                    android:layout_marginBottom="8dp"
-                    />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                sl:scale_height="179"
-                sl:scale_left="327"
-                sl:scale_top="0"
-                sl:scale_width="597"
-                >
-                <EditText
-                    android:layout_marginLeft="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="8dp"
-                    android:textSize="10.67dp"
-                    android:maxLines="1"
-                    android:maxLength="30"
-                    android:background="@null"
-                    />
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="7dp"
-                    android:background="@drawable/edittext"
-                    android:layout_alignParentBottom="true"
-                    />
-            </RelativeLayout>
-        </com.jnm.android.widget.ScalableLayout>
-        <com.jnm.android.widget.ScalableLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            sl:scale_base_height="179"
-            sl:scale_base_width="1080"
-            android:background="@color/white"
-            >
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                sl:scale_height="179"
-                sl:scale_left="102"
-                sl:scale_top="0"
-                sl:scale_width="226"
-                >
-                <TextView
-                    style="@style/CustomSubTitleText"
-                    android:layout_alignParentBottom="true"
-                    android:text="@string/text_tel"
-                    android:textColor="@color/blackgray"
-                    android:layout_marginBottom="8dp"
-                    />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                sl:scale_height="179"
-                sl:scale_left="327"
-                sl:scale_top="0"
-                sl:scale_width="597"
-                >
-                <EditText
-                    android:layout_marginLeft="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="8dp"
-                    android:maxLines="1"
-                    android:maxLength="30"
-                    android:textSize="10.67dp"
-                    android:background="@null"
-                    />
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="7dp"
-                    android:background="@drawable/edittext"
-                    android:layout_alignParentBottom="true"
-                    />
-            </RelativeLayout>
-        </com.jnm.android.widget.ScalableLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/default_margin"
-            android:background="@color/white"
-            >
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/default_margin"
-            android:background="@color/gray1"
-            >
-        </LinearLayout>
+
         <com.jnm.android.widget.ScalableLayout
 
 
@@ -549,11 +739,10 @@
             sl:scale_base_width="1080"
 
             >
+
             <RelativeLayout
-                android:id="@+id/register_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/mint"
 
                 sl:scale_height="161"
                 sl:scale_left="0"
@@ -561,25 +750,28 @@
                 sl:scale_width="1080"
 
 
-
                 >
+
+                <Button
+                    android:id="@+id/register_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/mint"
+                    android:enabled="false"
+
+                    />
+
                 <TextView
                     style="@style/CustomSubTitleText"
-                    android:text="@string/text_register"
-                    android:textColor="@color/white"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
-                    />
+                    android:text="@string/text_register"
+                    android:textColor="@color/white" />
 
             </RelativeLayout>
 
 
-
-
         </com.jnm.android.widget.ScalableLayout>
-
-
-
 
 
     </LinearLayout>

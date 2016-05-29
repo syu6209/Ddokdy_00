@@ -251,14 +251,7 @@
                     "endOffset": 5273
                 },
                 "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 380,
-                        "endColumn": 51,
-                        "endOffset": 427
-                    }
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/dimens.xml"
                 }
             },
             {
@@ -422,8 +415,8 @@
                     "startLine": 40,
                     "startColumn": 4,
                     "startOffset": 5929,
-                    "endColumn": 38,
-                    "endOffset": 5963
+                    "endColumn": 40,
+                    "endOffset": 5965
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/dimens.xml"
@@ -433,9 +426,9 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 5968,
+                    "startOffset": 5970,
                     "endColumn": 38,
-                    "endOffset": 6002
+                    "endOffset": 6004
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/dimens.xml"
@@ -445,9 +438,9 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 6007,
-                    "endColumn": 45,
-                    "endOffset": 6048
+                    "startOffset": 6009,
+                    "endColumn": 38,
+                    "endOffset": 6043
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/dimens.xml"
@@ -457,9 +450,9 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 6053,
-                    "endColumn": 50,
-                    "endOffset": 6099
+                    "startOffset": 6048,
+                    "endColumn": 45,
+                    "endOffset": 6089
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/dimens.xml"
@@ -469,9 +462,9 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 6104,
-                    "endColumn": 47,
-                    "endOffset": 6147
+                    "startOffset": 6094,
+                    "endColumn": 50,
+                    "endOffset": 6140
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/dimens.xml"
@@ -481,21 +474,21 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 6152,
-                    "endColumn": 37,
-                    "endOffset": 6185
+                    "startOffset": 6145,
+                    "endColumn": 47,
+                    "endOffset": 6188
                 },
                 "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values/values.xml"
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/dimens.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 6190,
-                    "endColumn": 39,
-                    "endOffset": 6225
+                    "startOffset": 6193,
+                    "endColumn": 37,
+                    "endOffset": 6226
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values/values.xml"
@@ -505,9 +498,9 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 6230,
-                    "endColumn": 36,
-                    "endOffset": 6262
+                    "startOffset": 6231,
+                    "endColumn": 39,
+                    "endOffset": 6266
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values/values.xml"
@@ -517,9 +510,21 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 6267,
+                    "startOffset": 6271,
+                    "endColumn": 36,
+                    "endOffset": 6303
+                },
+                "from": {
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 6308,
                     "endColumn": 66,
-                    "endOffset": 6329
+                    "endOffset": 6370
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/version.xml"
@@ -527,11 +532,11 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 6334,
+                    "startOffset": 6375,
                     "endColumn": 39,
-                    "endOffset": 6369
+                    "endOffset": 6410
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -539,23 +544,11 @@
             },
             {
                 "to": {
-                    "startLine": 50,
-                    "startColumn": 4,
-                    "startOffset": 6374,
-                    "endColumn": 91,
-                    "endOffset": 6461
-                },
-                "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/auth_strings.xml"
-                }
-            },
-            {
-                "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 6466,
-                    "endColumn": 87,
-                    "endOffset": 6549
+                    "startOffset": 6415,
+                    "endColumn": 91,
+                    "endOffset": 6502
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/auth_strings.xml"
@@ -565,21 +558,21 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 6554,
-                    "endColumn": 156,
-                    "endOffset": 6706
+                    "startOffset": 6507,
+                    "endColumn": 87,
+                    "endOffset": 6590
                 },
                 "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/auth_strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 6711,
-                    "endColumn": 144,
-                    "endOffset": 6851
+                    "startOffset": 6595,
+                    "endColumn": 156,
+                    "endOffset": 6747
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -589,9 +582,9 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 6856,
-                    "endColumn": 108,
-                    "endOffset": 6960
+                    "startOffset": 6752,
+                    "endColumn": 144,
+                    "endOffset": 6892
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -601,9 +594,9 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 6965,
-                    "endColumn": 231,
-                    "endOffset": 7192
+                    "startOffset": 6897,
+                    "endColumn": 108,
+                    "endOffset": 7001
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -613,9 +606,9 @@
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 7197,
-                    "endColumn": 125,
-                    "endOffset": 7318
+                    "startOffset": 7006,
+                    "endColumn": 231,
+                    "endOffset": 7233
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -625,9 +618,9 @@
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 7323,
-                    "endColumn": 180,
-                    "endOffset": 7499
+                    "startOffset": 7238,
+                    "endColumn": 125,
+                    "endOffset": 7359
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -637,9 +630,9 @@
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 7504,
-                    "endColumn": 124,
-                    "endOffset": 7624
+                    "startOffset": 7364,
+                    "endColumn": 180,
+                    "endOffset": 7540
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -649,9 +642,9 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 7629,
-                    "endColumn": 138,
-                    "endOffset": 7763
+                    "startOffset": 7545,
+                    "endColumn": 124,
+                    "endOffset": 7665
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -661,9 +654,9 @@
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 7768,
-                    "endColumn": 123,
-                    "endOffset": 7887
+                    "startOffset": 7670,
+                    "endColumn": 138,
+                    "endOffset": 7804
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -673,9 +666,9 @@
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 7892,
-                    "endColumn": 212,
-                    "endOffset": 8100
+                    "startOffset": 7809,
+                    "endColumn": 123,
+                    "endOffset": 7928
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -685,9 +678,9 @@
                 "to": {
                     "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 8105,
-                    "endColumn": 214,
-                    "endOffset": 8315
+                    "startOffset": 7933,
+                    "endColumn": 212,
+                    "endOffset": 8141
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -697,9 +690,9 @@
                 "to": {
                     "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 8320,
-                    "endColumn": 122,
-                    "endOffset": 8438
+                    "startOffset": 8146,
+                    "endColumn": 214,
+                    "endOffset": 8356
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -709,9 +702,9 @@
                 "to": {
                     "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 8443,
-                    "endColumn": 164,
-                    "endOffset": 8603
+                    "startOffset": 8361,
+                    "endColumn": 122,
+                    "endOffset": 8479
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -721,9 +714,9 @@
                 "to": {
                     "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 8608,
-                    "endColumn": 93,
-                    "endOffset": 8697
+                    "startOffset": 8484,
+                    "endColumn": 164,
+                    "endOffset": 8644
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -733,9 +726,9 @@
                 "to": {
                     "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 8702,
-                    "endColumn": 136,
-                    "endOffset": 8834
+                    "startOffset": 8649,
+                    "endColumn": 93,
+                    "endOffset": 8738
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -745,9 +738,9 @@
                 "to": {
                     "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 8839,
-                    "endColumn": 140,
-                    "endOffset": 8975
+                    "startOffset": 8743,
+                    "endColumn": 136,
+                    "endOffset": 8875
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -757,9 +750,9 @@
                 "to": {
                     "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 8980,
-                    "endColumn": 89,
-                    "endOffset": 9065
+                    "startOffset": 8880,
+                    "endColumn": 140,
+                    "endOffset": 9016
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -769,9 +762,9 @@
                 "to": {
                     "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 9070,
-                    "endColumn": 147,
-                    "endOffset": 9213
+                    "startOffset": 9021,
+                    "endColumn": 89,
+                    "endOffset": 9106
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -781,9 +774,9 @@
                 "to": {
                     "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 9218,
-                    "endColumn": 102,
-                    "endOffset": 9316
+                    "startOffset": 9111,
+                    "endColumn": 147,
+                    "endOffset": 9254
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -793,9 +786,9 @@
                 "to": {
                     "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 9321,
-                    "endColumn": 150,
-                    "endOffset": 9467
+                    "startOffset": 9259,
+                    "endColumn": 102,
+                    "endOffset": 9357
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -805,9 +798,9 @@
                 "to": {
                     "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 9472,
-                    "endColumn": 91,
-                    "endOffset": 9559
+                    "startOffset": 9362,
+                    "endColumn": 150,
+                    "endOffset": 9508
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -817,9 +810,9 @@
                 "to": {
                     "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 9564,
-                    "endColumn": 110,
-                    "endOffset": 9670
+                    "startOffset": 9513,
+                    "endColumn": 91,
+                    "endOffset": 9600
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -829,9 +822,9 @@
                 "to": {
                     "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 9675,
-                    "endColumn": 218,
-                    "endOffset": 9889
+                    "startOffset": 9605,
+                    "endColumn": 110,
+                    "endOffset": 9711
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -841,9 +834,9 @@
                 "to": {
                     "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 9894,
-                    "endColumn": 94,
-                    "endOffset": 9984
+                    "startOffset": 9716,
+                    "endColumn": 218,
+                    "endOffset": 9930
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -853,9 +846,9 @@
                 "to": {
                     "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 9989,
-                    "endColumn": 104,
-                    "endOffset": 10089
+                    "startOffset": 9935,
+                    "endColumn": 94,
+                    "endOffset": 10025
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -865,9 +858,9 @@
                 "to": {
                     "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 10094,
-                    "endColumn": 180,
-                    "endOffset": 10270
+                    "startOffset": 10030,
+                    "endColumn": 104,
+                    "endOffset": 10130
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -877,9 +870,9 @@
                 "to": {
                     "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 10275,
-                    "endColumn": 124,
-                    "endOffset": 10395
+                    "startOffset": 10135,
+                    "endColumn": 180,
+                    "endOffset": 10311
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -889,9 +882,9 @@
                 "to": {
                     "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 10400,
-                    "endColumn": 174,
-                    "endOffset": 10570
+                    "startOffset": 10316,
+                    "endColumn": 124,
+                    "endOffset": 10436
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -901,9 +894,9 @@
                 "to": {
                     "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 10575,
-                    "endColumn": 104,
-                    "endOffset": 10675
+                    "startOffset": 10441,
+                    "endColumn": 174,
+                    "endOffset": 10611
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -913,9 +906,9 @@
                 "to": {
                     "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 10680,
-                    "endColumn": 62,
-                    "endOffset": 10738
+                    "startOffset": 10616,
+                    "endColumn": 104,
+                    "endOffset": 10716
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
@@ -925,21 +918,21 @@
                 "to": {
                     "startLine": 82,
                     "startColumn": 4,
-                    "startOffset": 10743,
-                    "endColumn": 72,
-                    "endOffset": 10811
+                    "startOffset": 10721,
+                    "endColumn": 62,
+                    "endOffset": 10779
                 },
                 "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 10816,
-                    "endColumn": 81,
-                    "endOffset": 10893
+                    "startOffset": 10784,
+                    "endColumn": 72,
+                    "endOffset": 10852
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -949,9 +942,9 @@
                 "to": {
                     "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 10898,
-                    "endColumn": 72,
-                    "endOffset": 10966
+                    "startOffset": 10857,
+                    "endColumn": 81,
+                    "endOffset": 10934
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -961,9 +954,9 @@
                 "to": {
                     "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 10971,
-                    "endColumn": 61,
-                    "endOffset": 11028
+                    "startOffset": 10939,
+                    "endColumn": 72,
+                    "endOffset": 11007
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -973,9 +966,9 @@
                 "to": {
                     "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 11033,
-                    "endColumn": 52,
-                    "endOffset": 11081
+                    "startOffset": 11012,
+                    "endColumn": 61,
+                    "endOffset": 11069
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -985,9 +978,9 @@
                 "to": {
                     "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 11086,
-                    "endColumn": 56,
-                    "endOffset": 11138
+                    "startOffset": 11074,
+                    "endColumn": 52,
+                    "endOffset": 11122
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -997,9 +990,9 @@
                 "to": {
                     "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 11143,
+                    "startOffset": 11127,
                     "endColumn": 56,
-                    "endOffset": 11195
+                    "endOffset": 11179
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1009,9 +1002,9 @@
                 "to": {
                     "startLine": 89,
                     "startColumn": 4,
-                    "startOffset": 11200,
-                    "endColumn": 55,
-                    "endOffset": 11251
+                    "startOffset": 11184,
+                    "endColumn": 56,
+                    "endOffset": 11236
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1021,9 +1014,9 @@
                 "to": {
                     "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 11256,
-                    "endColumn": 61,
-                    "endOffset": 11313
+                    "startOffset": 11241,
+                    "endColumn": 55,
+                    "endOffset": 11292
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1033,9 +1026,9 @@
                 "to": {
                     "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 11318,
-                    "endColumn": 63,
-                    "endOffset": 11377
+                    "startOffset": 11297,
+                    "endColumn": 61,
+                    "endOffset": 11354
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1045,9 +1038,9 @@
                 "to": {
                     "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 11382,
-                    "endColumn": 48,
-                    "endOffset": 11426
+                    "startOffset": 11359,
+                    "endColumn": 63,
+                    "endOffset": 11418
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1057,21 +1050,21 @@
                 "to": {
                     "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 11431,
-                    "endColumn": 101,
-                    "endOffset": 11528
+                    "startOffset": 11423,
+                    "endColumn": 48,
+                    "endOffset": 11467
                 },
                 "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values/values.xml"
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 11533,
-                    "endColumn": 113,
-                    "endOffset": 11642
+                    "startOffset": 11472,
+                    "endColumn": 101,
+                    "endOffset": 11569
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values/values.xml"
@@ -1081,9 +1074,9 @@
                 "to": {
                     "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 11647,
-                    "endColumn": 107,
-                    "endOffset": 11750
+                    "startOffset": 11574,
+                    "endColumn": 113,
+                    "endOffset": 11683
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values/values.xml"
@@ -1093,9 +1086,9 @@
                 "to": {
                     "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 11755,
-                    "endColumn": 71,
-                    "endOffset": 11822
+                    "startOffset": 11688,
+                    "endColumn": 107,
+                    "endOffset": 11791
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values/values.xml"
@@ -1105,9 +1098,9 @@
                 "to": {
                     "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 11827,
-                    "endColumn": 69,
-                    "endOffset": 11892
+                    "startOffset": 11796,
+                    "endColumn": 71,
+                    "endOffset": 11863
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values/values.xml"
@@ -1117,9 +1110,9 @@
                 "to": {
                     "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 11897,
-                    "endColumn": 77,
-                    "endOffset": 11970
+                    "startOffset": 11868,
+                    "endColumn": 69,
+                    "endOffset": 11933
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values/values.xml"
@@ -1129,21 +1122,21 @@
                 "to": {
                     "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 11975,
-                    "endColumn": 52,
-                    "endOffset": 12023
+                    "startOffset": 11938,
+                    "endColumn": 77,
+                    "endOffset": 12011
                 },
                 "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 12028,
-                    "endColumn": 72,
-                    "endOffset": 12096
+                    "startOffset": 12016,
+                    "endColumn": 52,
+                    "endOffset": 12064
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1153,9 +1146,9 @@
                 "to": {
                     "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 12101,
-                    "endColumn": 54,
-                    "endOffset": 12151
+                    "startOffset": 12069,
+                    "endColumn": 72,
+                    "endOffset": 12137
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1165,9 +1158,9 @@
                 "to": {
                     "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 12156,
-                    "endColumn": 53,
-                    "endOffset": 12205
+                    "startOffset": 12142,
+                    "endColumn": 54,
+                    "endOffset": 12192
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1177,9 +1170,9 @@
                 "to": {
                     "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 12210,
-                    "endColumn": 60,
-                    "endOffset": 12266
+                    "startOffset": 12197,
+                    "endColumn": 53,
+                    "endOffset": 12246
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1189,9 +1182,9 @@
                 "to": {
                     "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 12271,
-                    "endColumn": 67,
-                    "endOffset": 12334
+                    "startOffset": 12251,
+                    "endColumn": 60,
+                    "endOffset": 12307
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1201,9 +1194,9 @@
                 "to": {
                     "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 12339,
-                    "endColumn": 80,
-                    "endOffset": 12415
+                    "startOffset": 12312,
+                    "endColumn": 67,
+                    "endOffset": 12375
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1213,9 +1206,9 @@
                 "to": {
                     "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 12420,
-                    "endColumn": 43,
-                    "endOffset": 12459
+                    "startOffset": 12380,
+                    "endColumn": 80,
+                    "endOffset": 12456
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1225,9 +1218,9 @@
                 "to": {
                     "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 12464,
-                    "endColumn": 42,
-                    "endOffset": 12502
+                    "startOffset": 12461,
+                    "endColumn": 43,
+                    "endOffset": 12500
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1237,9 +1230,9 @@
                 "to": {
                     "startLine": 108,
                     "startColumn": 4,
-                    "startOffset": 12507,
-                    "endColumn": 49,
-                    "endOffset": 12552
+                    "startOffset": 12505,
+                    "endColumn": 39,
+                    "endOffset": 12540
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1249,9 +1242,9 @@
                 "to": {
                     "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 12557,
-                    "endColumn": 44,
-                    "endOffset": 12597
+                    "startOffset": 12545,
+                    "endColumn": 42,
+                    "endOffset": 12583
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1261,9 +1254,9 @@
                 "to": {
                     "startLine": 110,
                     "startColumn": 4,
-                    "startOffset": 12602,
-                    "endColumn": 43,
-                    "endOffset": 12641
+                    "startOffset": 12588,
+                    "endColumn": 49,
+                    "endOffset": 12633
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1273,9 +1266,9 @@
                 "to": {
                     "startLine": 111,
                     "startColumn": 4,
-                    "startOffset": 12646,
-                    "endColumn": 54,
-                    "endOffset": 12696
+                    "startOffset": 12638,
+                    "endColumn": 44,
+                    "endOffset": 12678
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1285,9 +1278,9 @@
                 "to": {
                     "startLine": 112,
                     "startColumn": 4,
-                    "startOffset": 12701,
-                    "endColumn": 55,
-                    "endOffset": 12752
+                    "startOffset": 12683,
+                    "endColumn": 43,
+                    "endOffset": 12722
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1297,9 +1290,9 @@
                 "to": {
                     "startLine": 113,
                     "startColumn": 4,
-                    "startOffset": 12757,
-                    "endColumn": 53,
-                    "endOffset": 12806
+                    "startOffset": 12727,
+                    "endColumn": 54,
+                    "endOffset": 12777
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1309,9 +1302,9 @@
                 "to": {
                     "startLine": 114,
                     "startColumn": 4,
-                    "startOffset": 12811,
-                    "endColumn": 65,
-                    "endOffset": 12872
+                    "startOffset": 12782,
+                    "endColumn": 55,
+                    "endOffset": 12833
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1321,9 +1314,9 @@
                 "to": {
                     "startLine": 115,
                     "startColumn": 4,
-                    "startOffset": 12877,
-                    "endColumn": 50,
-                    "endOffset": 12923
+                    "startOffset": 12838,
+                    "endColumn": 53,
+                    "endOffset": 12887
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1333,9 +1326,9 @@
                 "to": {
                     "startLine": 116,
                     "startColumn": 4,
-                    "startOffset": 12928,
-                    "endColumn": 42,
-                    "endOffset": 12966
+                    "startOffset": 12892,
+                    "endColumn": 65,
+                    "endOffset": 12953
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1345,9 +1338,9 @@
                 "to": {
                     "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 12971,
-                    "endColumn": 40,
-                    "endOffset": 13007
+                    "startOffset": 12958,
+                    "endColumn": 50,
+                    "endOffset": 13004
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1357,9 +1350,9 @@
                 "to": {
                     "startLine": 118,
                     "startColumn": 4,
-                    "startOffset": 13012,
-                    "endColumn": 56,
-                    "endOffset": 13064
+                    "startOffset": 13009,
+                    "endColumn": 42,
+                    "endOffset": 13047
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1369,9 +1362,9 @@
                 "to": {
                     "startLine": 119,
                     "startColumn": 4,
-                    "startOffset": 13069,
-                    "endColumn": 40,
-                    "endOffset": 13105
+                    "startOffset": 13052,
+                    "endColumn": 51,
+                    "endOffset": 13099
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1381,9 +1374,9 @@
                 "to": {
                     "startLine": 120,
                     "startColumn": 4,
-                    "startOffset": 13110,
-                    "endColumn": 50,
-                    "endOffset": 13156
+                    "startOffset": 13104,
+                    "endColumn": 40,
+                    "endOffset": 13140
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1393,9 +1386,9 @@
                 "to": {
                     "startLine": 121,
                     "startColumn": 4,
-                    "startOffset": 13161,
-                    "endColumn": 49,
-                    "endOffset": 13206
+                    "startOffset": 13145,
+                    "endColumn": 56,
+                    "endOffset": 13197
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1405,9 +1398,9 @@
                 "to": {
                     "startLine": 122,
                     "startColumn": 4,
-                    "startOffset": 13211,
-                    "endColumn": 44,
-                    "endOffset": 13251
+                    "startOffset": 13202,
+                    "endColumn": 40,
+                    "endOffset": 13238
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1417,9 +1410,9 @@
                 "to": {
                     "startLine": 123,
                     "startColumn": 4,
-                    "startOffset": 13256,
-                    "endColumn": 56,
-                    "endOffset": 13308
+                    "startOffset": 13243,
+                    "endColumn": 42,
+                    "endOffset": 13281
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1429,9 +1422,9 @@
                 "to": {
                     "startLine": 124,
                     "startColumn": 4,
-                    "startOffset": 13313,
-                    "endColumn": 55,
-                    "endOffset": 13364
+                    "startOffset": 13286,
+                    "endColumn": 50,
+                    "endOffset": 13332
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1441,9 +1434,9 @@
                 "to": {
                     "startLine": 125,
                     "startColumn": 4,
-                    "startOffset": 13369,
-                    "endColumn": 41,
-                    "endOffset": 13406
+                    "startOffset": 13337,
+                    "endColumn": 49,
+                    "endOffset": 13382
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1453,9 +1446,9 @@
                 "to": {
                     "startLine": 126,
                     "startColumn": 4,
-                    "startOffset": 13411,
+                    "startOffset": 13387,
                     "endColumn": 44,
-                    "endOffset": 13451
+                    "endOffset": 13427
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1465,9 +1458,9 @@
                 "to": {
                     "startLine": 127,
                     "startColumn": 4,
-                    "startOffset": 13456,
-                    "endColumn": 42,
-                    "endOffset": 13494
+                    "startOffset": 13432,
+                    "endColumn": 56,
+                    "endOffset": 13484
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1477,9 +1470,9 @@
                 "to": {
                     "startLine": 128,
                     "startColumn": 4,
-                    "startOffset": 13499,
-                    "endColumn": 47,
-                    "endOffset": 13542
+                    "startOffset": 13489,
+                    "endColumn": 55,
+                    "endOffset": 13540
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1489,9 +1482,9 @@
                 "to": {
                     "startLine": 129,
                     "startColumn": 4,
-                    "startOffset": 13547,
-                    "endColumn": 62,
-                    "endOffset": 13605
+                    "startOffset": 13545,
+                    "endColumn": 41,
+                    "endOffset": 13582
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1501,9 +1494,9 @@
                 "to": {
                     "startLine": 130,
                     "startColumn": 4,
-                    "startOffset": 13610,
-                    "endColumn": 50,
-                    "endOffset": 13656
+                    "startOffset": 13587,
+                    "endColumn": 44,
+                    "endOffset": 13627
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1513,9 +1506,9 @@
                 "to": {
                     "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 13661,
+                    "startOffset": 13632,
                     "endColumn": 42,
-                    "endOffset": 13699
+                    "endOffset": 13670
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1525,9 +1518,9 @@
                 "to": {
                     "startLine": 132,
                     "startColumn": 4,
-                    "startOffset": 13704,
-                    "endColumn": 50,
-                    "endOffset": 13750
+                    "startOffset": 13675,
+                    "endColumn": 47,
+                    "endOffset": 13718
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1537,9 +1530,9 @@
                 "to": {
                     "startLine": 133,
                     "startColumn": 4,
-                    "startOffset": 13755,
-                    "endColumn": 40,
-                    "endOffset": 13791
+                    "startOffset": 13723,
+                    "endColumn": 62,
+                    "endOffset": 13781
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1549,9 +1542,9 @@
                 "to": {
                     "startLine": 134,
                     "startColumn": 4,
-                    "startOffset": 13796,
-                    "endColumn": 42,
-                    "endOffset": 13834
+                    "startOffset": 13786,
+                    "endColumn": 50,
+                    "endOffset": 13832
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1561,8 +1554,8 @@
                 "to": {
                     "startLine": 135,
                     "startColumn": 4,
-                    "startOffset": 13839,
-                    "endColumn": 40,
+                    "startOffset": 13837,
+                    "endColumn": 42,
                     "endOffset": 13875
                 },
                 "from": {
@@ -1574,8 +1567,8 @@
                     "startLine": 136,
                     "startColumn": 4,
                     "startOffset": 13880,
-                    "endColumn": 40,
-                    "endOffset": 13916
+                    "endColumn": 50,
+                    "endOffset": 13926
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1585,9 +1578,9 @@
                 "to": {
                     "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 13921,
-                    "endColumn": 44,
-                    "endOffset": 13961
+                    "startOffset": 13931,
+                    "endColumn": 40,
+                    "endOffset": 13967
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1597,9 +1590,9 @@
                 "to": {
                     "startLine": 138,
                     "startColumn": 4,
-                    "startOffset": 13966,
-                    "endColumn": 47,
-                    "endOffset": 14009
+                    "startOffset": 13972,
+                    "endColumn": 42,
+                    "endOffset": 14010
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1609,9 +1602,9 @@
                 "to": {
                     "startLine": 139,
                     "startColumn": 4,
-                    "startOffset": 14014,
+                    "startOffset": 14015,
                     "endColumn": 40,
-                    "endOffset": 14050
+                    "endOffset": 14051
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1621,9 +1614,9 @@
                 "to": {
                     "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 14055,
-                    "endColumn": 54,
-                    "endOffset": 14105
+                    "startOffset": 14056,
+                    "endColumn": 40,
+                    "endOffset": 14092
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1633,9 +1626,9 @@
                 "to": {
                     "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 14110,
-                    "endColumn": 42,
-                    "endOffset": 14148
+                    "startOffset": 14097,
+                    "endColumn": 44,
+                    "endOffset": 14137
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1645,9 +1638,9 @@
                 "to": {
                     "startLine": 142,
                     "startColumn": 4,
-                    "startOffset": 14153,
-                    "endColumn": 51,
-                    "endOffset": 14200
+                    "startOffset": 14142,
+                    "endColumn": 47,
+                    "endOffset": 14185
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1657,9 +1650,9 @@
                 "to": {
                     "startLine": 143,
                     "startColumn": 4,
-                    "startOffset": 14205,
-                    "endColumn": 74,
-                    "endOffset": 14275
+                    "startOffset": 14190,
+                    "endColumn": 40,
+                    "endOffset": 14226
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1669,9 +1662,9 @@
                 "to": {
                     "startLine": 144,
                     "startColumn": 4,
-                    "startOffset": 14280,
-                    "endColumn": 42,
-                    "endOffset": 14318
+                    "startOffset": 14231,
+                    "endColumn": 54,
+                    "endOffset": 14281
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1681,9 +1674,9 @@
                 "to": {
                     "startLine": 145,
                     "startColumn": 4,
-                    "startOffset": 14323,
-                    "endColumn": 67,
-                    "endOffset": 14386
+                    "startOffset": 14286,
+                    "endColumn": 42,
+                    "endOffset": 14324
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1693,9 +1686,9 @@
                 "to": {
                     "startLine": 146,
                     "startColumn": 4,
-                    "startOffset": 14391,
-                    "endColumn": 41,
-                    "endOffset": 14428
+                    "startOffset": 14329,
+                    "endColumn": 51,
+                    "endOffset": 14376
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1705,9 +1698,9 @@
                 "to": {
                     "startLine": 147,
                     "startColumn": 4,
-                    "startOffset": 14433,
-                    "endColumn": 44,
-                    "endOffset": 14473
+                    "startOffset": 14381,
+                    "endColumn": 74,
+                    "endOffset": 14451
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1717,9 +1710,9 @@
                 "to": {
                     "startLine": 148,
                     "startColumn": 4,
-                    "startOffset": 14478,
-                    "endColumn": 46,
-                    "endOffset": 14520
+                    "startOffset": 14456,
+                    "endColumn": 42,
+                    "endOffset": 14494
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1729,9 +1722,9 @@
                 "to": {
                     "startLine": 149,
                     "startColumn": 4,
-                    "startOffset": 14525,
-                    "endColumn": 40,
-                    "endOffset": 14561
+                    "startOffset": 14499,
+                    "endColumn": 67,
+                    "endOffset": 14562
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1741,9 +1734,9 @@
                 "to": {
                     "startLine": 150,
                     "startColumn": 4,
-                    "startOffset": 14566,
-                    "endColumn": 44,
-                    "endOffset": 14606
+                    "startOffset": 14567,
+                    "endColumn": 41,
+                    "endOffset": 14604
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1753,9 +1746,9 @@
                 "to": {
                     "startLine": 151,
                     "startColumn": 4,
-                    "startOffset": 14611,
-                    "endColumn": 52,
-                    "endOffset": 14659
+                    "startOffset": 14609,
+                    "endColumn": 44,
+                    "endOffset": 14649
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1765,9 +1758,9 @@
                 "to": {
                     "startLine": 152,
                     "startColumn": 4,
-                    "startOffset": 14664,
-                    "endColumn": 51,
-                    "endOffset": 14711
+                    "startOffset": 14654,
+                    "endColumn": 46,
+                    "endOffset": 14696
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1777,9 +1770,9 @@
                 "to": {
                     "startLine": 153,
                     "startColumn": 4,
-                    "startOffset": 14716,
-                    "endColumn": 43,
-                    "endOffset": 14755
+                    "startOffset": 14701,
+                    "endColumn": 40,
+                    "endOffset": 14737
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1789,9 +1782,9 @@
                 "to": {
                     "startLine": 154,
                     "startColumn": 4,
-                    "startOffset": 14760,
-                    "endColumn": 39,
-                    "endOffset": 14795
+                    "startOffset": 14742,
+                    "endColumn": 44,
+                    "endOffset": 14782
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1801,9 +1794,9 @@
                 "to": {
                     "startLine": 155,
                     "startColumn": 4,
-                    "startOffset": 14800,
-                    "endColumn": 55,
-                    "endOffset": 14851
+                    "startOffset": 14787,
+                    "endColumn": 52,
+                    "endOffset": 14835
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1813,9 +1806,9 @@
                 "to": {
                     "startLine": 156,
                     "startColumn": 4,
-                    "startOffset": 14856,
-                    "endColumn": 49,
-                    "endOffset": 14901
+                    "startOffset": 14840,
+                    "endColumn": 51,
+                    "endOffset": 14887
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1825,9 +1818,9 @@
                 "to": {
                     "startLine": 157,
                     "startColumn": 4,
-                    "startOffset": 14906,
-                    "endColumn": 40,
-                    "endOffset": 14942
+                    "startOffset": 14892,
+                    "endColumn": 43,
+                    "endOffset": 14931
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1837,9 +1830,9 @@
                 "to": {
                     "startLine": 158,
                     "startColumn": 4,
-                    "startOffset": 14947,
-                    "endColumn": 40,
-                    "endOffset": 14983
+                    "startOffset": 14936,
+                    "endColumn": 39,
+                    "endOffset": 14971
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1849,9 +1842,9 @@
                 "to": {
                     "startLine": 159,
                     "startColumn": 4,
-                    "startOffset": 14988,
-                    "endColumn": 40,
-                    "endOffset": 15024
+                    "startOffset": 14976,
+                    "endColumn": 55,
+                    "endOffset": 15027
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1861,9 +1854,9 @@
                 "to": {
                     "startLine": 160,
                     "startColumn": 4,
-                    "startOffset": 15029,
-                    "endColumn": 40,
-                    "endOffset": 15065
+                    "startOffset": 15032,
+                    "endColumn": 49,
+                    "endOffset": 15077
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1873,9 +1866,9 @@
                 "to": {
                     "startLine": 161,
                     "startColumn": 4,
-                    "startOffset": 15070,
+                    "startOffset": 15082,
                     "endColumn": 40,
-                    "endOffset": 15106
+                    "endOffset": 15118
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1885,9 +1878,9 @@
                 "to": {
                     "startLine": 162,
                     "startColumn": 4,
-                    "startOffset": 15111,
-                    "endColumn": 43,
-                    "endOffset": 15150
+                    "startOffset": 15123,
+                    "endColumn": 40,
+                    "endOffset": 15159
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1897,9 +1890,9 @@
                 "to": {
                     "startLine": 163,
                     "startColumn": 4,
-                    "startOffset": 15155,
-                    "endColumn": 51,
-                    "endOffset": 15202
+                    "startOffset": 15164,
+                    "endColumn": 40,
+                    "endOffset": 15200
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1909,12 +1902,19 @@
                 "to": {
                     "startLine": 164,
                     "startColumn": 4,
-                    "startOffset": 15207,
-                    "endColumn": 40,
+                    "startOffset": 15205,
+                    "endColumn": 42,
                     "endOffset": 15243
                 },
                 "from": {
-                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1185,
+                        "endColumn": 42,
+                        "endOffset": 1223
+                    }
                 }
             },
             {
@@ -1922,8 +1922,8 @@
                     "startLine": 165,
                     "startColumn": 4,
                     "startOffset": 15248,
-                    "endColumn": 63,
-                    "endOffset": 15307
+                    "endColumn": 40,
+                    "endOffset": 15284
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1933,9 +1933,9 @@
                 "to": {
                     "startLine": 166,
                     "startColumn": 4,
-                    "startOffset": 15312,
-                    "endColumn": 42,
-                    "endOffset": 15350
+                    "startOffset": 15289,
+                    "endColumn": 43,
+                    "endOffset": 15328
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1945,9 +1945,9 @@
                 "to": {
                     "startLine": 167,
                     "startColumn": 4,
-                    "startOffset": 15355,
-                    "endColumn": 49,
-                    "endOffset": 15400
+                    "startOffset": 15333,
+                    "endColumn": 51,
+                    "endOffset": 15380
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1957,9 +1957,9 @@
                 "to": {
                     "startLine": 168,
                     "startColumn": 4,
-                    "startOffset": 15405,
-                    "endColumn": 62,
-                    "endOffset": 15463
+                    "startOffset": 15385,
+                    "endColumn": 40,
+                    "endOffset": 15421
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1969,9 +1969,9 @@
                 "to": {
                     "startLine": 169,
                     "startColumn": 4,
-                    "startOffset": 15468,
-                    "endColumn": 60,
-                    "endOffset": 15524
+                    "startOffset": 15426,
+                    "endColumn": 63,
+                    "endOffset": 15485
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1981,9 +1981,9 @@
                 "to": {
                     "startLine": 170,
                     "startColumn": 4,
-                    "startOffset": 15529,
-                    "endColumn": 68,
-                    "endOffset": 15593
+                    "startOffset": 15490,
+                    "endColumn": 42,
+                    "endOffset": 15528
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -1993,9 +1993,9 @@
                 "to": {
                     "startLine": 171,
                     "startColumn": 4,
-                    "startOffset": 15598,
-                    "endColumn": 62,
-                    "endOffset": 15656
+                    "startOffset": 15533,
+                    "endColumn": 49,
+                    "endOffset": 15578
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -2005,9 +2005,9 @@
                 "to": {
                     "startLine": 172,
                     "startColumn": 4,
-                    "startOffset": 15661,
-                    "endColumn": 70,
-                    "endOffset": 15727
+                    "startOffset": 15583,
+                    "endColumn": 62,
+                    "endOffset": 15641
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
@@ -2017,10 +2017,58 @@
                 "to": {
                     "startLine": 173,
                     "startColumn": 4,
-                    "startOffset": 15732,
-                    "endLine": 179,
+                    "startOffset": 15646,
+                    "endColumn": 60,
+                    "endOffset": 15702
+                },
+                "from": {
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 15707,
+                    "endColumn": 68,
+                    "endOffset": 15771
+                },
+                "from": {
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 15776,
+                    "endColumn": 62,
+                    "endOffset": 15834
+                },
+                "from": {
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 15839,
+                    "endColumn": 70,
+                    "endOffset": 15905
+                },
+                "from": {
+                    "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 15910,
+                    "endLine": 183,
                     "endColumn": 12,
-                    "endOffset": 16018
+                    "endOffset": 16196
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/styles.xml"
@@ -2028,12 +2076,12 @@
             },
             {
                 "to": {
-                    "startLine": 180,
+                    "startLine": 184,
                     "startColumn": 4,
-                    "startOffset": 16023,
-                    "endLine": 182,
+                    "startOffset": 16201,
+                    "endLine": 186,
                     "endColumn": 12,
-                    "endOffset": 16178
+                    "endOffset": 16356
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/styles.xml"
@@ -2041,12 +2089,12 @@
             },
             {
                 "to": {
-                    "startLine": 183,
+                    "startLine": 187,
                     "startColumn": 4,
-                    "startOffset": 16183,
-                    "endLine": 188,
+                    "startOffset": 16361,
+                    "endLine": 192,
                     "endColumn": 12,
-                    "endOffset": 16521
+                    "endOffset": 16699
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/styles.xml"
@@ -2054,12 +2102,12 @@
             },
             {
                 "to": {
-                    "startLine": 189,
+                    "startLine": 193,
                     "startColumn": 4,
-                    "startOffset": 16526,
-                    "endLine": 194,
+                    "startOffset": 16704,
+                    "endLine": 198,
                     "endColumn": 12,
-                    "endOffset": 16870
+                    "endOffset": 17048
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/styles.xml"
@@ -2067,12 +2115,12 @@
             },
             {
                 "to": {
-                    "startLine": 195,
+                    "startLine": 199,
                     "startColumn": 4,
-                    "startOffset": 16875,
-                    "endLine": 200,
+                    "startOffset": 17053,
+                    "endLine": 204,
                     "endColumn": 12,
-                    "endOffset": 17213
+                    "endOffset": 17391
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/styles.xml"
@@ -2080,12 +2128,12 @@
             },
             {
                 "to": {
-                    "startLine": 201,
+                    "startLine": 205,
                     "startColumn": 4,
-                    "startOffset": 17218,
-                    "endLine": 209,
+                    "startOffset": 17396,
+                    "endLine": 213,
                     "endColumn": 12,
-                    "endOffset": 17605
+                    "endOffset": 17783
                 },
                 "from": {
                     "file": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/values/styles.xml"

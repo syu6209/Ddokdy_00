@@ -25,12 +25,12 @@
     <string name="text_period">기간</string>
     <string name="text_numofpeople">인원</string>
     <string name="text_optional_items">선택입력사항</string>
-    <string name="text_time">시간</string>
+    <string name="text_time">모임시간</string>
     <string name="text_joining_condition">가입조건</string>
     <string name="text_sex">성별</string>
     <string name="text_final_make_study">스터디 개설</string>
     <string name="text_make_study_complete">스터디 개설 완료</string>
-
+    <string name="text_feild_select">분야 선택</string>
 
 
     <string name="explain_closedtype">초대 링크를 통해서만\n가입신청이 가능합니다.</string>
@@ -84,6 +84,10 @@
     <string name="text_pwd">비밀번호</string>
     <string name="text_pwd2">비밀번호확인</string>
     <string name="text_tel">연락처</string>
+
+
+    <string name="text_gender">성별</string>
+    <string name="text_age">나이</string>
 
 
 
