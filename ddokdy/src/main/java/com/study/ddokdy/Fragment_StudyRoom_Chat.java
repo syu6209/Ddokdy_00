@@ -2,24 +2,22 @@ package com.study.ddokdy;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.util.Log;
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
-import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 import java.util.ArrayList;
+
+import prv.zozi.utils.Config;
+import prv.zozi.utils.ZMethod;
 
 /**
  * Created by ibyeongmu on 16. 5. 27..
@@ -36,7 +34,11 @@ public class Fragment_StudyRoom_Chat extends android.app.Fragment{
     ResizeWidthAnimation anim;
     boolean btn_flag = false;
 
-    @Nullable
+
+    private int idx_min, idx_max;
+
+    private String url_send = "talk_send.php";
+    private String url_load = "talk_gettalk.php";
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_studyroom_chat,container,false);
@@ -51,6 +53,7 @@ public class Fragment_StudyRoom_Chat extends android.app.Fragment{
     {
         anim_height = (int)((double) (getActivity().getResources().getDisplayMetrics().heightPixels) *0.0864);
         mListData = new ArrayList<Member_data>();
+        /*
         mListData.add(new Member_data(1,"aaasdasdasd"));
         mListData.add(new Member_data(1,"aaasdasdasd"));
         mListData.add(new Member_data(1,"aaasdasdasd"));
@@ -59,8 +62,30 @@ public class Fragment_StudyRoom_Chat extends android.app.Fragment{
         mListData.add(new Member_data(0,"aaasdasdasd"));
         mListData.add(new Member_data(0,"aaasdasdasd"));
         mListData.add(new Member_data(0,"aaasdasdasd"));
-
+        */
+        idx_min = -1;
+        idx_max = -1;
+        loadData(0);
     }
+
+    private void loadData(int type) {
+        String postData = "";
+        String result = "";
+        switch(type){
+            case 0:
+                //가장 처음 초기데이터 불러오기
+                postData += "uid=";
+                result = ZMethod.getStringHttpPost(Config.url_home+url_load, postData);
+                break;
+            case 1:
+                //초기 데이터를 불러온상태에서 저장된 마지막 idx 이후로 최신 데이터 불러오기
+                break;
+            case 2:
+                //초기 데이터를 불러온상태에서 가장 오래된 idx 이전 데이터 불러오기
+                break;
+        }
+    }
+
     public void holdViews(View v)
     {
         chat_option_btn = (ImageView)v.findViewById(R.id.chat_option_btn);
@@ -100,10 +125,9 @@ public class Fragment_StudyRoom_Chat extends android.app.Fragment{
         });
     }
     private class Member_data{
-
-        int who_flag;
-        String text;
-
+        public int who_flag;
+        public String text, time;
+        public int type, read;
         public Member_data(int who_flag, String text) {
             this.who_flag = who_flag;
             this.text = text;
@@ -111,9 +135,7 @@ public class Fragment_StudyRoom_Chat extends android.app.Fragment{
     }
     private class ViewHolder{
 
-
-        TextView chat_text;
-
+        TextView chat_text,read,time;
 
     }
     public class ResizeWidthAnimation extends Animation
@@ -145,6 +167,9 @@ public class Fragment_StudyRoom_Chat extends android.app.Fragment{
             return true;
         }
     }
+
+
+
     private class ListViewAdapter extends BaseAdapter {
         private Context mContext = null;
         public ListViewAdapter(Context mContext) {
@@ -191,6 +216,8 @@ public class Fragment_StudyRoom_Chat extends android.app.Fragment{
                     holder = new ViewHolder();
 
                     holder.chat_text = (TextView)convertView.findViewById(R.id.listbox_chat_text);
+                    holder.read = (TextView)convertView.findViewById(R.id.tv_read);
+                    holder.time = (TextView)convertView.findViewById(R.id.tv_time);
                     convertView.setTag(holder);
 
                 }else{
@@ -199,6 +226,8 @@ public class Fragment_StudyRoom_Chat extends android.app.Fragment{
                 if(holder != null){
 
                     holder.chat_text.setText(mData.text);
+                    //holder.read
+                    //holder.time.setText(mData.time);
 //
 
                 }
