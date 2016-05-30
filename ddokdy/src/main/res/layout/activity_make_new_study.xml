@@ -90,7 +90,9 @@
                             android:layout_height="match_parent"
                             android:contentDescription="@null"
                             android:scaleType="fitXY"
-                            android:src="@drawable/circle_check_mint" />
+                            android:src="@drawable/circle_check_mint"
+                            android:visibility="invisible"
+                            />
                     </FrameLayout>
 
                     <Space
@@ -128,7 +130,10 @@
                             android:layout_height="match_parent"
                             android:contentDescription="@null"
                             android:scaleType="fitXY"
-                            android:src="@drawable/circle_check_mint" />
+                            android:src="@drawable/circle_check_mint"
+                            android:visibility="invisible"
+
+                            />
                     </FrameLayout>
 
                     <Space
@@ -230,7 +235,7 @@
                     android:minWidth="0dp" />
 
                 <EditText
-                    android:id="@+id/ss"
+                    android:id="@+id/study_intro"
                     style="@style/CustomSmallText"
                     android:layout_width="match_parent"
                     android:layout_toEndOf="@id/qq"
@@ -254,7 +259,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#11ee11"
+            android:background="@color/white"
             android:orientation="vertical">
 
             <TextView
@@ -279,7 +284,6 @@
                 <TextView
                     android:id="@+id/tv_pivot1"
                     style="@style/CustomSmallText"
-                    android:background="#ee7111"
                     android:minWidth="@dimen/px_250"
                     android:padding="@dimen/px_90"
                     android:text="@string/text_location" />
@@ -287,7 +291,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#ee7111">
+                    >
 
                     <ImageButton
 
@@ -296,7 +300,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentTop="true"
-                        android:background="#11ee11"
+                        android:background="@null"
                         android:contentDescription="@null"
                         android:scaleType="fitXY"
                         android:src="@drawable/btn_arrow_right" />
@@ -329,7 +333,6 @@
                     style="@style/CustomSmallText"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:background="#11ee11"
                     android:minWidth="@dimen/px_250"
                     android:padding="@dimen/px_90"
                     android:text="형태" />
@@ -339,7 +342,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_toEndOf="@id/tv_pivot2"
-                    android:background="#b311ee"
                     android:orientation="horizontal"
 
                     >
@@ -357,7 +359,6 @@
 
                     <TextView
                         style="@style/CustomSmallText"
-                        android:background="#ee3211"
                         android:gravity="center"
                         android:text="/"
 
@@ -393,12 +394,12 @@
                     android:text="모집기간" />
 
                 <TextView
+                    android:id="@+id/recruit_text"
                     style="@style/CustomSmallText"
 
-                    android:text="1991-11-11"
                     android:layout_toEndOf="@id/tv_pivot3"
                     android:padding="@dimen/px_90"
-                    />
+                    android:text="모집기간선택" />
 
 
                 <ImageButton
@@ -408,7 +409,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentTop="true"
-                    android:background="#11ee11"
+                    android:background="@null"
                     android:contentDescription="@null"
                     android:scaleType="fitXY"
                     android:src="@drawable/btn_arrow_right" />
@@ -428,6 +429,7 @@
                     android:text="인원" />
 
                 <EditText
+                    android:inputType="number"
                     android:id="@+id/makestudy_et_c3_member"
                     style="@style/CustomSmallText"
                     android:layout_width="match_parent"
@@ -456,20 +458,19 @@
                     android:layout_width="wrap_content"
                     android:layout_toEndOf="@id/tv_pivot3"
                     android:background="@color/white"
+                    android:gravity="center"
                     android:hint="@string/hint_input_member"
                     android:padding="@dimen/px_90"
-                    android:gravity="center"
 
-                    android:text="11:11:11"
-                    />
+                    android:text="시작 선택" />
+
                 <TextView
                     android:id="@+id/middle"
                     style="@style/CustomSmallText"
-                    android:layout_toEndOf="@id/goal_time_first"
                     android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/goal_time_first"
 
-                    android:text="~"
-                    />
+                    android:text="~" />
 
                 <TextView
                     android:id="@+id/goal_time_second"
@@ -477,10 +478,10 @@
                     android:layout_width="wrap_content"
                     android:layout_toEndOf="@id/middle"
                     android:background="@color/white"
+                    android:gravity="center"
                     android:hint="@string/hint_input_member"
                     android:padding="@dimen/px_90"
-                    android:text="11:11:11"
-                    android:gravity="center"
+                    android:text="끝 선택"
 
 
                     />
@@ -535,36 +536,33 @@
                         style="@style/CustomSmallText"
                         android:layout_width="wrap_content"
                         android:layout_toEndOf="@id/tv_pivot4"
-                        android:background="#6d11ee"
+                        android:gravity="center"
                         android:hint="@string/hint_input_member"
                         android:padding="@dimen/px_90"
-                        android:gravity="center"
 
-                        android:text="11:11:11"
-                        />
+                        android:text="시작 선택" />
+
                     <TextView
                         android:id="@+id/middle1"
                         style="@style/CustomSmallText"
-                        android:layout_toEndOf="@id/time_first"
                         android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/time_first"
 
-                        android:text="~"
-                        />
+                        android:text="~" />
 
                     <TextView
-                        android:id="@+id/goal_time_second"
+                        android:id="@+id/time_second"
                         style="@style/CustomSmallText"
                         android:layout_width="wrap_content"
                         android:layout_toEndOf="@id/middle1"
                         android:background="@color/white"
+                        android:gravity="center"
                         android:hint="@string/hint_input_member"
                         android:padding="@dimen/px_90"
-                        android:gravity="center"
 
-                        android:text="11:11:11"
+                        android:text="끝 선택"
 
                         />
-
                 </RelativeLayout>
             </LinearLayout>
 
@@ -580,15 +578,15 @@
                     android:layout_alignParentTop="true"
                     android:gravity="center"
                     android:minWidth="@dimen/px_250"
-                    android:paddingBottom="@dimen/px_90"
-                    android:paddingEnd="0dp"
-                    android:paddingStart="@dimen/px_50"
-                    android:paddingTop="@dimen/px_90"
+                    android:padding="@dimen/px_90"
+
                     android:text="@string/text_joining_condition" />
 
                 <LinearLayout
+                    android:id="@+id/option_container"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/px_50"
                     android:layout_toEndOf="@id/tv_pivot5"
                     android:background="#11ee11"
                     android:orientation="vertical">
@@ -608,6 +606,7 @@
                 style="@style/CustomSmallText"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
+                android:text="설정ㄴㅁㅇㅁ나이ㅁ낭ㅣ망ㅁ바꿀 ㅇㅋ"
                 android:textColor="@color/blackgray"
 
                 />
@@ -615,15 +614,18 @@
         </RelativeLayout>
 
 
-
         <Button
+            android:id="@+id/makestudy_btn"
             style="@style/CustomSubTitleText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/color_orange"
+            android:background="@color/mint"
             android:padding="@dimen/px_90"
             android:text="@string/text_final_make_study"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:enabled="false"
+
+            />
 
 
     </LinearLayout>
