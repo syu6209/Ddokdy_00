@@ -1,13 +1,16 @@
 package com.study.ddokdy;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -17,23 +20,32 @@ import android.widget.TextView;
 
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 
+import prv.zozi.utils.Config;
+import prv.zozi.utils.ZLoginInfo;
 import prv.zozi.utils.ZMethod;
 
 /**
  * Created by ibyeongmu on 16. 5. 22..
  */
 public class Fragment_Myhome extends android.support.v4.app.Fragment{
+    private Info_Login logininfo;
+    private TextView tv_topbar_title;
+    private RelativeLayout setup_text,emblem_text,notice_text;
+    private ImageButton btn_topbar_mypage;
+    private PullToRefreshListView mListview;
+    private ArrayList<StudyData> mListData;
+    private ViewPager viewpager;
+    private ListViewAdapter adapter;
+    private String url_getStudyList = "study_getlist.php";
 
-    TextView tv_topbar_title;
-    RelativeLayout setup_text,emblem_text,notice_text;
-    ImageButton btn_topbar_mypage;
-    PullToRefreshListView mListview;
-    ArrayList<StudyData> mListData;
-    ViewPager viewpager;
-
-
+    private ImageView profileimg, emblem[] = new ImageView[3];
+    private TextView myname;
 
 
     public Fragment_Myhome(ViewPager viewpager) {
@@ -48,12 +60,62 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
         init();
         holdViews(ll);
         setViews(ll);
+        loadData();
         return ll;
     }
 
-    private void init() {
-        mListData = new ArrayList<StudyData>();
+    private void loadData() {
+        AsyncTask<String, String, String> task = new AsyncTask<String, String, String>() {
+            @Override
+            protected void onPreExecute() {
+                mListData.clear();
+            }
 
+            @Override
+            protected String doInBackground(String... params) {
+                String postData = "uid="+logininfo.user_id;
+                String result =  ZMethod.getStringHttpPost(Config.url_home+url_getStudyList, postData);
+
+                try {
+                    JSONObject json = new JSONObject(result);
+                    int rn = json.getInt("rn");
+                    JSONArray jsarr = json.getJSONArray("data");
+                    StudyData object = null;
+                    for(int i=0;i<rn;i++){
+                        json = jsarr.getJSONObject(i);
+                        object = new StudyData();
+                        object.title = json.getString("title");
+                        object.subtitle = json.getString("subtitle");
+                        object.bossname = json.getString("nick");
+                        object.status = json.getString("status");
+                        object.background = json.getInt("background");
+                        if(json.getInt("ismine")==1) {
+                            object.isMine = true;
+                        }else{
+                            object.isMine = false;
+                        }
+                        mListData.add(object);
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                    return "fail";
+                }
+
+                return "ok";
+            }
+
+            @Override
+            protected void onPostExecute(String s) {
+                adapter.notifyDataSetChanged();
+                mListview.onRefreshComplete();
+            }
+        };
+        task.execute(null,null,null);
+    }
+    private void init() {
+        logininfo = new ZLoginInfo(getContext()).getLoginInfo();
+        mListData = new ArrayList<StudyData>();
+    /*
         StudyData object = new StudyData();
 
         object.title = "마이호모홈";
@@ -86,6 +148,7 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
         object.status = "가입대기";
         object.isMine = false;
         mListData.add(object);
+        */
     }
 
     private void holdViews(LinearLayout ll) {
@@ -95,11 +158,24 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
         setup_text =(RelativeLayout)ll.findViewById(R.id.setup_text);
         emblem_text = (RelativeLayout)ll.findViewById(R.id.emblem_text);
         notice_text = (RelativeLayout)ll.findViewById(R.id.notice_text);
+
+        myname = (TextView)ll.findViewById(R.id.mypage_tv_myname);
+        profileimg = (ImageView)ll.findViewById(R.id.mypage_myprofile_img);
+        emblem[0] = (ImageView)ll.findViewById(R.id.mypage_iv_emblem0);
+        emblem[1] = (ImageView)ll.findViewById(R.id.mypage_iv_emblem1);
+        emblem[2] = (ImageView)ll.findViewById(R.id.mypage_iv_emblem2);
     }
     private void setViews(LinearLayout ll) {
-        ListViewAdapter adapter = new ListViewAdapter(ll.getContext());
+        myname.setText(logininfo.user_name);
+        adapter = new ListViewAdapter(ll.getContext());
         mListview.setAdapter(adapter);
         mListview.setScrollBarDefaultDelayBeforeFade(10);
+        mListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                click_study(position-1);
+            }
+        });
         setup_text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -121,6 +197,19 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
             }
         });
     }
+    private void click_study(int position) {
+        Intent intent = null;
+        if(position<mListData.size()) {
+            StudyData mData = mListData.get(position);
+            intent = new Intent(getActivity(), StudyMainActivity.class);
+            intent.putExtra("idx", mData.idx);
+            startActivity(intent);
+        }else{
+            intent = new Intent(getActivity(), MakeNewStudyActivity.class);
+            startActivity(intent);
+        }
+    }
+
     private class DetailClickListener implements View.OnClickListener{
         int position;
         public DetailClickListener(int position) {
@@ -136,7 +225,9 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
         ZMethod.toast(getContext(), mData.title + " 디테일 클릭");
     }
     private class StudyData{
+        String idx;
         String title,subtitle,bossname,status;
+        int background;
         boolean isMine;
     }
     private class ViewHolder{
@@ -153,7 +244,7 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
         }
         @Override
         public int getCount() {
-            return mListData.size()+1;
+            return mListData.size();
         }
 
         @Override
@@ -206,6 +297,7 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
                         holder.iv_list_icon.setVisibility(View.GONE);
                     }
                     holder.btn_list_detail.setOnClickListener(new DetailClickListener(position));
+                    holder.btn_list_detail.setFocusable(false);
                 }
             }else{
                 convertView = inflater.inflate(R.layout.listbox_mainplus, null);

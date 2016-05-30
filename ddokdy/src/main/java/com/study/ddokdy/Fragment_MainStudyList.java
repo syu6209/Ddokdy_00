@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
+import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -103,6 +105,9 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 
 			@Override
 			protected void onPostExecute(String s) {
+				if(Config.pdialog!=null && Config.pdialog.isShowing()){
+					Config.pdialog.dismiss();
+				}
 				adapter.notifyDataSetChanged();
 				mListview.onRefreshComplete();
 			}
@@ -194,6 +199,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		});
 	}
 	private void click_study(int position) {
+
 		Intent intent = null;
 		if(position<mListData.size()) {
 			StudyData mData = mListData.get(position);

@@ -205,6 +205,7 @@ public class LoginActivity extends Activity {
             }
 
             protected void onPostExecute(Void content) {
+
                 if (state.equals("success")) {
 
                     new Thread(new Runnable() {
@@ -287,7 +288,7 @@ public class LoginActivity extends Activity {
                                         });
                                     } else if (resultCode.equals("1")) {
                                         Toast.makeText(getApplicationContext(), "로그인 실패", Toast.LENGTH_SHORT).show();
-
+                                        //Config.pdialog.dismiss();
 
                                     }
 
@@ -298,6 +299,7 @@ public class LoginActivity extends Activity {
                                         public void run() {
                                             ZMethod.toast(LoginActivity.this, "로그인 실패");
                                             //pdialog.dismiss();
+                                            //Config.pdialog.dismiss();
                                         }
                                     });
                                     e.printStackTrace();
@@ -388,6 +390,11 @@ public class LoginActivity extends Activity {
         }
 
     private void gotoMain() {
+        Config.pdialog = new ProgressDialog(LoginActivity.this, ProgressDialog.THEME_DEVICE_DEFAULT_LIGHT);
+        Config.pdialog.setTitle("들어가는중입니다..");
+        Config.pdialog.setMessage("잠시만 기다려주세요..");
+        Config.pdialog.setCancelable(false);
+        Config.pdialog.show();
         Intent intent = new Intent(getApplication(), MainActivity.class);
         intent.putExtra("login",true);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

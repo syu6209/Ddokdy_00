@@ -4,12 +4,12 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\clause_btn.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\shape_round.xml",
-        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\shape_round.xml"
-    },
-    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\shape_round.xml",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\shape_round.xml"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_detail_dot3_gray.png",
@@ -26,6 +26,10 @@
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_plus_circle.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_plus_circle.png"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\circle_cover.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\circle_cover.png"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\stduy_make_roofimg.png",
@@ -54,6 +58,10 @@
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_mypage.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_mypage.png"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\circle_gray_90.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\circle_gray_90.png"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_plus.png",

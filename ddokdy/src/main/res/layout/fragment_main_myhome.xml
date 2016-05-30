@@ -69,16 +69,110 @@
     </FrameLayout>
 
 
+    <!-- 마이페이지 상단-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <com.jnm.android.widget.ScalableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#11e1e1"
             sl:scale_base_height="414"
             sl:scale_base_width="1080">
 
 
         </com.jnm.android.widget.ScalableLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/default_margin"
+            android:background="@color/white"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/mypage_myprofile_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/circle_gray"
+                        android:layout_marginStart="@dimen/default_margin"
+                        android:layout_marginEnd="@dimen/default_margin"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/circle_cover"
+                        android:layout_marginStart="@dimen/default_margin"
+                        android:layout_marginEnd="@dimen/default_margin"/>
+                </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!--엠블럼 3개 나열-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/mypage_iv_emblem0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_gray_90"
+                        android:layout_marginStart="@dimen/default_margin"
+                        android:layout_marginEnd="@dimen/default_margin"/>
+                    <ImageView
+                        android:id="@+id/mypage_iv_emblem1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_gray_90"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="@dimen/default_margin"/>
+                    <ImageView
+                        android:id="@+id/mypage_iv_emblem2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_gray_90"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_arrow_right"
+                        android:background="@null"
+                        android:contentDescription="@null"/>
+                </LinearLayout>
+                <!--이름-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top">
+                    <TextView
+                        style="@style/CustomTitleText"
+                        android:id="@+id/mypage_tv_myname"
+                        android:layout_width="match_parent"
+                        android:text="@string/app_name"
+                        android:layout_marginTop="@dimen/half_margin"
+                        android:layout_marginBottom="0dp"
+                        android:paddingStart="@dimen/default_margin"
+                        android:paddingEnd="0dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
