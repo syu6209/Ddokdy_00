@@ -42,10 +42,12 @@ import java.util.Iterator;
 import prv.zozi.utils.Config;
 import prv.zozi.utils.ZHandler;
 import prv.zozi.utils.ZHandlerInterFacce;
+import prv.zozi.utils.ZLoginInfo;
 import prv.zozi.utils.ZMethod;
 
 public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce {
     private static final String TAG = MakeNewStudyActivity.class.getSimpleName();
+    private Info_Login logininfo;
     private ZHandler handler = new ZHandler(this);
     private int is_open;
     private DialogCategoryActivity dca;
@@ -159,6 +161,7 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
 
     private void init() {
         ZMethod.setStatusColor(this, Color.parseColor(Config.Color_orange));
+        logininfo = new ZLoginInfo(getApplicationContext()).getLoginInfo();
         large_category = new ArrayList<category>();
         small_category = new ArrayList<category>();
         on_off_line_flag=2; // 선택 x
@@ -310,7 +313,8 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
             public void run() {
                 HashMap<String,String> map = new HashMap<String, String>();
 
-                map.put("uid","2");
+
+                map.put("uid",logininfo.user_id);
                 map.put("sr_name",sr_name);
                 map.put("loc_code1",String.valueOf(loc_code1));
                 map.put("loc_code2",String.valueOf(loc_code2));

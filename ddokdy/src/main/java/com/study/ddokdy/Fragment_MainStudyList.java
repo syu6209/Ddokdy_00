@@ -58,9 +58,16 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		init();
 		holdViews(ll);
 		setViews(ll);
-		loadData();
+//		loadData();
 
 		return ll;
+	}
+
+
+	@Override
+	public void onResume() {
+		super.onResume();
+	loadData();
 	}
 
 	private void loadData() {
