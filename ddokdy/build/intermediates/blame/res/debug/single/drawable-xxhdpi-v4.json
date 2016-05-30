@@ -80,6 +80,10 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xxhdpi/topbar_diagonal_line.png"
     },
     {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_small_plus.png",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xxhdpi/btn_small_plus.png"
+    },
+    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_cross_blue.png",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xxhdpi/btn_cross_blue.png"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_plus_circle.png",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xxhdpi/btn_plus_circle.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_minus.png",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xxhdpi/btn_minus.png"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_mypage.png",

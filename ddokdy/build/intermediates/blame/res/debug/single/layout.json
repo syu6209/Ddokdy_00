@@ -116,6 +116,10 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/layout_zbadgeview.xml"
     },
     {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/makestudy_option_view.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/makestudy_option_view.xml"
+    },
+    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/pulling_progress_layout.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/exploded-aar/Ddokdy_00/library/unspecified/res/layout/pulling_progress_layout.xml"
     },

@@ -61,7 +61,9 @@
         <activity
             android:name="com.study.ddokdy.StudyMainActivity"
             android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity android:name="com.study.ddokdy.MakeNewStudyActivity" />
+        <activity
+            android:name="com.study.ddokdy.MakeNewStudyActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
     </application>
 
 </manifest>
