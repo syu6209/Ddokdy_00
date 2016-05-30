@@ -61,31 +61,31 @@ public final class R {
 		public static final int indicator_right_padding = 0x7f08000b;
 	}
 	public static final class drawable {
-		public static final int default_ptr_flip = 0x7f020023;
-		public static final int default_ptr_rotate = 0x7f020024;
-		public static final int indicator_arrow = 0x7f020029;
-		public static final int indicator_bg_bottom = 0x7f02002a;
-		public static final int indicator_bg_top = 0x7f02002b;
-		public static final int progress_bg_holo_light = 0x7f020030;
-		public static final int progress_horizontal_holo_light = 0x7f020031;
-		public static final int progress_horizontal_holo_light_right = 0x7f020032;
-		public static final int progress_indeterminate_horizontal_holo = 0x7f020033;
-		public static final int progress_primary_holo_light = 0x7f020034;
-		public static final int progress_secondary_holo_light = 0x7f020035;
-		public static final int progressbar_indeterminate_holo1 = 0x7f020036;
-		public static final int progressbar_indeterminate_holo2 = 0x7f020037;
-		public static final int progressbar_indeterminate_holo3 = 0x7f020038;
-		public static final int progressbar_indeterminate_holo4 = 0x7f020039;
-		public static final int progressbar_indeterminate_holo5 = 0x7f02003a;
-		public static final int progressbar_indeterminate_holo6 = 0x7f02003b;
-		public static final int progressbar_indeterminate_holo7 = 0x7f02003c;
-		public static final int progressbar_indeterminate_holo8 = 0x7f02003d;
+		public static final int default_ptr_flip = 0x7f020021;
+		public static final int default_ptr_rotate = 0x7f020022;
+		public static final int indicator_arrow = 0x7f020027;
+		public static final int indicator_bg_bottom = 0x7f020028;
+		public static final int indicator_bg_top = 0x7f020029;
+		public static final int progress_bg_holo_light = 0x7f02002e;
+		public static final int progress_horizontal_holo_light = 0x7f02002f;
+		public static final int progress_horizontal_holo_light_right = 0x7f020030;
+		public static final int progress_indeterminate_horizontal_holo = 0x7f020031;
+		public static final int progress_primary_holo_light = 0x7f020032;
+		public static final int progress_secondary_holo_light = 0x7f020033;
+		public static final int progressbar_indeterminate_holo1 = 0x7f020034;
+		public static final int progressbar_indeterminate_holo2 = 0x7f020035;
+		public static final int progressbar_indeterminate_holo3 = 0x7f020036;
+		public static final int progressbar_indeterminate_holo4 = 0x7f020037;
+		public static final int progressbar_indeterminate_holo5 = 0x7f020038;
+		public static final int progressbar_indeterminate_holo6 = 0x7f020039;
+		public static final int progressbar_indeterminate_holo7 = 0x7f02003a;
+		public static final int progressbar_indeterminate_holo8 = 0x7f02003b;
 	}
 	public static final class id {
 		public static final int both = 0x7f0a0006;
 		public static final int disabled = 0x7f0a0007;
-		public static final int fl_inner = 0x7f0a00b3;
-		public static final int fl_inner_for_google_style = 0x7f0a00b0;
+		public static final int fl_inner = 0x7f0a00a4;
+		public static final int fl_inner_for_google_style = 0x7f0a00a1;
 		public static final int google = 0x7f0a0008;
 		public static final int gridview = 0x7f0a0000;
 		public static final int manualOnly = 0x7f0a0009;
@@ -93,14 +93,14 @@ public final class R {
 		public static final int pullFromEnd = 0x7f0a000b;
 		public static final int pullFromStart = 0x7f0a000c;
 		public static final int pullUpFromBottom = 0x7f0a000d;
-		public static final int pull_to_refresh_image = 0x7f0a00b4;
-		public static final int pull_to_refresh_progress = 0x7f0a00b5;
-		public static final int pull_to_refresh_sub_text = 0x7f0a00b2;
-		public static final int pull_to_refresh_text = 0x7f0a00b1;
-		public static final int pulling_left_progressbar = 0x7f0a00b8;
-		public static final int pulling_progress = 0x7f0a00b6;
-		public static final int pulling_right_progressbar = 0x7f0a00b9;
-		public static final int refreshing_progress = 0x7f0a00b7;
+		public static final int pull_to_refresh_image = 0x7f0a00a5;
+		public static final int pull_to_refresh_progress = 0x7f0a00a6;
+		public static final int pull_to_refresh_sub_text = 0x7f0a00a3;
+		public static final int pull_to_refresh_text = 0x7f0a00a2;
+		public static final int pulling_left_progressbar = 0x7f0a00a9;
+		public static final int pulling_progress = 0x7f0a00a7;
+		public static final int pulling_right_progressbar = 0x7f0a00aa;
+		public static final int refreshing_progress = 0x7f0a00a8;
 		public static final int scrollview = 0x7f0a0001;
 		public static final int webview = 0x7f0a0002;
 	}

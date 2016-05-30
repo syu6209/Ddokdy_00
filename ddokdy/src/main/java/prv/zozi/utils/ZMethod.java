@@ -5,8 +5,11 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
 import android.util.Log;
+import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
+
+import com.study.ddokdy.R;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -21,6 +24,22 @@ import java.util.Locale;
 
 public class ZMethod {
 
+	public static void setBoxBackground(View v, int n){
+		switch (n){
+			case 1:
+				v.setBackgroundResource(R.drawable.box_background_01);
+				break;
+			case 2:
+				v.setBackgroundResource(R.drawable.box_background_02);
+				break;
+			case 3:
+				v.setBackgroundResource(R.drawable.box_background_03);
+				break;
+			default:
+				v.setBackground(null);
+				break;
+		}
+	}
 	public static void toast(Context ctx, String msg) {
 		try {
 			Toast toast = Toast.makeText(ctx, msg, Toast.LENGTH_SHORT);

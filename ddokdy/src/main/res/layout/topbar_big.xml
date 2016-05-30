@@ -25,10 +25,14 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/btn_close"
+            android:src="@drawable/cross_mark"
             android:background="@null"
             android:contentDescription="@null"
             android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
             />
     </RelativeLayout>
 

@@ -15,9 +15,11 @@ import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 import org.json.JSONArray;
@@ -84,6 +86,7 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
                     for(int i=0;i<rn;i++){
                         json = jsarr.getJSONObject(i);
                         object = new StudyData();
+                        object.idx = json.getInt("idx");
                         object.title = json.getString("title");
                         object.subtitle = json.getString("subtitle");
                         object.bossname = json.getString("nick");
@@ -170,6 +173,12 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
         adapter = new ListViewAdapter(ll.getContext());
         mListview.setAdapter(adapter);
         mListview.setScrollBarDefaultDelayBeforeFade(10);
+        mListview.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener<ListView>() {
+            @Override
+            public void onRefresh(PullToRefreshBase<ListView> refreshView) {
+                loadData();
+            }
+        });
         mListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -225,7 +234,7 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
         ZMethod.toast(getContext(), mData.title + " 디테일 클릭");
     }
     private class StudyData{
-        String idx;
+        int idx;
         String title,subtitle,bossname,status;
         int background;
         boolean isMine;
@@ -234,6 +243,7 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
         ImageView iv_list_icon;
         TextView tv_list_title,tv_list_subtitle,tv_list_bossname,tv_list_status;
         ImageButton btn_list_detail;
+        RelativeLayout background;
     }
 
 
@@ -271,7 +281,7 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
                     mData.title = "오류";
                 }
                 ViewGroup v = null;
-                convertView = inflater.inflate(R.layout.listbox_mainstudy, v);
+                convertView = inflater.inflate(R.layout.listbox_mainstudy_bigstyle, v);
 
                 if(convertView.getTag()==null){
                     holder = new ViewHolder();
@@ -281,6 +291,7 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
                     holder.tv_list_status = (TextView)convertView.findViewById(R.id.listbox_study_status);
                     holder.iv_list_icon = (ImageView)convertView.findViewById(R.id.listbox_icon_mystudy);
                     holder.btn_list_detail = (ImageButton)convertView.findViewById(R.id.listbox_btn_detail);
+                    holder.background = (RelativeLayout)convertView.findViewById(R.id.listbox_background);
                     convertView.setTag(holder);
 
                 }else{
@@ -298,6 +309,7 @@ public class Fragment_Myhome extends android.support.v4.app.Fragment{
                     }
                     holder.btn_list_detail.setOnClickListener(new DetailClickListener(position));
                     holder.btn_list_detail.setFocusable(false);
+                    ZMethod.setBoxBackground(holder.background, mData.background);
                 }
             }else{
                 convertView = inflater.inflate(R.layout.listbox_mainplus, null);

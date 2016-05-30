@@ -44,6 +44,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/gray1"
         android:gravity="end">
         <Button
             android:id="@+id/btn_submit"
@@ -56,8 +57,10 @@
             android:padding="@dimen/default_margin"
             android:layout_alignParentEnd="true"/>
         <EditText
+            android:id="@+id/studyMain_et_board"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/px_160"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/px_160"
             android:background="@color/white"
             android:layout_toLeftOf="@id/btn_submit"
             android:layout_marginStart="0dp"
@@ -65,10 +68,11 @@
             android:paddingBottom="@dimen/margin_samll"
             android:paddingStart="@dimen/px_90"
             android:paddingEnd="@dimen/default_margin"
-            android:inputType="textAutoComplete"
+            android:inputType="text|textMultiLine"
             android:hint="@string/text_write"
             android:textColor="@color/blackgray"
-            android:textSize="@dimen/textsize_subtitle"/>
+            android:textSize="@dimen/textsize_subtitle"
+            android:maxLines="3"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"

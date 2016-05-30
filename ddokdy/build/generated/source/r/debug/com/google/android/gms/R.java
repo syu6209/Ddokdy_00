@@ -13,22 +13,22 @@ public final class R {
 		public static final int imageAspectRatioAdjust = 0x7f010000;
 	}
 	public static final class color {
-		public static final int common_action_bar_splitter = 0x7f090003;
-		public static final int common_signin_btn_dark_text_default = 0x7f090004;
-		public static final int common_signin_btn_dark_text_disabled = 0x7f090005;
-		public static final int common_signin_btn_dark_text_focused = 0x7f090006;
-		public static final int common_signin_btn_dark_text_pressed = 0x7f090007;
-		public static final int common_signin_btn_default_background = 0x7f090008;
-		public static final int common_signin_btn_light_text_default = 0x7f090009;
-		public static final int common_signin_btn_light_text_disabled = 0x7f09000a;
-		public static final int common_signin_btn_light_text_focused = 0x7f09000b;
-		public static final int common_signin_btn_light_text_pressed = 0x7f09000c;
-		public static final int common_signin_btn_text_dark = 0x7f090011;
-		public static final int common_signin_btn_text_light = 0x7f090012;
+		public static final int common_action_bar_splitter = 0x7f090002;
+		public static final int common_signin_btn_dark_text_default = 0x7f090003;
+		public static final int common_signin_btn_dark_text_disabled = 0x7f090004;
+		public static final int common_signin_btn_dark_text_focused = 0x7f090005;
+		public static final int common_signin_btn_dark_text_pressed = 0x7f090006;
+		public static final int common_signin_btn_default_background = 0x7f090007;
+		public static final int common_signin_btn_light_text_default = 0x7f090008;
+		public static final int common_signin_btn_light_text_disabled = 0x7f090009;
+		public static final int common_signin_btn_light_text_focused = 0x7f09000a;
+		public static final int common_signin_btn_light_text_pressed = 0x7f09000b;
+		public static final int common_signin_btn_text_dark = 0x7f090010;
+		public static final int common_signin_btn_text_light = 0x7f090011;
 	}
 	public static final class drawable {
-		public static final int common_full_open_on_phone = 0x7f02001f;
-		public static final int common_ic_googleplayservices = 0x7f020020;
+		public static final int common_full_open_on_phone = 0x7f02001d;
+		public static final int common_ic_googleplayservices = 0x7f02001e;
 	}
 	public static final class id {
 		public static final int adjust_height = 0x7f0a0003;
