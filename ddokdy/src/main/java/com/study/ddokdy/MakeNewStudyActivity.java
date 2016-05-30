@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
-import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Message;
@@ -13,10 +12,6 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewDebug;
-import android.view.ViewManager;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
@@ -33,6 +28,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -49,40 +46,30 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
     private static final String TAG = MakeNewStudyActivity.class.getSimpleName();
     private Info_Login logininfo;
     private ZHandler handler = new ZHandler(this);
-    private int is_open;
     private DialogCategoryActivity dca;
     Spinner large_field_spinner, small_field_spinner;
     ImageView type_closed, type_opend,makestudy_ibtn_location;
     TextView time_first,time_second,goal_time_first,goal_time_second,makestudy_iv_closed_text, makestudy_iv_opened_text, field_select_text_btn,makestudy_et_c1_loction,On_line_btn,Off_line_btn,recruit_text;
     LayoutInflater inflater;
-    LinearLayout container_Layout ;
-    LinearLayout location_btn;
-    RelativeLayout recruit_btn;
-    Button makestudy_btn;
-
+    LinearLayout container_Layout ,location_btn;
+    RelativeLayout recruit_btn,Room_background;
+    Button makestudy_btn, mon_btn,tue_btn,wed_btn,thr_btn,fri_btn,sat_btn,sun_btn;
     TextWatcher watcher;
-
-
-
-    EditText makestudy_et_studyname,makestudy_et_c3_member,study_intro;
-
-    ArrayList<category> large_category;
-    ArrayList<category> small_category;
-
+    EditText makestudy_et_studyname,makestudy_et_c3_member,study_intro,week_number;
+    ArrayList<category> large_category,small_category;
     ArrayList<LinearLayout> option_text;
-
+    ImageButton image_rotate_btn;
 
     String field_str = "";
     int year, month, day, hour, minute;
     int on_off_line_flag;
-    boolean info_category_flag,info_location_flag;
+    boolean info_category_flag,info_location_flag,week_flag;
+     int cat1, cat2,loc_code1,loc_code2,weekint,background,cond_num,is_open,Image_roate_cnt;
+    String loc_detail,sr_name,introduce,posting_etx,period_stx,period_etx,time_stx,time_etx,max_member,weektime;
+    String cond [] ={"","",""};
+    int  Image_list [] ={R.drawable.box_background_00,R.drawable.box_background_01,R.drawable.box_background_02,R.drawable.box_background_03};
+    int week_array[] = {0,0,0,0,0,0,0};
 
-
-
-    private int cat1, cat2,loc_code1,loc_code2,weekint,background;
-
-
-    String loc_detail,sr_name,introduce,posting_etx,period_stx,period_etx,time_stx,time_etx,max_member;
 
 
 
@@ -165,7 +152,7 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
         large_category = new ArrayList<category>();
         small_category = new ArrayList<category>();
         on_off_line_flag=2; // 선택 x
-
+        Image_roate_cnt=0;
         GregorianCalendar calendar = new GregorianCalendar();
         year = calendar.get(Calendar.YEAR);
         month = calendar.get(Calendar.MONTH);
@@ -173,12 +160,14 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
         hour = calendar.get(Calendar.HOUR_OF_DAY);
         minute = calendar.get(Calendar.MINUTE);
 
+        background =0;
 
 
         option_text = new ArrayList<LinearLayout>();
         info_category_flag = false;
         info_location_flag =false;
 
+        week_flag= false;
          inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         // 대분류 받아오기
         watcher = new TextWatcher() {
@@ -195,6 +184,21 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
     }
 
     private void holdViews() {
+
+        mon_btn= (Button) findViewById(R.id.mon_btn);
+        tue_btn= (Button) findViewById(R.id.tue_btn);
+        wed_btn= (Button) findViewById(R.id.wed_btn);
+        thr_btn= (Button) findViewById(R.id.thr_btn);
+        fri_btn= (Button) findViewById(R.id.fri_btn);
+        sat_btn= (Button) findViewById(R.id.sat_btn);
+        sun_btn= (Button) findViewById(R.id.sun_btn);
+
+
+
+        image_rotate_btn = (ImageButton) findViewById(R.id.image_rotate_btn);
+        Room_background =(RelativeLayout)findViewById(R.id.Room_background);
+
+        week_number = (EditText)findViewById(R.id.week_number);
 
         study_intro = (EditText)findViewById(R.id.study_intro);
 
@@ -230,12 +234,52 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
 
 
     }
+    public class week_btn_click_listenr implements View.OnClickListener
+    {
+        int btn_num;
+
+        public week_btn_click_listenr(int btn_num) {
+            this.btn_num = btn_num;
+        }
+
+        @Override
+        public void onClick(View v) {
+            if(week_array[btn_num]==1)
+            {
+                week_array[btn_num] =0;
+                Button btn = (Button)v;
+                btn.setTextColor(getResources().getColor(R.color.blackgray));
+            }
+            else if (week_array[btn_num]==0)
+            {
+                week_array[btn_num] =1;
+
+                Button btn = (Button)v;
+                btn.setTextColor(getResources().getColor(R.color.Test_red));
+
+            }
+
+            full_check();
+        }
+    }
     public void full_check()
     {
      //   private int cat1, cat2,loc_code1,loc_code2,is_open;
 
 
 //        String loc_detail,sr_name,introduce,posting_etx,period_stx,period_etx,weekint,time_stx,time_etx,max_member,background;
+        weekint =0;
+        week_flag=false;
+
+        for (int i =0;i<7;i++)
+        {
+            if(week_array[i]==1)
+            {
+                weekint = (int) (weekint + Math.pow(2, i));
+                week_flag =true;
+
+            }
+        }
         sr_name =makestudy_et_studyname.getText().toString();
         loc_detail = makestudy_et_c1_loction.getText().toString();
         introduce = study_intro.getText().toString();
@@ -245,6 +289,40 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
         time_stx = time_first.getText().toString();
         time_etx = time_second .getText().toString();
         max_member = makestudy_et_c3_member.getText().toString();
+
+
+        weektime =week_number.getText().toString();
+        cond_num=option_text.size();
+        for(int i=0;i<3;i++)
+        {
+            cond[i]="";
+        }
+
+        Log.d(TAG,"option_text.size()"+option_text.size());
+        boolean option_flag = true;
+
+        for( int i =0; i<option_text.size();i++)
+        {
+            LinearLayout parent =(LinearLayout)option_text.get(i);
+
+            EditText edit =(EditText)parent.findViewById(R.id.option_edit_text);
+            cond[i]=edit.getText().toString();
+            if(edit.getText().toString().equals(""))
+            {
+                option_flag = false;
+                break;
+            }
+        }
+
+        Iterator<LinearLayout> iterator = option_text.iterator();
+
+        int i=0;
+
+
+
+
+
+        boolean weektime_flag = !(weektime.equals(""));
         boolean study_name_flag = !(makestudy_et_studyname.getText().toString().equals(""));
         boolean open_flag =  !(is_open ==2);
         boolean recluit_flag = !(recruit_text.getText().toString().equals("모집기간선택"));
@@ -256,17 +334,10 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
         boolean time_second_flag  = !(time_second.getText().toString().equals("끝 선택"));
         boolean study_intro_flag = !(study_intro.getText().toString().equals(""));
 
-        Iterator<LinearLayout> iterator = option_text.iterator();
-        boolean option_flag = true;
-        while (iterator.hasNext()) {
-            LinearLayout parent =(LinearLayout) iterator.next();
-            EditText edit = (EditText)parent.findViewById(R.id.option_edit_text);
-            if(edit.getText().toString().equals(""))
-            {
-                option_flag = false;
-                break;
-            }
-        }
+        Log.d(TAG,"weekint                               =="+weekint);
+
+
+
         Log.d(TAG," study_name_flag == "+study_name_flag);
         Log.d(TAG," open_flag == "+open_flag);
         Log.d(TAG," info_category_flag == "+info_category_flag);
@@ -280,6 +351,9 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
         Log.d(TAG,"time_second_flag  ==  "+time_second_flag);
         Log.d(TAG,"option_flag  ==  "+option_flag);
         Log.d(TAG,"study_intro_flag  ==  "+study_intro_flag);
+        Log.d(TAG,"week_flag  ==  "+week_flag);
+        Log.d(TAG,"weektime_flag  ==  "+weektime_flag);
+
 
         if(study_name_flag
                 &&open_flag
@@ -291,7 +365,9 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
                 &&goal_time_second_flag
                 &&time_first_flag
                 &&time_second_flag
+                &&weektime_flag
                 &&option_flag
+                &&week_flag
                 &&study_intro_flag)
         {
             makestudy_btn.setBackground(getResources().getDrawable(R.color.mint_dark));
@@ -314,48 +390,79 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
                 HashMap<String,String> map = new HashMap<String, String>();
 
 
-                map.put("uid",logininfo.user_id);
-                map.put("sr_name",sr_name);
-                map.put("loc_code1",String.valueOf(loc_code1));
-                map.put("loc_code2",String.valueOf(loc_code2));
-                map.put("loc_detail",loc_detail);
-                map.put("cat1",String.valueOf(cat1));
-                map.put("cat2",String.valueOf(cat2));
-                map.put("is_open",String.valueOf(is_open));
-                map.put("introduce",introduce);
-                map.put("posting_etx",posting_etx);
-                map.put("period_stx",period_stx);
-                map.put("period_etx",period_etx);
+                try {
+                    map.put("uid", logininfo.user_id);
 
-                map.put("is_online",String.valueOf(on_off_line_flag));
+                    map.put("sr_name",URLEncoder.encode(sr_name, "utf-8"));
+                    map.put("loc_code1",String.valueOf(loc_code1));
+                    map.put("loc_code2",String.valueOf(loc_code2));
+//                map.put("loc_detail",loc_detail);
+                    map.put("cat1",String.valueOf(cat1));
+                    map.put("cat2",String.valueOf(cat2));
+                    map.put("is_open", String.valueOf(is_open));
 
+                    map.put("introduce",URLEncoder.encode(introduce, "utf-8"));
+                    map.put("posting_etx",posting_etx);
+                    map.put("period_stx",period_stx);
+                    map.put("period_etx",period_etx);
+                    map.put("is_online",String.valueOf(on_off_line_flag));
 
-                weekint=1;
-                map.put("weekint",String.valueOf(weekint));
-                map.put("time_stx",time_stx);
-                map.put("time_etx",time_etx);
-                map.put("max_member",String.valueOf(max_member));
-                background=1;
-                map.put("background",String.valueOf(background));
-
-
-
+                    map.put("weekint",String.valueOf(weekint));
+                    map.put("weektime",weektime);
+                    map.put("cond_num", String.valueOf(cond_num));
+                    for(int i=0; i<cond_num ; i++)
+                    {
+                        map.put("cond"+i,URLEncoder.encode(cond[i], "utf-8"));
+                    }
 
 
 
+                    map.put("time_stx",time_stx);
+                    map.put("time_etx",time_etx);
+                    map.put("max_member",String.valueOf(max_member));
+                    map.put("background", String.valueOf(background));
+
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
 
 
+                String data = null;
+                try {
+                    data = ZMethod.getStringHttpPost(Config.url_home + "study_make.php", ZMethod.Map_to_String(map) );
+                    Log.d(TAG,"ZMethod.Map_to_String(map) == "+URLEncoder.encode(ZMethod.Map_to_String(map), "utf-8") );
 
-                String data = ZMethod.getStringHttpPost(Config.url_home+"study_make.php",ZMethod.Map_to_String(map));
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+
 
                 Log.d(TAG,"ZMethod.Map_to_String(map) == "+ZMethod.Map_to_String(map) );
                 Log.d(TAG,"data ==  "+data);
 
                 if(data != null)
                 {
-                    JSONObject jobj = null;
                     try {
-                        jobj = new JSONObject(data);
+                        JSONObject jobj = new JSONObject(data);
+
+                        String resultCode = jobj.getString("resultCode");
+                        String msg = jobj.getString("msg");
+                        String idx = jobj.getString("idx");
+
+                        if(resultCode.equals("0"))
+                        {
+                            Log.d(TAG,"msg == "+msg);
+                            Log.d(TAG,"스터디 인덱스 idx == "+idx);
+                            finish();
+
+                        }
+                        else {
+                            Toast.makeText(getApplicationContext(),"msg == "+msg,Toast.LENGTH_SHORT).show();
+
+
+
+
+                        }
 
 
 
@@ -413,10 +520,22 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
         makestudy_et_studyname.addTextChangedListener(watcher);
         makestudy_et_c3_member.addTextChangedListener(watcher);
         study_intro.addTextChangedListener(watcher);
+        week_number.addTextChangedListener(watcher);
+        mon_btn.setOnClickListener(new week_btn_click_listenr(0));
+        tue_btn.setOnClickListener(new week_btn_click_listenr(1));
+        wed_btn.setOnClickListener(new week_btn_click_listenr(2));
+        thr_btn.setOnClickListener(new week_btn_click_listenr(3));
+        fri_btn.setOnClickListener(new week_btn_click_listenr(4));
+        sat_btn.setOnClickListener(new week_btn_click_listenr(5));
+        sun_btn.setOnClickListener(new week_btn_click_listenr(6));
+        image_rotate_btn.setOnClickListener(new onclicklistener(10));
+
+
 
         LinearLayout route_info_tab = (LinearLayout) inflater.inflate(R.layout.makestudy_option_view, null);
 
         EditText edit = (EditText)route_info_tab.findViewById(R.id.option_edit_text);
+        edit.setText("");
         edit.addTextChangedListener(watcher);
 
         ImageButton imgbtn = (ImageButton)  route_info_tab.findViewById(R.id.makestudy_plus_minus_btn);
@@ -464,6 +583,8 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
                         LinearLayout route_info_tab = (LinearLayout) inflater.inflate(R.layout.makestudy_option_view, null);
                         ImageButton imgbtn = (ImageButton) route_info_tab.findViewById(R.id.makestudy_plus_minus_btn);
                         EditText edit = (EditText)route_info_tab.findViewById(R.id.option_edit_text);
+                        edit.setText("");
+
                         edit.addTextChangedListener(watcher);
                         imgbtn.setBackground(getResources().getDrawable(R.drawable.btn_minus));
                         imgbtn.setOnClickListener(new option_btn_click_listenr(option_btn_num + 1));
@@ -529,7 +650,7 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
             else if(btn_num ==3)
             {
                  on_off_line_flag =1;
-                On_line_btn.setTextColor(getResources().getColorStateList(R.color.mint_dark));
+                On_line_btn.setTextColor(getResources().getColorStateList(R.color.Test_red));
                 Off_line_btn.setTextColor(getResources().getColorStateList(R.color.blackgray));
                 full_check();
 
@@ -539,7 +660,7 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
             {
                 on_off_line_flag =0;
                 On_line_btn.setTextColor(getResources().getColor(R.color.blackgray));
-                Off_line_btn.setTextColor(getResources().getColor(R.color.mint_dark));
+                Off_line_btn.setTextColor(getResources().getColor(R.color.Test_red));
                 full_check();
 
             }
@@ -602,6 +723,16 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
                 full_check();
                 study_make();
 
+            }
+            else if( btn_num == 10)
+            {
+                background = (background+1)%Image_list.length;
+
+                Room_background.setBackground(getResources().getDrawable(Image_list[background] ));
+
+                full_check();
+
+                Log.d(TAG,"Back == "+background);
             }
 
         }

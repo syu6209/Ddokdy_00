@@ -73,6 +73,15 @@
 
     <string name="text_sun">SUN</string>
 
+    <string name="text_kor_mon">MON</string>
+    <string name="text_kor_tue">TUE</string>
+    <string name="text_kor_wed">WED</string>
+    <string name="text_kor_thr">THR</string>
+    <string name="text_kor_fri">FRI</string>
+    <string name="text_kor_sat">SAT</string>
+
+    <string name="text_kor_sun">SUN</string>
+
     <string name="text_whole_clause_agree">전체약관에 동의합니다</string>
     <string name="text_ddok_clause_agree">똑디 이용약관 동의(필수)</string>
     <string name="text_personal_info_agree">개인정보 수집 / 이용약관 동의(필수)</string>
@@ -131,4 +140,7 @@
     <color name="blackgray">#605B55</color>
     <color name="white">#FFFFFF</color>
     <color name="mint_dark">#107273</color>
+
+    <color name="Test_red">#ff0011</color>
+
 </resources>

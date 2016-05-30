@@ -19,7 +19,7 @@
 				    <LinearLayout 
 				        android:layout_width="wrap_content"
 				        android:layout_height="wrap_content"
-						android:background="#11ee11"
+						android:background="@color/mint_dark"
 				        sl:scale_left="0"
 				        sl:scale_top="123"
 				        sl:scale_width="1000"

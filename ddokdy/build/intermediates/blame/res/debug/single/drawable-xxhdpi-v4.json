@@ -16,6 +16,10 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\topbar_background.png"
     },
     {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/rotate_btn.png",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/drawable-xxhdpi/rotate_btn.png"
+    },
+    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\shape_round.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\shape_round.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\study_master_flag.png",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\study_master_flag.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/box_background_02.png",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/drawable-xxhdpi/box_background_02.png"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
@@ -76,6 +84,10 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_circle.png"
     },
     {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/box_background_03.png",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/drawable-xxhdpi/box_background_03.png"
+    },
+    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\kakao_login_btn.png",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\kakao_login_btn.png"
     },
@@ -86,6 +98,10 @@
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_cross_blue.png",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/drawable-xxhdpi/btn_cross_blue.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/box_background_00.png",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/drawable-xxhdpi/box_background_00.png"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_detail_dot3.png",
@@ -260,6 +276,10 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/drawable-xxhdpi/icon_mystudy.png"
     },
     {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/rotation_btn.png",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/drawable-xxhdpi/rotation_btn.png"
+    },
+    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_full_open_on_phone.png",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/drawable-xxhdpi/common_full_open_on_phone.png"
     },
@@ -294,6 +314,10 @@
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/study_master_flag.png",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/drawable-xxhdpi/study_master_flag.png"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/box_background_01.png",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/drawable-xxhdpi/box_background_01.png"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/btn_detail_dot3.png",

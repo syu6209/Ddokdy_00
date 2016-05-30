@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="Test_red">#ff0011</color>
     <color name="blackgray">#605B55</color>
     <color name="color_orange">#FFBC91</color>
     <color name="common_action_bar_splitter">#d2d2d2</color>
@@ -127,6 +128,13 @@
     <string name="text_homework">과제</string>
     <string name="text_id_pwd_find">아이디/비밀번호 찾기</string>
     <string name="text_joining_condition">가입조건</string>
+    <string name="text_kor_fri">FRI</string>
+    <string name="text_kor_mon">MON</string>
+    <string name="text_kor_sat">SAT</string>
+    <string name="text_kor_sun">SUN</string>
+    <string name="text_kor_thr">THR</string>
+    <string name="text_kor_tue">TUE</string>
+    <string name="text_kor_wed">WED</string>
     <string name="text_like">좋아요</string>
     <string name="text_location">장소</string>
     <string name="text_login">로그인</string>

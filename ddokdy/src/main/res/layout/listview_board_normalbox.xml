@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="#11ee11" >
+    android:background="@color/white" >
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#11ee11"
+        android:layout_height="50dp"
+        android:background="@color/white"
         android:gravity="center_vertical"
         android:orientation="horizontal" >
 		<ImageView 
@@ -16,7 +16,7 @@
 		    android:layout_height="wrap_content"
 		    android:paddingEnd="10dp"
             android:paddingStart="10dp"
-            android:background="#11ee11"
+            android:background="@color/white"
 		    android:contentDescription="@null"/>
         <TextView
             android:id="@+id/boardbox_normal_txt"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="0dp"
-            android:background="#11ee11"
+            android:background="@color/white"
             android:contentDescription="@null" />
         
         <Space
@@ -44,8 +44,8 @@
             android:id="@+id/boardbox_countbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#11ee11"
-            android:textColor="#FFFFFF"
+            android:background="@color/white"
+            android:textColor="@color/blackgray"
             android:textSize="14sp"
             android:gravity="center"
             android:textAlignment="center" />
