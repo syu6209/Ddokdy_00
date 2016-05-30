@@ -116,12 +116,16 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\listbox_mainplus.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\layout_zbadgeview.xml",
-        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\layout_zbadgeview.xml"
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\makestudy_option_view.xml",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\makestudy_option_view.xml"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\spiner_item.xml",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\spiner_item.xml"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\layout_zbadgeview.xml",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\layout_zbadgeview.xml"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_studyroom.xml",

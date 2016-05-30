@@ -24,6 +24,10 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\circle_gray.png"
     },
     {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_minus.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_minus.png"
+    },
+    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_plus_circle.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_plus_circle.png"
     },
@@ -62,6 +66,10 @@
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\circle_gray_90.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\circle_gray_90.png"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\rotate_btn.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\rotate_btn.png"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_plus.png",
@@ -104,6 +112,10 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\study_master_flag.png"
     },
     {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_small_plus.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_small_plus.png"
+    },
+    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\no_image.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\no_image.png"
     },
@@ -118,6 +130,10 @@
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_back.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_back.png"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\rotation_btn.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\rotation_btn.png"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cross_mark.png",
