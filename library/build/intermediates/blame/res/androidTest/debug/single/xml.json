@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\pulltorefresh.xml",
-        "source": "D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\xml\\pulltorefresh.xml"
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\pulltorefresh.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\library\\build\\intermediates\\bundles\\debug\\res\\xml\\pulltorefresh.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/library/build/intermediates/res/merged/androidTest/debug/xml/pulltorefresh.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/library/build/intermediates/bundles/debug/res/xml/pulltorefresh.xml"
     }
 ]
