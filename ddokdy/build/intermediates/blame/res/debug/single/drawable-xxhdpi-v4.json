@@ -44,6 +44,10 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xxhdpi/btn_detail_dot3.png"
     },
     {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cross_mark.png",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xxhdpi/cross_mark.png"
+    },
+    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/clause_btn.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/drawable-xxhdpi/clause_btn.xml"
     },

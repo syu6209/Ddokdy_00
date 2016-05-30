@@ -40,12 +40,12 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/listbox_mainplus.xml"
     },
     {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/activity_main.xml"
-    },
-    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/listbox_mychat.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/listbox_mychat.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/activity_study_main.xml",
@@ -88,16 +88,16 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/listbox_studypost.xml"
     },
     {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/listbox_mainstudy.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/listbox_mainstudy.xml"
-    },
-    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/listbox_yourchat.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/listbox_yourchat.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/listview_board_normalbox.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/listview_board_normalbox.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/listbox_mainstudy.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/src/main/res/layout/listbox_mainstudy.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_00/ddokdy/build/intermediates/res/merged/debug/layout/fragment_main_mystudylist.xml",
