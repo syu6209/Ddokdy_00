@@ -4,12 +4,12 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\clause_btn.xml"
     },
     {
-        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\shape_round.xml",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\shape_round.xml"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_detail_dot3_gray.png",
@@ -68,6 +68,10 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_plus.png"
     },
     {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\box_background_02.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\box_background_02.png"
+    },
+    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\edittext.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\edittext.png"
     },
@@ -116,6 +120,10 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_back.png"
     },
     {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cross_mark.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\cross_mark.png"
+    },
+    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_search.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_search.png"
     },
@@ -128,6 +136,10 @@
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\topbar_diagonal_line.png"
     },
     {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\box_background_01.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\box_background_01.png"
+    },
+    {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_close.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\btn_close.png"
     },
@@ -138,6 +150,14 @@
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\check_box_false.png",
         "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\check_box_false.png"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\box_background_03.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\box_background_03.png"
+    },
+    {
+        "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\box_background_00.png",
+        "source": "D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\drawable-xxhdpi\\box_background_00.png"
     },
     {
         "merged": "D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\circle_check_mint.png",

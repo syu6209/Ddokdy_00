@@ -41,6 +41,7 @@
     <dimen name="px_250">83.33dp</dimen>
     <dimen name="px_50">12.5dp</dimen>
     <dimen name="px_90">22.5dp</dimen>
+    <dimen name="textsize_bigtitle">21dp</dimen>
     <dimen name="textsize_small">10dp</dimen>
     <dimen name="textsize_subtitle">10.7dp</dimen>
     <dimen name="textsize_title">14.2dp</dimen>
@@ -184,6 +185,12 @@
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomBigTitleText" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_bigtitle</item>
+        <item name="android:textColor">@color/blackgray</item>
     </style>
     <style name="CustomSmallText" parent="@android:style/Widget.TextView">
         <item name="android:layout_width">wrap_content</item>
