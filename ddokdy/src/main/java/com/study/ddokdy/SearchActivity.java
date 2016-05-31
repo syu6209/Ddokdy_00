@@ -3,6 +3,7 @@ package com.study.ddokdy;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -67,6 +68,8 @@ public class SearchActivity extends Activity {
 
 
     private void init() {
+        ZMethod.setStatusColor(this, Color.parseColor(Config.Color_orange));
+
         logininfo = new ZLoginInfo(this).getLoginInfo();
         mListData = new ArrayList<StudyData>();
     }
@@ -185,11 +188,8 @@ public class SearchActivity extends Activity {
         Intent intent = null;
         if(position<mListData.size()) {
             StudyData mData = mListData.get(position);
-            intent = new Intent(this, StudyMainActivity.class);
+            intent = new Intent(this, study_join_request_Activity.class);
             intent.putExtra("idx", mData.idx);
-            startActivity(intent);
-        }else{
-            intent = new Intent(this, MakeNewStudyActivity.class);
             startActivity(intent);
         }
     }

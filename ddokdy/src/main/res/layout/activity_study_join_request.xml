@@ -52,6 +52,7 @@
                     style="@style/CustomTitleText"
                     android:layout_alignParentBottom="true"
                     android:layout_marginLeft="28.67dp"
+                    android:layout_alignParentTop="true"
                     android:text="포트폴리오/디자인/취미" />
 
 
@@ -87,6 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="28.67dp"
+                android:textColor="@color/blackgray"
                 android:text="옥수진" />
 
             <ImageView
@@ -112,8 +114,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                >
+                android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -143,10 +144,39 @@
 
                             android:layout_marginBottom="@dimen/default_margin"
                             android:background="@color/blackgray"
+                            android:text="장소"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/location_TextView"
+                            style="@style/CustomSubTitleText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="가가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각가ㅏ각ㅏ각"
+                            android:textColor="@color/blackgray" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/px_160"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/CustomBigTitleText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_marginBottom="@dimen/default_margin"
+                            android:background="@color/blackgray"
                             android:text="기간"
                             android:textColor="@color/white" />
 
                         <TextView
+                            android:id="@+id/period_TextView"
+
                             style="@style/CustomSubTitleText"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -173,6 +203,7 @@
                             android:textColor="@color/white" />
 
                         <TextView
+                            android:id="@+id/group_time_TextView"
                             style="@style/CustomSubTitleText"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -201,6 +232,7 @@
                             android:textColor="@color/white" />
 
                         <TextView
+                            android:id="@+id/mem_cnt_TextView"
                             style="@style/CustomSubTitleText"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -229,6 +261,7 @@
                             android:textColor="@color/white" />
 
                         <TextView
+                            android:id="@+id/group_intro_TextView"
                             style="@style/CustomSubTitleText"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -253,31 +286,36 @@
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/blackgray"
-                ></LinearLayout>
+                android:background="@color/blackgray"></LinearLayout>
+
             <LinearLayout
                 android:id="@+id/three_option_container"
                 android:layout_width="match_parent"
-                android:layout_height="700dp"
-                android:orientation="horizontal"
+                android:layout_height="154.33dp"
                 android:gravity="center_horizontal"
-                >
-                <include
-                    android:layout_width="86.67dp"
-                    android:layout_height="86.67dp"
-                    layout="@layout/join_option_circle_view"
-
-
-                    ></include>
-
-
-
-
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/default_margin">
 
             </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/join_btn"
+                android:layout_width="match_parent"
+                android:layout_height="54.33dp"
+                android:background="@color/blackgray">
+
+                <TextView
+                    style="@style/CustomTitleText"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="가입하기"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
 
 
         </LinearLayout>

@@ -2,6 +2,7 @@ package com.study.ddokdy;
 
 import java.util.ArrayList;
 
+import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 import android.app.AlertDialog;
@@ -19,6 +20,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -171,6 +173,12 @@ public class Fragment_MainSearch extends android.support.v4.app.Fragment{
 		adapter = new ListViewAdapter(ll.getContext());
 		mListview.setAdapter(adapter);
 		mListview.setScrollBarDefaultDelayBeforeFade(10);
+		mListview.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener<ListView>() {
+			@Override
+			public void onRefresh(PullToRefreshBase<ListView> refreshView) {
+				loadData();
+			}
+		});
 		mListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

@@ -76,6 +76,9 @@
         <activity
             android:name="com.study.ddokdy.Targetstudy_Search_Activity"
             android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.study.ddokdy.study_join_request_Activity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity android:name="com.study.ddokdy.SearchActivity" />
     </application>
 

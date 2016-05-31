@@ -4,6 +4,7 @@
     android:layout_width="86.67dp"
     android:layout_height="86.67dp"
     android:orientation="vertical"
+    android:layout_margin="@dimen/default_margin"
     >
 
     <RelativeLayout
@@ -17,9 +18,10 @@
             sl:scale_base_width="260">
 
             <ImageView
+                android:id="@+id/option_view_Image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/circle_check_mint"
+                android:background="@drawable/circle_gray"
                 sl:scale_height="260"
                 sl:scale_left="0"
                 sl:scale_top="0"
@@ -31,6 +33,7 @@
 
         </com.jnm.android.widget.ScalableLayout>
         <TextView
+            android:id="@+id/option_view_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="디자인 컬러링"

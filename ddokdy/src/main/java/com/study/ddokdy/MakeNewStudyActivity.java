@@ -366,7 +366,6 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
                 &&time_first_flag
                 &&time_second_flag
                 &&weektime_flag
-                &&option_flag
                 &&week_flag
                 &&study_intro_flag)
         {
@@ -410,9 +409,14 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
                     map.put("weekint",String.valueOf(weekint));
                     map.put("weektime",weektime);
                     map.put("cond_num", String.valueOf(cond_num));
+                    int j =0;
                     for(int i=0; i<cond_num ; i++)
                     {
-                        map.put("cond"+i,URLEncoder.encode(cond[i], "utf-8"));
+                        if(!cond[i].equals(""))
+                        {
+                            map.put("cond"+j,URLEncoder.encode(cond[i], "utf-8"));
+                            j++;
+                        }
                     }
 
 

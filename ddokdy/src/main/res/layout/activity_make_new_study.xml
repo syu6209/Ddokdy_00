@@ -256,7 +256,7 @@
                     android:layout_width="match_parent"
                     android:layout_toEndOf="@id/qq"
                     android:background="@color/white"
-                    android:hint="@string/hint_input_period"
+                    android:hint="스터디 소개말을 입력하세요"
                     android:padding="@dimen/px_90" />
             </RelativeLayout>
             />
@@ -767,7 +767,7 @@
                 style="@style/CustomSmallText"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="설정ㄴㅁㅇㅁ나이ㅁ낭ㅣ망ㅁ바꿀 ㅇㅋ"
+                android:text="설정 내용은 개설된 스터디에서 언제든 변경이 가능합니다."
                 android:textColor="@color/blackgray"
 
                 />

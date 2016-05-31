@@ -4,10 +4,13 @@
     android:layout_height="match_parent"
     android:background="@color/color_orange"
     tools:context="${relativePackage}.${activityClass}" >
-	<ImageView 
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:src="@drawable/ic_launcher"
-	        android:contentDescription="@null"
-	        android:layout_centerInParent="true"/>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_centerHorizontal="true"
+		android:textColor="@color/white"
+		android:text="@string/app_name"
+		android:textSize="72sp"
+		/>
 </RelativeLayout>

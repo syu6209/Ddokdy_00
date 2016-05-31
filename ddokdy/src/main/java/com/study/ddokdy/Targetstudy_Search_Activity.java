@@ -3,6 +3,7 @@ package com.study.ddokdy;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -19,6 +20,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 import prv.zozi.utils.Config;
+import prv.zozi.utils.ZMethod;
 
 /**
  * Created by ibyeongmu on 16. 5. 31..
@@ -48,6 +50,7 @@ public class Targetstudy_Search_Activity extends Activity {
     }
 
     public void init() {
+        ZMethod.setStatusColor(this, Color.parseColor(Config.Color_orange));
 
         Search_array = new ArrayList<TargetStudyMakeActivity.cate_info>();
 
