@@ -226,7 +226,7 @@ public class SearchActivity extends Activity {
         }
         @Override
         public int getCount() {
-            return mListData.size()+1;
+            return mListData.size();
         }
 
         @Override
@@ -253,7 +253,7 @@ public class SearchActivity extends Activity {
                     mData.title = "오류";
                 }
                 ViewGroup v = null;
-                convertView = inflater.inflate(R.layout.listbox_mainstudy_bigstyle, v);
+                convertView = inflater.inflate(R.layout.listbox_mainstudy, v);
 
                 if(convertView.getTag()==null){
                     holder = new ViewHolder();

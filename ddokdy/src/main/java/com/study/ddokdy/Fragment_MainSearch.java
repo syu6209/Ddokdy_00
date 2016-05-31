@@ -108,7 +108,11 @@ public class Fragment_MainSearch extends android.support.v4.app.Fragment{
 			@Override
 			protected void onPostExecute(String s) {
 				if(Config.pdialog!=null && Config.pdialog.isShowing()){
-					Config.pdialog.dismiss();
+					try {
+						Config.pdialog.dismiss();
+					}catch (Exception e){
+
+					}
 				}
 				adapter.notifyDataSetChanged();
 				mListview.onRefreshComplete();
