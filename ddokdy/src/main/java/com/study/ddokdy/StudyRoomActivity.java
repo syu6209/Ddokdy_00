@@ -32,6 +32,7 @@ public class StudyRoomActivity extends Activity implements  Fragment_StudyRoom_M
     @Override
     public void On_Study_Room() {
         StudyRoom_Circle_Btn.setVisibility(View.VISIBLE);
+        int i=0;
 
     }
 
