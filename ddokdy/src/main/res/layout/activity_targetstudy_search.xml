@@ -128,7 +128,7 @@
 
             <RelativeLayout
                 android:layout_toLeftOf="@+id/add_btn"
-                android:background="@color/gray1"
+                android:background="@color/white"
 
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/px_165">

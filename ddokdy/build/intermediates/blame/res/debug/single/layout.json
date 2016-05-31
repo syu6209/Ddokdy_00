@@ -60,12 +60,12 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\listbox_mainstudy.xml"
     },
     {
-        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_make_new_study.xml",
-        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\activity_make_new_study.xml"
-    },
-    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/layout/listview_board_normalbox.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/layout/listview_board_normalbox.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\activity_make_new_study.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\activity_make_new_study.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_studyroom_chat.xml",
@@ -74,6 +74,10 @@
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/layout/fragment_main_search.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/layout/fragment_main_search.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/layout/listbox_mainstudy_bigstyle.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/layout/listbox_mainstudy_bigstyle.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/layout/activity_study_main.xml",

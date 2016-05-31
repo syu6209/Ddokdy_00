@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical">
 
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <Button
+            android:id="@+id/make_target_btn"
+            style="@style/CustomSubTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@color/mint"
+            android:padding="@dimen/px_90"
+            android:text="만들기"
+            android:textColor="@color/white"
+            android:enabled="false"
+            ></Button>
+
+
+
         <ScrollView
+            android:layout_above="@+id/make_target_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -45,11 +64,12 @@
                     android:layout_height="wrap_content">
 
                     <EditText
+                        android:id="@+id/target_study_title"
                         style="@style/CustomSubTitleText"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@null"
-                        android:hint=" 뭐 ㅡㅡ"
+                        android:hint="맞춤 스터디 이름을 작성해주세요"
                         android:padding="@dimen/px_90" />
 
 
@@ -195,23 +215,170 @@
                     android:layout_height="1dp"
                     android:background="@color/blackgray"></LinearLayout>
 
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_pivot5"
+                        style="@style/CustomSmallText"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:minWidth="@dimen/px_250"
+                        android:padding="@dimen/px_90"
+                        android:text="모임빈도" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_toEndOf="@id/tv_pivot5"
+
+                        android:layout_centerVertical="true"
+
+
+                        >
+                        <Button
+                            android:id="@+id/mon_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_kor_mon"
+                            android:background="@null"
+                            android:layout_gravity="center_vertical"
+                            />
+                        <Button
+                            android:id="@+id/tue_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_kor_tue"
+                            android:background="@null"
+                            />
+                        <Button
+                            android:id="@+id/wed_btn"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_kor_wed"
+                            android:background="@null"
+                            />
+                        <Button
+                            android:id="@+id/thr_btn"
+
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_kor_thr"
+                            android:background="@null"
+                            />
+                        <Button
+                            android:id="@+id/fri_btn"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_kor_fri"
+                            android:background="@null"
+                            />
+                        <Button
+                            android:id="@+id/sat_btn"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_kor_sat"
+                            android:background="@null"
+                            />
+                        <Button
+                            android:id="@+id/sun_btn"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_kor_sun"
+                            android:background="@null"
+                            />
+
+
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blackgray"
+                    >
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_pivot2"
+                        style="@style/CustomSmallText"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:minWidth="@dimen/px_250"
+                        android:padding="@dimen/px_90"
+                        android:text="형태" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/tv_pivot2"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <TextView
+                            android:id="@+id/On_line_btn"
+                            style="@style/CustomSmallText"
+
+                            android:padding="@dimen/px_90"
+
+                            android:paddingRight="@dimen/px_50"
+                            android:text="온라인"
+
+                            />
+
+                        <TextView
+                            style="@style/CustomSmallText"
+                            android:gravity="center"
+                            android:text="/"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/Off_line_btn"
+                            style="@style/CustomSmallText"
+
+                            android:padding="@dimen/px_90"
+                            android:paddingLeft="@dimen/px_50"
+                            android:text="오프라인"
+
+                            />
+
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blackgray"
+                    >
+
+                </LinearLayout>
+
+
             </LinearLayout>
 
         </ScrollView>
-
-        <Button
-            android:id="@+id/make_target_btn"
-            style="@style/CustomSubTitleText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_gravity="bottom"
-            android:background="@color/mint"
-            android:padding="@dimen/px_90"
-            android:text="만들기"
-            android:textColor="@color/white"
-
-            />
 
 
     </RelativeLayout>
