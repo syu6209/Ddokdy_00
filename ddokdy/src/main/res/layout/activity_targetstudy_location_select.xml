@@ -103,7 +103,7 @@
         android:id="@+id/target_location_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#11ee11"
+        android:background="@color/white"
         android:divider="#00000000"
         android:dividerHeight="0dp"
 

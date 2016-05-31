@@ -658,6 +658,7 @@ public class MakeNewStudyActivity extends Activity implements ZHandlerInterFacce
             }
             else if (btn_num ==4)
             {
+
                 on_off_line_flag =0;
                 On_line_btn.setTextColor(getResources().getColor(R.color.blackgray));
                 Off_line_btn.setTextColor(getResources().getColor(R.color.Test_red));
