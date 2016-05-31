@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ddokdy_00.iml" filepath="$PROJECT_DIR$/Ddokdy_00.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ddokdy_0000.iml" filepath="$PROJECT_DIR$/Ddokdy_0000.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddokdy/ddokdy.iml" filepath="$PROJECT_DIR$/ddokdy/ddokdy.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/scalableLayout/scalableLayout.iml" filepath="$PROJECT_DIR$/scalableLayout/scalableLayout.iml" />
