@@ -16,6 +16,7 @@
 # Java class files
 
 *.class
+.class
 
  
 
@@ -31,8 +32,6 @@ gen/
 
 local.properties
 
- 
-/ddokdy/build.gradle
 
 # Windows thumbnail db
 
@@ -54,8 +53,12 @@ Thumbs.db
 
 .idea/
 
-.idea/workspace.xml – remove # and delete .idea if it better suit your needs.
-
 .gradle/
 
 build/
+
+*.ipr
+*.iws
+
+/*/build/
+/scalableLayout/

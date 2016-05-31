@@ -60,8 +60,7 @@
 				            android:text="@string/test_doubleline"
 				            android:layout_marginTop="@dimen/default_margin"
 				            android:layout_marginBottom="0dp"
-							android:maxLines="2"
-							android:lineSpacingExtra="@dimen/line_spacing"
+							android:maxLines="3"
 				            />
 			        </LinearLayout>
 			        
