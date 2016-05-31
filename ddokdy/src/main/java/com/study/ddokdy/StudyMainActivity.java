@@ -76,7 +76,7 @@ public class StudyMainActivity extends Activity {
             public void run() {
                 String postData ="idx="+data_idx;
                 String result = ZMethod.getStringHttpPost(Config.url_home+url_getmaininfo, postData);
-
+                //System.out.println("결과 = "+ result);
                 if(result!=null){
                     JSONObject json = null;
                     try {
@@ -158,7 +158,7 @@ public class StudyMainActivity extends Activity {
                                 mData.sr_idx = json.getInt("sr_idx");
                                 mData.uid = json.getInt("uid");
                                 mData.name = json.getString("name");
-                                mData.title = json.getString("title");
+                                mData.title = json.getString("name");
                                 mData.content = json.getString("content");
                                 mData.time = json.getString("time");
                                 mData.hit = json.getInt("hit");
@@ -314,7 +314,7 @@ public class StudyMainActivity extends Activity {
                 data_set.put("uid", loginInfo.user_id);
                 data_set.put("sr_idx", data_idx+"");
                 data_set.put("type", "txt");
-                data_set.put("title", "0");
+                data_set.put("name", "0");
                 data_set.put("content", mdata);
 
                 String postData = ZMethod.Map_to_String(data_set);

@@ -115,7 +115,7 @@
                     android:background="@color/white">
 
                     <TextView
-                        android:id="@+id/tv_pivot3"
+                        android:id="@+id/tv_pivot4"
                         style="@style/CustomSmallText"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
@@ -158,7 +158,7 @@
                     android:background="@color/white">
 
                     <TextView
-                        android:id="@+id/tv_pivot3"
+                        android:id="@+id/tv_pivot5"
                         style="@style/CustomSmallText"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"

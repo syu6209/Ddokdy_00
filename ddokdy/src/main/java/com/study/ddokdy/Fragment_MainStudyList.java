@@ -130,7 +130,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		
 		StudyData object = new StudyData();
 		/*
-		object.title = "졸작 파티";
+		object.name = "졸작 파티";
 		object.subtitle = "5월 2일 경대 스터디룸 씨스페이스";
 		object.bossname = "옥수진";
 		object.status = "진행중";
@@ -138,7 +138,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		mListData.add(object);
 
 		object = new StudyData();
-		object.title = "어휴 노답";
+		object.name = "어휴 노답";
 		object.subtitle = "최대한 빠른 자살";
 		object.bossname = "신한수";
 		object.status = "가입대기";
@@ -146,7 +146,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		mListData.add(object);
 
 		object = new StudyData();
-		object.title = "님들 빨리 자살하져";
+		object.name = "님들 빨리 자살하져";
 		object.subtitle = "최대한 빠른 자살";
 		object.bossname = "신한수";
 		object.status = "가입대기";
@@ -154,7 +154,7 @@ public class Fragment_MainStudyList extends android.support.v4.app.Fragment{
 		mListData.add(object);
 
 		object = new StudyData();
-		object.title = "제목 입력 공간";
+		object.name = "제목 입력 공간";
 		object.subtitle = "최신 일정이나 과제가 입력되는 공간";
 		object.bossname = "스터디장";
 		object.status = "가입대기";

@@ -31,6 +31,7 @@
     <string name="text_final_make_study">스터디 개설</string>
     <string name="text_make_study_complete">스터디 개설 완료</string>
     <string name="text_feild_select">분야 선택</string>
+    <string name="text_myfitstudy">맞춤스터디</string>
 
 
     <string name="explain_closedtype">초대 링크를 통해서만\n가입신청이 가능합니다.</string>
@@ -99,10 +100,6 @@
     <string name="text_age">나이</string>
 
 
-
-
-
-
     <string name="text_hint_email">이메일 입력</string>
     <string name="text_hint_pwd">비밀번호 입력</string>
     <string name="text_login">로그인</string>
@@ -119,19 +116,11 @@
     <string name="text_register">회원가입</string>
 
 
-
-
-
-
-
-
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_setup">SetupActivity</string>
     <string name="title_activity_studyroom">StudyRoomActivity</string>
-
-
 
 
     <color name="color_orange">#FFBC91</color>
