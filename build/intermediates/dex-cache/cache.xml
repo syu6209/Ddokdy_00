@@ -1,2 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="C:\Users\syu62\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_5f8d6293e3ddde82cdbde8cefb1a114b8655d40b.jar" />
+    </item>
+    <item
+        jar="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\exploded-aar\Ddokdy_00\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d97804a3f3da6946472bb7e783127b22a7cb26b0">
+        <dex dex="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\pre-dexed\debug\Ddokdy_00-library-unspecified_96377794c341a50e5b4550cb6ef0bbbe5aef4532.jar" />
+    </item>
+    <item
+        jar="D:\git_project\Ddokdy_00\libs\naveroauthlib-4.1.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6787b0186cf9d477ef31f34543790d5f53cfbc14">
+        <dex dex="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\pre-dexed\debug\naveroauthlib-4.1.3_f04c550c1192cefa47fe8cc29dfc75a8ff164dd8.jar" />
+    </item>
+    <item
+        jar="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\exploded-aar\Ddokdy_00\scalableLayout\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="146e03471007b6f6b3dcd32eae6c24bd17c59ff6">
+        <dex dex="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\pre-dexed\debug\Ddokdy_00-scalableLayout-unspecified_e26a546cb2b4f0e9a20d3426c594392678e28721.jar" />
+    </item>
+    <item
+        jar="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_55d332d6d790d439f5334f8e78aa9b5d05b11c3c.jar" />
+    </item>
+    <item
+        jar="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_284801debc8581950dd22dd351967091bedc9710.jar" />
+    </item>
+    <item
+        jar="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_fc886d3110a5ef47e946dfac1d519dec22904345.jar" />
+    </item>
+    <item
+        jar="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\git_project\Ddokdy_00\ddokdy\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_9fc01fdcdb2bc01f05118c88d43f86ec94c9e6ac.jar" />
+    </item>
+
+</items>
