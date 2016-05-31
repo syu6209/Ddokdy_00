@@ -128,6 +128,10 @@
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/layout/activity_setup.xml"
     },
     {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/layout/join_option_circle_view.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/layout/join_option_circle_view.xml"
+    },
+    {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_get_string.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\src\\main\\res\\layout\\dialog_get_string.xml"
     },
@@ -206,6 +210,10 @@
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/layout/activity_targetstudy_search.xml",
         "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/layout/activity_targetstudy_search.xml"
+    },
+    {
+        "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/build/intermediates/res/merged/debug/layout/activity_study_join_request.xml",
+        "source": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/ddokdy/src/main/res/layout/activity_study_join_request.xml"
     },
     {
         "merged": "/Users/ibyeongmu/Documents/android/Ddokdy_0000/D:\\git_project\\Ddokdy_00\\ddokdy\\build\\intermediates\\res\\merged\\debug\\layout\\spiner_item.xml",

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="86.67dp"
+    android:layout_height="86.67dp"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_base_height="260"
+            sl:scale_base_width="260">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_check_mint"
+                sl:scale_height="260"
+                sl:scale_left="0"
+                sl:scale_top="0"
+                sl:scale_width="260"
+
+
+                />
+
+
+        </com.jnm.android.widget.ScalableLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="디자인 컬러링"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+</LinearLayout>

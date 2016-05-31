@@ -90,6 +90,10 @@
             android:windowSoftInputMode="stateAlwaysHidden"
 
             ></activity>
+        <activity android:name=".Study_Join_Request_Activity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+
+            ></activity>
     </application>
 
 
