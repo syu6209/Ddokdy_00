@@ -59,17 +59,7 @@
     <Space 
 	    android:layout_width="match_parent"
 	    android:layout_height="@dimen/default_margin"/>
-    <EditText 
-        android:id="@+id/search_et_input" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:padding="@dimen/textsize_subtitle"
-        android:background="@null"
-        android:inputType="textPersonName"
-        android:hint="@string/text_search_study"
-        android:textColor="@color/white"
-        android:textSize="@dimen/textsize_title"/>
+
 	<com.handmark.pulltorefresh.library.PullToRefreshListView
 		android:id="@+id/ptr_listview"
 		android:layout_width="match_parent"

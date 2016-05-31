@@ -22,4 +22,12 @@ public class Config {
 	public static String NAVER_CALLBACK_INTENT = "com.study.ddockdy";
 	/////////////// 네이버 info
 
+
+	public final static int Targetstudy_Location_Select_Activity_RESULT_CODE =0;
+	public final static int Targetstudy_Field_Activity_RESULT_CODE =1;
+	public final static int Targetstudy_Search_Select_Activity_RESULT_CODE =2;
+
+
+
+
 }

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mint"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.jnm.android.widget.ScalableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            sl:scale_base_height="176"
+            sl:scale_base_width="1080">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/topbar_background"
+                sl:scale_height="160"
+                sl:scale_left="0"
+                sl:scale_top="0"
+                sl:scale_width="1080" />
+
+            <ImageButton
+                android:id="@+id/topbar_btn_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:contentDescription="@null"
+                android:src="@drawable/btn_back"
+                sl:scale_height="160"
+                sl:scale_left="0"
+                sl:scale_top="0"
+                sl:scale_width="160" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/topbar_diagonal_line"
+                sl:scale_height="16"
+                sl:scale_left="0"
+                sl:scale_top="160"
+                sl:scale_width="1080" />
+
+            <ImageButton
+                android:id="@+id/StudyRoom_Check_Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:contentDescription="@null"
+                android:src="@drawable/btn_check_gray"
+                sl:scale_height="160"
+                sl:scale_left="920"
+                sl:scale_top="0"
+                sl:scale_width="160" />
+        </com.jnm.android.widget.ScalableLayout>
+
+        <TextView
+            android:id="@+id/title_centerText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="60dp"
+            android:layout_marginStart="60dp"
+            android:gravity="center"
+            android:text="맞춤스터디 만들기"
+            android:textColor="@color/blackgray"
+            android:textSize="@dimen/textsize_title" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/select_text"
+                style="@style/CustomSmallText"
+                android:layout_centerHorizontal="true"
+                android:minWidth="@dimen/px_250"
+                android:padding="@dimen/px_90"
+                android:text="스터디 지역" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/target_location_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#11ee11"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+
+
+        />
+
+</LinearLayout>

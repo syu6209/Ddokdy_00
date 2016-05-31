@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -191,6 +192,15 @@ public class Fragment_MainSearch extends android.support.v4.app.Fragment{
 				}
 			}else{
 				convertView = inflater.inflate(R.layout.listbox_mainplus, null);
+				convertView.setOnClickListener(new View.OnClickListener() {
+					@Override
+					public void onClick(View v) {
+						Intent intent = new Intent(getActivity(),TargetStudyMakeActivity.class);
+
+						startActivity(intent);
+
+					}
+				});
 				convertView.setTag(null);
 				return convertView;
 			}

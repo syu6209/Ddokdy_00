@@ -72,6 +72,26 @@
             android:windowSoftInputMode="stateAlwaysHidden"
 
             ></activity>
+
+        <activity android:name=".TargetStudyMakeActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+
+            ></activity>
+
+        <activity android:name=".Targetstudy_Location_Select_Activity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+
+            ></activity>
+        <activity android:name=".Targetstudy_Field_Activity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+
+            ></activity>
+        <activity android:name=".Targetstudy_Search_Activity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+
+            ></activity>
     </application>
+
+
 
 </manifest>

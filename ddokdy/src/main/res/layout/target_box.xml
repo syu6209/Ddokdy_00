@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="111dp"
+    android:layout_height="47dp"
+
+    >
+    <com.jnm.android.widget.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        sl:scale_base_width="333"
+        sl:scale_base_height="141"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_left="17"
+            sl:scale_top="20"
+            sl:scale_width="303"
+            sl:scale_height="89"
+            android:background="@drawable/shape_round"
+
+            >
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/target_box_title"
+                style="@style/CustomSmallText"
+                android:textColor="@color/blackgray"
+                android:text="asdfasdf"
+                />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_left="299"
+            sl:scale_top="0"
+            sl:scale_width="35"
+            sl:scale_height="35"
+            android:background="@drawable/btn_small_circle_minus"
+            />
+
+
+    </com.jnm.android.widget.ScalableLayout>
+
+
+</RelativeLayout>
