@@ -420,7 +420,7 @@
 
                 <ImageButton
 
-                    android:id="@+id/makestudy_ibtn_location"
+                    android:id="@+id/makestudy_ibtn_location2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -436,7 +436,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/tv_pivot3"
+                    android:id="@+id/tv_pivot4"
                     style="@style/CustomSmallText"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
@@ -449,7 +449,7 @@
                     android:id="@+id/makestudy_et_c3_member"
                     style="@style/CustomSmallText"
                     android:layout_width="match_parent"
-                    android:layout_toEndOf="@id/tv_pivot3"
+                    android:layout_toEndOf="@id/tv_pivot4"
                     android:background="@color/white"
                     android:hint="@string/hint_input_member"
                     android:padding="@dimen/px_90" />
@@ -460,7 +460,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/tv_pivot3"
+                    android:id="@+id/tv_pivot5"
                     style="@style/CustomSmallText"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
@@ -472,7 +472,7 @@
                     android:id="@+id/goal_time_first"
                     style="@style/CustomSmallText"
                     android:layout_width="wrap_content"
-                    android:layout_toEndOf="@id/tv_pivot3"
+                    android:layout_toEndOf="@id/tv_pivot5"
                     android:background="@color/white"
                     android:gravity="center"
                     android:hint="@string/hint_input_member"
@@ -513,7 +513,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/tv_pivot4"
+                    android:id="@+id/tv_pivot6"
                     style="@style/CustomSmallText"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
@@ -523,7 +523,7 @@
                 <TextView
                     android:id="@+id/week"
                     style="@style/CustomSmallText"
-                    android:layout_toEndOf="@id/tv_pivot4"
+                    android:layout_toEndOf="@id/tv_pivot6"
 
                     android:layout_alignParentTop="true"
 
@@ -561,7 +561,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/tv_pivot5"
+                    android:id="@+id/tv_pivot7"
                     style="@style/CustomSmallText"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
@@ -572,7 +572,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
-                    android:layout_toEndOf="@id/tv_pivot5"
+                    android:layout_toEndOf="@id/tv_pivot7"
 
                     android:layout_centerVertical="true"
 
@@ -683,7 +683,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/tv_pivot4"
+                    android:id="@+id/tv_pivot8"
                     style="@style/CustomSmallText"
                     android:minWidth="@dimen/px_250"
                     android:padding="@dimen/px_90"
@@ -697,7 +697,6 @@
                         android:id="@+id/time_first"
                         style="@style/CustomSmallText"
                         android:layout_width="wrap_content"
-                        android:layout_toEndOf="@id/tv_pivot4"
                         android:gravity="center"
                         android:hint="@string/hint_input_member"
                         android:padding="@dimen/px_90"
@@ -734,7 +733,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/tv_pivot5"
+                    android:id="@+id/tv_pivot9"
                     style="@style/CustomSmallText"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
@@ -749,7 +748,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/px_50"
-                    android:layout_toEndOf="@id/tv_pivot5"
+                    android:layout_toEndOf="@id/tv_pivot9"
                     android:background="#11ee11"
                     android:orientation="vertical">
 

@@ -30,25 +30,20 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
-            android:windowSoftInputMode="stateAlwaysHidden"
-            />
-
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main" />
         <activity
             android:name=".Register_Activity"
             android:label="@string/title_activity_register"
-            android:windowSoftInputMode="stateAlwaysHidden"
-            ></activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
             android:name=".Setup_Activity"
-            android:label="@string/title_activity_setup"></activity>
-
+            android:label="@string/title_activity_setup" />
         <activity
             android:name=".StudyRoomActivity"
-            android:label="@string/title_activity_studyroom"></activity>
-
+            android:label="@string/title_activity_studyroom" />
         <activity
             android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
@@ -65,33 +60,23 @@
 
         <activity
             android:name=".StudyMainActivity"
-            android:windowSoftInputMode="stateAlwaysHidden"
-
-            />
-        <activity android:name=".MakeNewStudyActivity"
-            android:windowSoftInputMode="stateAlwaysHidden"
-
-            ></activity>
-
-        <activity android:name=".TargetStudyMakeActivity"
-            android:windowSoftInputMode="stateAlwaysHidden"
-
-            ></activity>
-
-        <activity android:name=".Targetstudy_Location_Select_Activity"
-            android:windowSoftInputMode="stateAlwaysHidden"
-
-            ></activity>
-        <activity android:name=".Targetstudy_Field_Activity"
-            android:windowSoftInputMode="stateAlwaysHidden"
-
-            ></activity>
-        <activity android:name=".Targetstudy_Search_Activity"
-            android:windowSoftInputMode="stateAlwaysHidden"
-
-            ></activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".MakeNewStudyActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".TargetStudyMakeActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Targetstudy_Location_Select_Activity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Targetstudy_Field_Activity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Targetstudy_Search_Activity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".SearchActivity"></activity>
     </application>
-
-
 
 </manifest>

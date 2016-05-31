@@ -10,7 +10,7 @@
         sl:scale_base_width="1080"
         sl:scale_base_height="176">
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/topbar_background"
             android:contentDescription="@null"
